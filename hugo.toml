@@ -6,7 +6,7 @@ paginate = 50
 timezone = "America/New_York"
 titlecasestyle = "Go"
 
-[Shaping Quantum]
+[shaping-quantum]
 color = "#0e1061"
 external_link_new_tab = true
 math = true
