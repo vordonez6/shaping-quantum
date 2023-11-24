@@ -78,7 +78,7 @@ noclasses = false
 
 [markup.tableofcontents]
 endlevel = 6
-ordered = truen
+ordered = true
 startlevel = 2
 
 [[module.imports]]
