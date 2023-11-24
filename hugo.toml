@@ -1,10 +1,18 @@
 baseurl = 'https://vordonez6.github.io/shaping-quantum/'
-copyright = "© Victoria Ordonez"
+copyright = "© Will Faught"
 enablerobotstxt = true
 languagecode = "en-us"
 paginate = 50
 timezone = "America/New_York"
 titlecasestyle = "Go"
+
+[paige]
+color = #0e1061
+external_link_new_tab = true
+math = true
+
+[paige.date]
+format = ".date_long"
 
 [languages.en]
 title = "Paige"
@@ -90,28 +98,34 @@ section = ["atom", "html", "rss"]
 taxonomy = ["atom", "html", "rss"]
 term = ["atom", "html", "rss"]
 
-[params.authors.will-faught]
+[params.authors.victoria-ordonez]
 default = true
-email = "will.faught@example.com"
-name = "Will Faught"
-url = "https://willfaught.com/paige"
+email = "vordonez6@gatech.edu"
+name = "Victoria Ordonez"
+url = "https://vordonez6.github.io/shaping-quantum"
 
-[params.paige.git]
-commit_url = "https://github.com/willfaught/paige/commit/%s"
+# [params.authors.will-faught]
+# default = true
+# email = "vordonez6@gatech.edu"
+# name = "Victoria Ordonez"
+# url = "https://willfaught.com/paige"
 
-[[params.paige.feed.atom.authors]]
-email = "will.faught@example.com"
-name = "Will Faught"
-url = "https://willfaught.com/paige"
+# [params.paige.git]
+# commit_url = "https://github.com/willfaught/paige/commit/%s"
 
-[params.paige.feed.rss]
-managing_editor = "will.faught@example.com (Will Faught)"
-web_master = "will.faught@example.com (Will Faught)"
+# [[params.paige.feed.atom.authors]]
+# email = "will.faught@example.com"
+# name = "Will Faught"
+# url = "https://willfaught.com/paige"
+
+# [params.paige.feed.rss]
+# managing_editor = "will.faught@example.com (Will Faught)"
+# web_master = "will.faught@example.com (Will Faught)"
 
 [params.paige.file_link]
 content = "Edit this page"
 disable = true
-url = "https://github.com/willfaught/paige/edit/master/exampleSite/content/%s"
+url = "https://github.com/vordonez6/shaping-quantum/tree/main/content%s"
 
 [taxonomies]
 author = "authors"
