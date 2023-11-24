@@ -6,7 +6,7 @@ paginate = 50
 timezone = "America/New_York"
 titlecasestyle = "Go"
 
-[paige]
+[Shaping Quantum]
 color = "#0e1061"
 external_link_new_tab = true
 math = true
@@ -15,7 +15,7 @@ math = true
 format = ".date_long"
 
 [languages.en]
-title = "Paige"
+title = "Shaping Quantum"
 weight = 10
 
 [[languages.en.menu.main]]
@@ -25,27 +25,27 @@ url = "/"
 weight = 10
 
 [[languages.en.menu.main]]
-identifier = "content"
-name = "Content"
-url = "/content/"
+identifier = "Knots & Braids"
+name = "Knots & Braids"
+url = "/knots-braids/"
 weight = 20
 
 [[languages.en.menu.main]]
-identifier = "layouts"
-name = "Layouts"
-url = "/layouts/"
+identifier = "Abstract Algebra"
+name = "Abstract Algebra"
+url = "/abstract-algebra/"
 weight = 30
 
 [[languages.en.menu.main]]
-identifier = "shortcodes"
-name = "Shortcodes"
-url = "/shortcodes/"
+identifier = "Linear Algebra"
+name = "Linear Algebra"
+url = "/linear-algebra/"
 weight = 40
 
 [[languages.en.menu.main]]
-identifier = "customization"
-name = "Customization"
-url = "/customization/"
+identifier = "Kauffman Bracket"
+name = "Kauffman Bracket"
+url = "/kauffman-bracket/"
 weight = 50
 
 [[languages.en.menu.main]]
@@ -66,17 +66,17 @@ name = "Categories"
 url = "/categories/"
 weight = 80
 
-[[languages.en.menu.main]]
-identifier = "tags"
-name = "Tags"
-url = "/tags/"
-weight = 90
+# [[languages.en.menu.main]]      
+# identifier = "tags"
+# name = "Tags"
+# url = "/tags/"
+# weight = 90
 
-[[languages.en.menu.main]]
-identifier = "search"
-name = "Search"
-url = "/search/"
-weight = 100
+# [[languages.en.menu.main]]
+# identifier = "search"
+# name = "Search"
+# url = "/search/"
+# weight = 100
 
 [markup.goldmark.renderer]
 unsafe = true
