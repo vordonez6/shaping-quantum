@@ -49,22 +49,22 @@ url = "/kauffman-bracket/"
 weight = 50
 
 [[languages.en.menu.main]]
-identifier = "authors"
-name = "Authors"
+identifier = "author"
+name = "Author"
 url = "/authors/"
 weight = 60
 
-[[languages.en.menu.main]]
-identifier = "series"
-name = "Series"
-url = "/series/"
-weight = 70
+# [[languages.en.menu.main]]
+# identifier = "series"
+# name = "Series"
+# url = "/series/"
+# weight = 70
 
-[[languages.en.menu.main]]
-identifier = "categories"
-name = "Categories"
-url = "/categories/"
-weight = 80
+# [[languages.en.menu.main]]
+# identifier = "categories"
+# name = "Categories"
+# url = "/categories/"
+# weight = 80
 
 # [[languages.en.menu.main]]      
 # identifier = "tags"
@@ -127,11 +127,11 @@ content = "Edit this page"
 disable = true
 url = "https://github.com/vordonez6/shaping-quantum/tree/main/content%s"
 
-[taxonomies]
-author = "authors"
-category = "categories"
-series = "series"
-tag = "tags"
+# [taxonomies]
+# author = "authors"
+# category = "categories"
+# series = "series"
+# tag = "tags"
 
 
 
