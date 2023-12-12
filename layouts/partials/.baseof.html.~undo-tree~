@@ -1,0 +1,14 @@
+(undo-tree-save-format-version . 1)
+"5edb44e43d527a9774b9d0e78b454c3b26662e8a"
+[nil nil nil nil (25959 61066 220243 810000) 0 nil]
+([nil nil ((nil rear-nonsticky nil 42 . 43) (nil fontified nil 1 . 43) (1 . 43) (t 25959 61066 141750 34000)) nil (25959 61071 795321 180000) 0 nil])
+([nil nil ((43 . 44)) nil (25959 61071 795315 919000) 0 nil])
+([nil nil ((1 . 2) (t 25959 61071 797718 544000)) nil (25959 61117 620509 346000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 30 . 31) (nil fontified nil 1 . 31) (1 . 31)) nil (25959 61117 620507 910000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 81 . 82) (nil fontified nil 75 . 82) (75 . 82)) nil (25959 61117 620506 442000) 0 nil])
+([nil nil ((82 . 84)) nil (25959 61117 620504 721000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 89 . 90) (nil fontified nil 84 . 90) (84 . 90)) nil (25959 61117 620503 193000) 0 nil])
+([nil nil ((90 . 93)) nil (25959 61117 620501 225000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 108 . 109) (nil fontified nil 93 . 109) (93 . 109)) nil (25959 61117 620499 481000) 0 nil])
+([nil current ((109 . 110)) nil (25959 61117 620493 880000) 0 nil])
+nil

@@ -1,0 +1,8 @@
+(undo-tree-save-format-version . 1)
+"3762d2ff2e1459883334f0ebde806c3e756ad8dc"
+[nil nil nil nil (25959 62868 686971 286000) 0 nil]
+([nil nil ((apply -49 1 184 undo--wrap-and-run-primitive-undo 1 184 ((179 . 183) (168 . 173) (nil face font-lock-comment-delimiter-face 163 . 167) (nil fontified t 163 . 167) (163 . 167) (123 . 128) (118 . 122) (84 . 89) (79 . 83) (50 . 55) (nil face font-lock-comment-delimiter-face 45 . 49) (nil fontified t 45 . 49) (45 . 49) (1 . 6) (128 . 129) (99 . 100) (37 . 38) (2 . 3) 135)) (t 25955 28587 923689 243000)) nil (25960 25130 36964 573000) 0 nil])
+([nil nil ((184 . 187) (t 25960 25130 41996 475000)) nil (25960 25751 85144 659000) 0 nil])
+([nil nil ((#("r" 0 1 (fontified t)) . -184) (undo-tree-id0 . -1) (undo-tree-id1 . -1) (#("r" 0 1 (fontified t)) . -185) (undo-tree-id2 . -1) (undo-tree-id3 . -1) (#("r" 0 1 (fontified t)) . -186) (undo-tree-id4 . -1) (undo-tree-id5 . -1) 187) nil (25960 25751 85141 672000) 0 nil])
+([nil current ((184 . 185)) nil (25960 25751 85119 784000) 0 nil])
+nil

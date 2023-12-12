@@ -1,5 +1,5 @@
 baseurl = 'https://vordonez6.github.io/shaping-quantum/'
-copyright = "© Will Faught"
+copyright = "© Victoria Ordonez"
 enablerobotstxt = true
 languagecode = "en-us"
 paginate = 50
@@ -95,7 +95,7 @@ path = "github.com/willfaught/paige"
 [outputs]
 home = ["atom", "html", "json", "rss"]
 section = ["atom", "html", "rss"]
-taxonomy = ["atom", "html", "rss"]
+# taxonomy = ["atom", "html", "rss"]
 term = ["atom", "html", "rss"]
 
 [params.authors.victoria-ordonez]
@@ -126,6 +126,10 @@ url = "https://vordonez6.github.io/shaping-quantum"
 content = "Edit this page"
 disable = true
 url = "https://github.com/vordonez6/shaping-quantum/tree/main/content%s"
+
+# config.toml
+[[module.imports]]
+  path = "css"
 
 # [taxonomies]
 # author = "authors"

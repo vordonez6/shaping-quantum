@@ -5,11 +5,29 @@
 #paige-reading-time,
 #paige-series,
 #paige-toc,
+#paige-pages,
 .paige-authors,
 .paige-date,
 .paige-keywords,
 .paige-reading-time,
 .paige-series,
+.paige-pages,
 .paige-summary {
     display: none;
+}
+#paige-breadcrumbs {
+    display: none;
+}
+
+.centered_image {
+    text-align: center;
+}
+.rounded-fluid-container {
+    background-color: #F8F8F8;
+    /* background-color: #e2e2e2; */
+    border-radius: 20px;
+    /* Fluid width, expands to the container's width */    
+    /* width: 100%; */
+    padding: 20px; /* Adjust the padding as needed */
+    color: #000000; /* Adjust the text color as needed */
 }
