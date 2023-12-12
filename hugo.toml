@@ -127,15 +127,15 @@ content = "Edit this page"
 disable = true
 url = "https://github.com/vordonez6/shaping-quantum/tree/main/content%s"
 
-# config.toml
-[[module.imports]]
-  path = "css"
+#config.toml
+#[[module.imports]]
+#  path = "../static/"
 
-# [taxonomies]
-# author = "authors"
-# category = "categories"
-# series = "series"
-# tag = "tags"
+#[taxonomies]
+#author = "authors"
+#category = "categories"
+#series = "series"
+#tag = "tags"
 
 
 
