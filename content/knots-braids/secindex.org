@@ -1,7 +1,6 @@
 #+TITLE: Braids Introduction 
 #+AUTHOR: Victoria Ordonez
 #+EMAIL: vordonez6@gatech.edu
-#+DATE: \today
 #+hugo_base_dir: ~/sq/
 #+hugo_section: knots-braids
  #+HTML: Literal HTML code for export
