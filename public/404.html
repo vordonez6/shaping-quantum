@@ -6,33 +6,36 @@
 
 
 
-<html data-paige="Paige theme from https://github.com/willfaught/paige"   lang="en" >
+
+<html  data-paige="Paige theme from https://github.com/willfaught/paige"   lang="en" >
 
     
 
 
 
 
+
+
+
+
+
+
+    
+
+    
+
     
 
 
 
 
-<head>
+<head><script src="/shaping-quantum/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=shaping-quantum/livereload" data-no-instant defer></script>
     
 
     
 
 <meta charset="utf-8">
 
-
-    
-
-    
-        
-    
-
-    <meta content="Victoria Ordonez" name="author">
 
 
 
@@ -45,18 +48,18 @@
     <meta content="/shaping-quantum/browserconfig.xml" name="msapplication-config">
 
 
+<meta content="https://github.com/willfaught/paige" name="theme">
 <meta content="#0d6efd" name="theme-color">
 <meta content="width=device-width, initial-scale=1" name="viewport">
 
-<meta property="og:title" content="404 Page not found" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://vordonez6.github.io/shaping-quantum/404.html" />
+<meta property="og:url" content="http://localhost:1313/shaping-quantum/404.html">
+  <meta property="og:title" content="404 Page not found">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
 
 
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="404 Page not found"/>
-<meta name="twitter:description" content=""/>
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="404 Page not found">
 
 
 
@@ -115,13 +118,17 @@
 
 
 
+
+
+
+
+
     
 
     
         
         
         
-        
     
 
     
@@ -133,7 +140,8 @@
     
 
 
-<link  crossorigin="anonymous"  href="/shaping-quantum/css/paige/bootstrap/370ad5bdcb602baa80412d8e9cd6e25f3b158a68-paige.min.055ee756d0a179808ed07afbdfad1dd62f7278106cdcb3001b2ccbdfedf8a1e4.css"  integrity="sha256-BV7nVtCheYCO0Hr7360d1i9yeBBs3LMAGyzL3&#43;34oeQ="   referrerpolicy="no-referrer"  rel="stylesheet">
+<link  crossorigin="anonymous"  href="/shaping-quantum/css/paige/bootstrap/6186ad141d391e4c0c10d2e9cb4eaeaadf75e809-paige.min.3cce59baa4c0a377a71878f54d31de5b98388de7f970c7988c276bcf39500c5f.css"  integrity="sha256-PM5ZuqTAo3enGHj1TTHeW5g4jef5cMeYjCdrzzlQDF8="   referrerpolicy="no-referrer"  rel="stylesheet">
+
 
 
 
@@ -167,6 +175,38 @@
 
 
 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+
+<link  crossorigin="anonymous"  href="/shaping-quantum/css/paige/katex/katex.min.min.c12d9cca9aa0af743d947ef8c8f5fabaad13e5b4c9fed061fbdf7c9d3c387581.css"  integrity="sha256-wS2cypqgr3Q9lH74yPX6uq0T5bTJ/tBh&#43;998nTw4dYE="   referrerpolicy="no-referrer"  rel="stylesheet">
+
+
 
 
 
@@ -174,97 +214,129 @@
 
 <style>
 
-
-body, html {
-    height: 100%;
+    #paige-authors,
+#paige-collections,
+#paige-credit,
+#paige-keywords,
+#paige-reading-time,
+#paige-series,
+#paige-toc,
+#paige-pages,
+.paige-authors,
+.paige-date,
+.paige-keywords,
+.paige-reading-time,
+.paige-series,
+.paige-pages,
+.paige-summary {
+    display: none;
+}
+#paige-breadcrumbs {
+    display: none;
 }
 
-.highlight .chroma .hl, .highlight .chroma .lnt {
-    display: flex;
+.centered_image {
+    text-align: center;
+}
+.rounded-fluid-container {
+    background-color: #F8F8F8;
+    /* background-color: #e2e2e2; */
+    border-radius: 20px;
+    /* Fluid width, expands to the container's width */    
+    /* width: 100%; */
+    padding: 20px; /* Adjust the padding as needed */
+    color: #000000; /* Adjust the text color as needed */
 }
 
-.paige-figure {
-    margin-bottom: 1rem;
+
+
+.paige-figure-numbered {
+    counter-increment: paige-figure-numbered;
 }
 
-.paige-figure > figure > div > :last-child {
-    margin-bottom: 0;
+.paige-figure-numbered > div > figure > figcaption::before {
+    content: "Figure " counter(paige-figure-numbered) ": ";
 }
 
-.paige-figure .highlight .chroma pre, .paige-figure .highlight pre.chroma {
-    margin-bottom: 0;
-}
-
-.paige-figure .paige-image {
-    margin-bottom: 0;
-}
-
-.paige-figure .paige-quote > blockquote {
-    margin-bottom: 0;
-}
-
-.paige-figure .paige-video {
-    margin-bottom: 0;
-}
-
-.paige-figure.paige-figure-numbered {
-    counter-increment: paige-figure;
-}
-
-.paige-figure.paige-figure-numbered figcaption:empty::before {
-    content: "Figure " counter(paige-figure);
-}
-
-.paige-figure.paige-figure-numbered figcaption::before {
-    content: "Figure " counter(paige-figure) ": ";
-}
-
-.paige-gallery {
-    margin-bottom: 1rem;
-}
-
-.paige-gallery .paige-figure {
-    margin-bottom: 0;
-}
-
-.paige-gallery .paige-image {
-    margin-bottom: 0;
+.paige-figure-numbered > div > figure > figcaption:empty::before {
+    content: "Figure " counter(paige-figure-numbered);
 }
 
 .paige-header-link {
     opacity: 0;
+    margin-left: 0.5rem;
+    position: absolute;
     transition: color 0.15s ease-in-out, opacity 0.15s ease-in-out;
 }
 
-.paige-header-link:focus, .paige-header-link:hover, :hover > .paige-header-link, :target > .paige-header-link {
-    opacity: 1;
+.paige-header-link::after {
+    content: "#";
 }
 
-.paige-image {
-    margin-bottom: 1rem;
+.paige-quote .blockquote-footer {
+    margin-top: 0;
 }
 
-.paige-video {
-    margin-bottom: 1rem;
-    min-width: 550px;
+.paige-quote blockquote {
+    border-left: 0;
+    border-right: 0;
+    margin-bottom: 0;
+    padding: 0;
 }
 
-#paige-content {
-    counter-reset: paige-figure;
-}
-
-#paige-content blockquote {
+blockquote {
     padding: 0.5rem 1rem;
     border-left: 0.25rem solid var(--bs-border-color);
-    padding-right: 0.25rem;
+    border-right: 0.25rem solid var(--bs-body-bg);
 }
 
-#paige-content blockquote > p:last-of-type {
+td,
+th {
+    padding: 0.25rem;
+}
+
+.highlight .chroma .hl,
+.highlight .chroma .lnt {
+    display: flex;
+}
+
+.paige-row-narrow:not(:last-child),
+.paige-figure .paige-quote,
+.paige-figure .paige-video,
+.paige-figure .highlight pre.chroma,
+.paige-figure .highlight .chroma pre,
+.paige-figure .paige-quote blockquote,
+.paige-figure figure > div > :last-child,
+.paige-gallery .paige-figure,
+.paige-gallery .paige-image,
+blockquote > p:last-of-type {
     margin-bottom: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-    /* Background */ .bg { color: #c9d1d9; background-color: var(--bs-body-bg); }
+.paige-figure,
+.paige-gallery,
+.paige-image,
+.paige-quote,
+.paige-row-narrow:last-child,
+.paige-row-wide,
+.paige-video,
+#paige-content > *,
+table {
+    margin-bottom: 1rem;
+}
+
+.paige-header-link:focus,
+.paige-header-link:hover,
+:hover > .paige-header-link,
+:target > .paige-header-link {
+    opacity: 1;
+}
+
+
+
+
+    @media (prefers-color-scheme: dark) {
+        /* Background */ .bg { color: #c9d1d9; background-color: var(--bs-body-bg); }
 /* PreWrapper */ .chroma { color: #c9d1d9; background-color: var(--bs-body-bg); }
 /* Other */ .chroma .x {  }
 /* Error */ .chroma .err { color: #f85149 }
@@ -351,10 +423,10 @@ body, html {
 /* GenericUnderline */ .chroma .gl { text-decoration: underline }
 /* TextWhitespace */ .chroma .w { color: #6e7681 }
 
-}
+    }
 
-@media (prefers-color-scheme: light) {
-    /* Background */ .bg { background-color: #ffffff; }
+    @media (prefers-color-scheme: light) {
+        /* Background */ .bg { background-color: #ffffff; }
 /* PreWrapper */ .chroma { background-color: #ffffff; }
 /* Other */ .chroma .x {  }
 /* Error */ .chroma .err { color: #a61717; background-color: #e3d2d2 }
@@ -441,7 +513,8 @@ body, html {
 /* GenericUnderline */ .chroma .gl { text-decoration: underline }
 /* TextWhitespace */ .chroma .w { color: #bbbbbb }
 
-}
+    }
+
 
 @media (prefers-reduced-motion: reduce) {
     .paige-header-link {
@@ -456,22 +529,32 @@ body, html {
 
 
     
+        <script src="http://localhost:1313/shaping-quantum/js/mathjax-config.js"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
+
+
+    
 </head>
 
-    <body class="d-flex flex-column">
+    <body>
 
         
 
-        <div class="container flex-fill" id="paige-root">
+        <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col mt-3" id="paige-site">
+                    
+
                     
 
 
-    <header class="my-3" id="paige-header">
-        
 
-        
+
+
+
+
 
 
 
@@ -484,117 +567,126 @@ body, html {
 
 
     
+        
+    
 
 
 
-    <nav>
-        <ul class="align-items-center justify-content-center nav  nav-pills ">
-            
-                
-                
-                
-                
-                
-
-                <li class="nav-item ">
-                    <a   class="  nav-link "  href="/shaping-quantum/"    >Home</a>
-
-                    
-                </li>
-            
-                
-                
-                
-                
-                
-
-                <li class="nav-item ">
-                    <a   class="  nav-link "  href="/shaping-quantum/knots-braids/"    >Knots &amp; Braids</a>
-
-                    
-                </li>
-            
-                
-                
-                
-                
-                
-
-                <li class="nav-item ">
-                    <a   class="  nav-link "  href="/shaping-quantum/abstract-algebra/"    >Abstract Algebra</a>
-
-                    
-                </li>
-            
-                
-                
-                
-                
-                
-
-                <li class="nav-item ">
-                    <a   class="  nav-link "  href="/shaping-quantum/linear-algebra/"    >Linear Algebra</a>
-
-                    
-                </li>
-            
-                
-                
-                
-                
-                
-
-                <li class="nav-item ">
-                    <a   class="  nav-link "  href="/shaping-quantum/kauffman-bracket/"    >Kauffman Bracket</a>
-
-                    
-                </li>
-            
-                
-                
-                
-                
-                
-
-                <li class="nav-item ">
-                    <a   class="  nav-link "  href="/shaping-quantum/authors/"    >Author</a>
-
-                    
-                </li>
-            
-        </ul>
-    </nav>
-
+    <header id="paige-site-header">
+        
 
         
 
+        
 
-    <nav aria-label="Breadcrumbs" class="mt-3" id="paige-breadcrumbs">
-        <div class="d-flex justify-content-center">
-            <ol class="breadcrumb mb-0">
-                
-                    <li class="breadcrumb-item"><a href="/shaping-quantum/">Shaping Quantum</a></li>
-                
-            </ol>
-        </div>
-    </nav>
+        
+            
+                <nav aria-label="Menu" class="paige-row-wide" id="paige-menu">
+                    <ul class="align-items-center justify-content-center nav  nav-pills ">
+                        
+                            
+                            
+                            
+                            
+                            
 
+                            <li class="nav-item ">
+                                <a   class="  nav-link  "  href="/shaping-quantum/"    >Home</a>
 
+                                
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item ">
+                                <a   class="  nav-link  "  href="/shaping-quantum/knots-braids/"    >Knots &amp; Braids</a>
+
+                                
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item ">
+                                <a   class="  nav-link  "  href="/shaping-quantum/abstract-algebra/"    >Abstract Algebra</a>
+
+                                
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item ">
+                                <a   class="  nav-link  "  href="/shaping-quantum/linear-algebra/"    >Linear Algebra</a>
+
+                                
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item ">
+                                <a   class="  nav-link  "  href="/shaping-quantum/kauffman-bracket/"    >Kauffman Bracket</a>
+
+                                
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item ">
+                                <a   class="  nav-link  "  href="/shaping-quantum/authors/"    >Author</a>
+
+                                
+                            </li>
+                        
+                    </ul>
+                </nav>
+            
+        
+
+        
+            <nav aria-label="Breadcrumbs" class="paige-row-wide" id="paige-breadcrumbs">
+                <div class="d-flex justify-content-center">
+                    <ol class="breadcrumb mb-0">
+                        
+
+                        
+
+                        
+                            
+
+                            
+
+                            <li class="breadcrumb-item"><a href="/shaping-quantum/">Shaping Quantum</a></li>
+                        
+                    </ol>
+                </div>
+            </nav>
+        
 
         
     </header>
 
 
-
-                    <main class="mt-3" id="paige-main">
-                        
-
-                        
+                    
 <h1 class="display-5 fw-bold text-center">Not Found</h1>
-
-
-                        
-                    </main>
 
                     
 
@@ -606,22 +698,33 @@ body, html {
 
 
 
-<footer class="mb-3" id="paige-footer">
-    
+
 
     
 
-    
-        <p class="mb-0 text-center text-secondary" id="paige-copyright">© Will Faught</p>
-    
 
-    <p class="mb-0 text-center" id="paige-credit">
-        <a class="link-secondary text-decoration-none" href="https://github.com/willfaught/paige" >Paige Theme</a>
-    </p>
 
-    
-</footer>
 
+
+    <footer id="paige-site-footer">
+        
+
+        
+            <p class="paige-row-narrow text-center text-secondary" id="paige-copyright">© Victoria Ordonez</p>
+        
+
+        
+
+        
+            <p class="paige-row-narrow text-center text-secondary" id="paige-credit">&lt;a class=&ldquo;link-secondary text-decoration-none&rdquo; href=&quot;{{ $theme }}&quot; {{ with $target }} target=&quot;{{ . }}&quot; {{ end }}&gt;Paige Theme</a></p>
+        
+
+        
+    </footer>
+
+
+
+                    
                 </div>
             </div>
         </div>
@@ -647,8 +750,51 @@ body, html {
     
 
 
-<script  crossorigin="anonymous"   defer  integrity="sha256-i2xCntn98d9ndasfKXcEmwPQV2AkQqVO460Wtq7E&#43;es="   referrerpolicy="no-referrer"  src="/shaping-quantum/js/paige/bootstrap/bootstrap.bundle.min.8b6c429ed9fdf1df6775ab1f2977049b03d057602442a54ee3ad16b6aec4f9eb.js" ></script>
+<script  crossorigin="anonymous"   defer  integrity="sha256-gfPiYYSP&#43;RNtNeRBt45mJombFJmNf0V0Ipu785Obi0M="   referrerpolicy="no-referrer"  src="/shaping-quantum/js/paige/bootstrap/bootstrap.bundle.min.81f3e261848ff9136d35e441b78e6626899b14998d7f4574229bbbf3939b8b43.js" ></script>
 
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+<script  crossorigin="anonymous"   defer  integrity="sha256-i7clJrqPg/b8CmvwEKK1cWLENu8G&#43;m0IawyPovKjckQ="   referrerpolicy="no-referrer"  src="/shaping-quantum/js/paige/katex/katex.min.min.8bb72526ba8f83f6fc0a6bf010a2b57162c436ef06fa6d086b0c8fa2f2a37244.js" ></script>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+<script  crossorigin="anonymous"   defer  integrity="sha256-pQMCGuz&#43;5jpyog4zEVyH/xvxJRsPM9M7d7t6&#43;TiyEA8="  onload="renderMathInElement(document.body);"   referrerpolicy="no-referrer"  src="/shaping-quantum/js/paige/katex/auto-render.min.min.a503021aecfee63a72a20e33115c87ff1bf1251b0f33d33b77bb7af938b2100f.js" ></script>
 
 
 
@@ -717,7 +863,7 @@ body, html {
 
 
 
-<noscript>JavaScript is required.</noscript>
+<noscript>JavaScript is required</noscript>
 
 
         

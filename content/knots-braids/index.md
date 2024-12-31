@@ -56,7 +56,7 @@ braid we can project it onto the \\(y-z\\) plane. Figure 2.2.1 is the projection
 of Figure 2.4.2 onto the \\(y-z\\) plane.
 
 <div class="centered_image">
-{{< paige/figure caption="Regular Diagram fo Figure" >}}
+{{< paige/figure caption="Regular Diagram of Figure" >}}
 {{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/5.png" width="100%" >}}
 {{< /paige/figure >}}
 </div>
@@ -88,7 +88,7 @@ Figure 2.4.1 shows an example of elementary moves being applied to (a) to
 demonstrate that it is the trivial 2-braid.
 
 <div class="centered_image">
-{{< paige/figure caption="Trivial 2-Barid" >}}
+{{< paige/figure caption="Trivial 2-Braid" >}}
 {{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/3.png" width="100%" >}}
 {{< /paige/figure >}}
 </div>
@@ -225,7 +225,7 @@ types of twists, the right twist and the left twist, as shown in Figure 3.0.5 on
 the next page.
 
 <div class="centered_image">
-{{< paige/figure caption="The Two Types of Braids in B₋₂" >}}
+{{< paige/figure caption="The Two Types of Braids in \\(B\_{2}\\)" >}}
 {{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/11.png" width="100%" >}}
 {{< /paige/figure >}}
 </div>
@@ -283,7 +283,7 @@ be described by braid generators as \\(\sigma\_{3}^{-1}
 \sigma\_{1}\sigma\_{2}\sigma\_{3}\sigma\_{2}^{-1}\\).
 
 <div class="centered_image">
-{{< paige/figure caption="Using Braid Generators to Describe a Braid in B₋₄" >}}
+{{< paige/figure caption="Using Braid Generators to Describe a Braid in \\(B\_{4}\\)" >}}
 {{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/16.png" width="100%" >}}
 {{< /paige/figure >}}
 </div>
@@ -399,7 +399,7 @@ closing it, we create the n-component unlink.
 
 \\(\hspace{1cm}\\) The proof for Alexander's Theorem is algorithmic and very long
 and tedious, so I won't explain it here, but I highly suggest reading Birman's
-proof [5], if that's what you're looking for.
+proof [[5]](#references), if that's what you're looking for.
 
 
 ### Markov's Theorem {#markov-s-theorem}
@@ -410,7 +410,7 @@ transform B into C by a sequence of braid isotopies and Markov moves (a Markov
 sequence).
 
 <div class="centered_image">
-{{< paige/figure caption="Markon Moves" >}}
+{{< paige/figure caption="Markov Moves" >}}
 {{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/20.png" width="100%" >}}
 {{< /paige/figure >}}
 </div>
@@ -436,7 +436,7 @@ element of \\(B\_{4}\\) after M2.
 represent the same knot or link. The proof of Markov's Theorem is even longer
 than the proof for Alexander's Theorem, so again I will not be explaining it
 here. However, a great proof in terms of seifert circles and reidemeister moves
-can be found in [6].
+can be found in [[6]](#references).
 
 
 ## Conclusion {#conclusion}

@@ -2,21 +2,23 @@ baseurl = 'https://vordonez6.github.io/shaping-quantum/'
 copyright = "© Victoria Ordonez"
 enablerobotstxt = true
 languagecode = "en-us"
-paginate = 50
+pagination.pagerSize = 50
 timezone = "America/New_York"
 titlecasestyle = "Go"
 
-[shaping-quantum]
-color = "#0e1061"
+[params.paige]
+color = "#0d6efd"
 external_link_new_tab = true
 math = true
+menu_style = "pills"
+header_below = "Shaping Quantum"
 
 [paige.date]
 format = ".date_long"
 
-[languages.en]
-title = "Shaping Quantum"
-weight = 10
+#[languages.en]
+#title = "Shaping Quantum"
+#weight = 10
 
 [[languages.en.menu.main]]
 identifier = "home"
