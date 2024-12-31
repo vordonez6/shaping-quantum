@@ -5,12 +5,12 @@ paige:
   search:
     hide_page: true
   style: |
-    #paige-title {
-        font-size: 5rem;
+    #paige-page-title {
+        font-size: 5rem
     }
 title: "Shaping Quantum"
 ---
--<div class="centered_image">
+<div class="centered_image">
 {{% paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high"  loading="eager" process="webp" src="images/skein.png" %}}
 </div>
 </div>

@@ -50,7 +50,6 @@
 <meta content="width=device-width, initial-scale=1" name="viewport">
 
 <meta property="og:url" content="http://localhost:1313/shaping-quantum/">
-  <meta property="og:site_name" content="Shaping Quantum">
   <meta property="og:title" content="Shaping Quantum">
   <meta property="og:description" content="Small overview of the topic.">
   <meta property="og:locale" content="en">
@@ -529,8 +528,8 @@ table {
 }
 
 
-    #paige-title {
-    font-size: 5rem;
+    #paige-page-title {
+    font-size: 5rem
 }
 
 
@@ -578,6 +577,8 @@ table {
 
 
     
+        
+    
 
 
 
@@ -585,15 +586,13 @@ table {
         
 
         
-            <div class="display-1 fw-bold  paige-row-wide text-center" id="paige-site-title">Shaping Quantum</div>
-        
 
         
 
         
             
                 <nav aria-label="Menu" class="paige-row-wide" id="paige-menu">
-                    <ul class="align-items-center justify-content-center nav ">
+                    <ul class="align-items-center justify-content-center nav  nav-pills ">
                         
                             
                             
@@ -602,7 +601,7 @@ table {
                             
 
                             <li class="nav-item ">
-                                <a  aria-current="page"   class=" active  fw-bold text-body-emphasis    nav-link   text-decoration-underline "  href="/shaping-quantum/"    >Home</a>
+                                <a  aria-current="page"   class=" active    nav-link  "  href="/shaping-quantum/"    >Home</a>
 
                                 
                             </li>
@@ -614,7 +613,7 @@ table {
                             
 
                             <li class="nav-item ">
-                                <a   class="  nav-link   text-decoration-underline "  href="/shaping-quantum/knots-braids/"    >Knots &amp; Braids</a>
+                                <a   class="  nav-link  "  href="/shaping-quantum/knots-braids/"    >Knots &amp; Braids</a>
 
                                 
                             </li>
@@ -626,7 +625,7 @@ table {
                             
 
                             <li class="nav-item ">
-                                <a   class="  nav-link   text-decoration-underline "  href="/shaping-quantum/abstract-algebra/"    >Abstract Algebra</a>
+                                <a   class="  nav-link  "  href="/shaping-quantum/abstract-algebra/"    >Abstract Algebra</a>
 
                                 
                             </li>
@@ -638,7 +637,7 @@ table {
                             
 
                             <li class="nav-item ">
-                                <a   class="  nav-link   text-decoration-underline "  href="/shaping-quantum/linear-algebra/"    >Linear Algebra</a>
+                                <a   class="  nav-link  "  href="/shaping-quantum/linear-algebra/"    >Linear Algebra</a>
 
                                 
                             </li>
@@ -650,7 +649,7 @@ table {
                             
 
                             <li class="nav-item ">
-                                <a   class="  nav-link   text-decoration-underline "  href="/shaping-quantum/kauffman-bracket/"    >Kauffman Bracket</a>
+                                <a   class="  nav-link  "  href="/shaping-quantum/kauffman-bracket/"    >Kauffman Bracket</a>
 
                                 
                             </li>
@@ -662,7 +661,7 @@ table {
                             
 
                             <li class="nav-item ">
-                                <a   class="  nav-link   text-decoration-underline "  href="/shaping-quantum/authors/"    >Author</a>
+                                <a   class="  nav-link  "  href="/shaping-quantum/authors/"    >Author</a>
 
                                 
                             </li>
@@ -772,7 +771,7 @@ table {
 
 
         
-            <main class="mw-100" id="paige-content"><p>-<div class="centered_image"></p>
+            <main class="mw-100" id="paige-content"><div class="centered_image">
 <div class="paige-image">
 <img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"   height="112"   referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/images/skein_hu15881594617520354221.371848c2ad30d889c865fb91cef2a084c3d5af796f80b38fe7a5447b4c397d62.webp"     width="451" >
 </div>
@@ -800,7 +799,7 @@ Lorem  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
     
     
     
-    <span class="paige-icon"><a href="https://github.com/vordonez6/shaping-quantum" ><i class="bi bi-github"  title="GitHub" ><span class="visually-hidden">GitHub</span></i></a></span>
+    <span class="paige-icon"><a href="https://github.com/vordonez6/shaping-quantum"  target="_blank" ><i class="bi bi-github"  title="GitHub" ><span class="visually-hidden">GitHub</span></i></a></span>
 
 </div>
 <button onclick="topFunction()"
@@ -993,8 +992,8 @@ Lorem  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
     
 
     
-        <p class="fst-italic paige-row-narrow paige-summary text-center"> COMMENT Abstract Braids are a great way to study knots, considering they have a better diagram organization and are simpler to understand in certain cases. In this paper, we will discuss what a braid is, some braid properties, and the braid group. Finally, we will explore how knots and links relate to braids with Alexander&#39;s Theorem and Markov&#39;s Theorem.
-Braids Introduction The best way to visualize a braid is to imagine a cube, B, whose coordinates in $\mathbb{R}^{3}$ can be defined as followed: $$ B = \{(x,y,z)|0 \leq x,y,z \leq 1\}$$ At the top of the cube and at the base of the cube, we will mark $n$ points, $A_{1},...,A_{n}$ and $A^{&#39;}_{1}, ... ,A^{&#39;}_{n}$, respectively. Let,
+        <p class="fst-italic paige-row-narrow paige-summary text-center">Braids Introduction The best way to visualize a braid is to imagine a cube, B, whose coordinates in \(\mathbb{R}^{3}\) can be defined as followed: \[ B = \{(x,y,z)|0 \leq x,y,z \leq 1\}\] At the top of the cube and at the base of the cube, we will mark \(n\) points, \(A_{1},…,A_{n}\) and \(A^{’}_{1}, … ,A^{’}_{n}\), respectively. Let,
+\begin{align*} A_{1} &amp;=\left(\frac{1}{2}, \frac{1}{n&#43;1},1 \right), … , A_{n} = \left( \frac{1}{2}, \frac{n}{n&#43;1},1 \right) \\ A^{’}_{1} &amp;=\left(\frac{1}{2}, \frac{1}{n&#43;1},0\right), … ,A^{’}_{n} = \left(\frac{1}{2},\frac{n}{n&#43;1},0 \right) \end{align*}
 </p>
     
 
