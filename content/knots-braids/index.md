@@ -117,8 +117,6 @@ to \\(A^{'}\_{i\_{1}}\\), \\(A\_{2}\\) connects to \\(A^{'}\_{i\_{2}}\\), more g
 
 \\[{\text{Braid Permutation of  } \alpha}\\]
 
-yes
-
 This permutation is called the braid permutation and is a braid
 invariant. Another way to think about the permutation of a braid is to imagine
 the first row to be the strings of the braid and the second row to be the
@@ -477,3 +475,5 @@ as well.
     theorem and Markov's theorem - tsinghua university. Retrieved April 28,
     2023, from
     <https://ymsc.tsinghua.edu.cn/__local/B/9E/5A/3D8685AA0880367961727C3556C_7E5D1E08_77B71.pdf>
+
+{{< paige/scrolltotop >}}
