@@ -8,7 +8,7 @@ paige:
     #paige-page-title {
         font-size: 5rem
     }
-title: "Shaping Quantum"
+title: "Victoria Ordoñez"
 ---
 <div class="centered_image">
 {{% paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high"  loading="eager" process="webp" src="images/skein.png" %}}
@@ -22,8 +22,29 @@ title: "Shaping Quantum"
         <div class="col col-auto col-lg-7 px-0" >
           <p class="lead text-center" >
           <div class="rounded-fluid-container">
-Lorem  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In iaculis nunc sed augue. Feugiat in fermentum posuere urna. Volutpat sed cras ornare arcu dui vivamus. Egestas egestas fringilla phasellus faucibus. Ultricies leo integer malesuada nunc vel. Urna molestie at elementum eu facilisis. Consectetur purus ut faucibus pulvinar. Habitant morbi tristique senectus et. Pellentesque nec nam aliquam sem et tortor consequat id. Fringilla urna porttitor rhoncus dolor purus non. Eu nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus. Quisque sagittis purus sit amet volutpat consequat mauris nunc congue.
-         </div>
+            I am  double major in computer science and mathematics at Georgia Institute of Technology. My research interests are quantum computing, topological quantum computing, computational topology, topological & geometric computation, and machine learning theory. 
+            Here are some of my write-ups from my work at Georgia Tech:
+            <br></br>
+            <a href="/shaping-quantum/knots-braids/">
+              Knot Theory
+            </a>
+            <br></br>
+            <a href="/shaping-quantum/abstract-algebra/">
+              Abstract Algebra
+            </a>
+            <br></br>
+            <a href="/shaping-quantum/linear-algebra/">
+              Linear Algebra
+            </a>
+            <br></br>
+            <a href="/shaping-quantum/kauffman-bracket/">
+              Kauffman Bracket
+            </a>
+            <br></br>
+            <a href="/shaping-quantum/authors/">
+              Author
+            </a>
+          </div>
         </div>
     </div>
 </div>
