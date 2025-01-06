@@ -27,34 +27,28 @@ url = "/"
 weight = 10
 
 [[languages.en.menu.main]]
-identifier = "Knots & Braids"
-name = "Knots & Braids"
-url = "/knots-braids/"
+identifier = "Braids"
+name = "Braids"
+url = "/braids/"
 weight = 20
 
 [[languages.en.menu.main]]
-identifier = "Abstract Algebra"
-name = "Abstract Algebra"
-url = "/abstract-algebra/"
+identifier = "Knot Theory"
+name = "Knot Theory"
+url = "/knot-theory/"
 weight = 30
 
 [[languages.en.menu.main]]
-identifier = "Linear Algebra"
-name = "Linear Algebra"
-url = "/linear-algebra/"
-weight = 40
+identifier = "Torus"
+name = "Torus"
+url = "/torus/"
+weight = 50
 
 [[languages.en.menu.main]]
 identifier = "Kauffman Bracket"
 name = "Kauffman Bracket"
 url = "/kauffman-bracket/"
-weight = 50
-
-[[languages.en.menu.main]]
-identifier = "author"
-name = "Author"
-url = "/authors/"
-weight = 60
+weight = 40
 
 # [[languages.en.menu.main]]
 # identifier = "series"

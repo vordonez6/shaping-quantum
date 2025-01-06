@@ -95,8 +95,6 @@
     
 
     
-        <subtitle type="html"><![CDATA[Small overview of the topic.]]></subtitle>
-    
 
     <title type="html"><![CDATA[Victoria Ordoñez]]></title>
     <updated>2023-11-24T11:27:19-05:00</updated>
@@ -1544,7 +1542,7 @@ theorem and Markov&rsquo;s theorem - tsinghua university. Retrieved April 28,
 ]]></content>
             
 
-            <id>tag:localhost:1313,0001-01-01:/shaping-quantum/knots-braids/</id>
+            <id>tag:localhost:1313,0001-01-01:/shaping-quantum/braids/</id>
 
             
                 
@@ -1552,7 +1550,7 @@ theorem and Markov&rsquo;s theorem - tsinghua university. Retrieved April 28,
                 
                     
 
-                    <link href="http://localhost:1313/shaping-quantum/knots-braids/" rel="alternate" type="text/html"/>
+                    <link href="http://localhost:1313/shaping-quantum/braids/" rel="alternate" type="text/html"/>
                 
             
 
