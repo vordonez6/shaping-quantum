@@ -33,9 +33,9 @@ url = "/braids/"
 weight = 20
 
 [[languages.en.menu.main]]
-identifier = "Knot Theory"
-name = "Knot Theory"
-url = "/knot-theory/"
+identifier = "Knots"
+name = "Knots"
+url = "/knots/"
 weight = 30
 
 [[languages.en.menu.main]]

@@ -1,0 +1,461 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"  xml:lang="en"  xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        
+            
+
+            
+                
+            
+
+            
+                <link href="http://localhost:1313/shaping-quantum/knot-theory/atom.xml" rel="self" type="application/atom+xml"/>
+            
+        
+            
+
+            
+                
+            
+
+            
+                <link href="http://localhost:1313/shaping-quantum/knot-theory/" rel="alternate" type="text/html"/>
+            
+        
+            
+
+            
+
+            
+                <link href="http://localhost:1313/shaping-quantum/knot-theory/rss.xml" rel="alternate" type="application/rss+xml"/>
+            
+        
+
+        
+
+        
+            <copyright>© Victoria Ordonez</copyright>
+        
+
+        <description>Recent content</description>
+
+        
+            <language>en</language>
+        
+
+        
+
+        <link>http://localhost:1313/shaping-quantum/knot-theory/</link>
+
+        
+
+        <title>Knot Theories · Victoria Ordoñez</title>
+
+        
+
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+
+                
+
+                
+
+                
+                    <description><![CDATA[
+<div id="outline-container-headline-1" class="outline-2">
+<h2 id="headline-1">
+Elementary Knot Moves
+</h2>
+<div id="outline-text-headline-1" class="outline-text-2">
+<p>
+\textbf{Elementary knot moves} are reversible changes to the shape of a knot made by modifying its edges. </p>
+<div id="outline-container-headline-2" class="outline-3">
+<h3 id="headline-2">
+Operations:
+</h3>
+<div id="outline-text-headline-2" class="outline-text-3">
+<p>\(\hspace{.55cm} (1)\)  Place a point \(C\) on an edge \(AB\), dividing it into two edges \(AC\) and \(CB \par  \vspace{.4cm} \)
+   \((1)&#39;\) If \(AC\) and \(CB\) are adjacent edges such that removing \(C\) results in a straight line \(AB\), then \(C\) may be erased, restoring the edge \(AB \par \vspace{.4cm}\)</p>
+<div class="centered_image">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+<div class="paige-figure ">
+<div class="align-items-center d-flex  h-100 justify-content-center ">
+<figure class=" mb-0" >
+<div class="d-flex justify-content-center text-center"><div class="paige-image">
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/1.png"   style="height: 20rem; width: 100%"   >
+</div>
+</div>
+
+
+<figcaption class="figure-caption mt-2 text-center" >(1) &amp; (1)'</figcaption>
+
+</figure>
+</div>
+</div>
+
+</div>
+<p>
+   \((2)\) For a point \(C\) that doesn&#39;t lie on the knot \(K\), if the triangle \(\triangle ABC\), formed by \(AB\) and \(C\), does not intersect \(K\) (except at \(AB\)), then replace \(AB\) with two new edges \(AC\) and \(CB  \par \vspace{.4cm}\)
+    \((2)&#39;\) If \(\triangle ABC\) contains two adjacent edges \(AC\) and \(CB\), and this triangle does not intersect \(K\) (except at \(AC\) and \(CB\)), then \(AC\) and \(CB\) may be removed and replaced with \(AB  \par \vspace{.3cm} \noindent \)</p>
+<div class="centered_image">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+<div class="paige-figure ">
+<div class="align-items-center d-flex  h-100 justify-content-center ">
+<figure class=" mb-0" >
+<div class="d-flex justify-content-center text-center"><div class="paige-image">
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/2.png"   style="height: 20rem; width: 100%"   >
+</div>
+</div>
+
+
+<figcaption class="figure-caption mt-2 text-center" >(2) &amp; (2)'</figcaption>
+
+</figure>
+</div>
+</div>
++
+</div>
+<p>
+These four operations \((1), (1)&#39;, (2), (2)&#39;\) are called \emph{elementary knot moves}. \(\vspace{.3cm} \)
+\textbf{Note:}
+Typically, only \((2)\) and \((2)&#39;\) are referred to as elementary knot moves, as they involve actual transformations or &#34;moves.&#34; Operations \((1)\) and \((1)&#39;\) are adjustments to the knot structure and are thus not considered moves in the usual sense. </p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-3" class="outline-2">
+<h2 id="headline-3">
+The Equivalence of Knots
+</h2>
+<div id="outline-text-headline-3" class="outline-text-2">
+<p>Knots that can be changed from one to the other by applying elementary knot moves are said to be \emph{equivalent}. Two knots are equivalent if we can alter one continuously, without causing any self-intersections, until it is transformed into the other knot.</p>
+<div id="outline-container-headline-4" class="outline-3">
+<h3 id="headline-4">
+Homeomorphisms
+</h3>
+<div id="outline-text-headline-4" class="outline-text-3">
+<p>Let \(f\) be a bijective map from a topological space \(X\) to a topological space \(Y\). Let \(f^{-1}\) be the inverse map \(f^{-1}: Y \to X\). When both \(f\) and \(f^{-1}\) are continuous maps, then the map \(f\) is a \emph{homeomorphism}.<br>
+When \(X\) and \(Y\) have orientations assigned to them, we say \(f\) is an \emph{orientation-preserving homeomorphism} if the original orientation of \(Y\) agrees with the orientation on \(Y\). <br>
+A homeomorphism from \(X\) to itself is called an \emph{auto-homeomorphism}.</p>
+<div id="outline-container-headline-5" class="outline-4">
+<h4 id="headline-5">
+Examples
+</h4>
+<div id="outline-text-headline-5" class="outline-text-4">
+<p>Let \(X\) and \(Y\) be \(\mathbb{R}^2\). The parallel translation along a line, given by \((x, y) \mapsto (x + a, y + b)\), and a rotation about some fixed point  are examples of orientation-preserving auto-homeomorphisms, as shown in the figure below.</p>
+  <div class="centered_image">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+<div class="paige-figure ">
+<div class="align-items-center d-flex  h-100 justify-content-center ">
+<figure class=" mb-0" >
+<div class="d-flex justify-content-center text-center"><div class="paige-image">
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/3.png"   style="height: 20rem; width: 100%"   >
+</div>
+</div>
+
+
+<figcaption class="figure-caption mt-2 text-center" >Orientation-preserving Auto-homeomorphisms</figcaption>
+
+</figure>
+</div>
+</div>
++
+  </div>
+<p>
+However, the mirror image with respect to the \(x\)-axis, given by the homeomorphism \(f(x, y) = (x, -y)\), is not an orientation-preserving auto-homeomorphism. In fact, the orientation is reversed, as illustrated in the figure below. </p>
+  <div class="centered_image">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+<div class="paige-figure ">
+<div class="align-items-center d-flex  h-100 justify-content-center ">
+<figure class=" mb-0" >
+<div class="d-flex justify-content-center text-center"><div class="paige-image">
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/4.png"   style="height: 20rem; width: 100%"   >
+</div>
+</div>
+
+
+<figcaption class="figure-caption mt-2 text-center" >Non Orientation-preserving Auto-homeomorphisms</figcaption>
+
+</figure>
+</div>
+</div>
++
+  </div>
+<p>
+Thus, we can say two knots \(K_1\) and \(K_2\) are \emph{equivalent} if there exists an orientation-preserving homeomorphism of \(\mathbb{R}^3\) that maps \(K_1\) to \(K_2\).</p>
+<p>
+Since there exists a one-to-one correspondence between the 2-dimensional sphere \(\mathbb{S}^2\), excluding the North Pole,\(N\), and the etire plane, \(\mathbb{R}^2\),  \(\mathbb{R}^2 \cup \{\infty\}\) and \(\mathbb{S}^2\) are homeomorphic as shown below.</p>
+  <div class="centered_image">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+<div class="paige-figure ">
+<div class="align-items-center d-flex  h-100 justify-content-center ">
+<figure class=" mb-0" >
+<div class="d-flex justify-content-center text-center"><div class="paige-image">
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/5.png"   style="height: 20rem; width: 100%"   >
+</div>
+</div>
+
+
+<figcaption class="figure-caption mt-2 text-center" >(\mathbb{R}^2 \cup {\infty} \cong \mathbb{S}^2)</figcaption>
+
+</figure>
+</div>
+</div>
++
+  </div>
+<p>
+Similarly, the 3-dimensional sphere \(\mathbb{S}^3\) is often thought of as \(\mathbb{R}^3  \cup \{\infty\}\). Thus, we can think of a knot lying in \(\mathbb{S}^3\) rather than in \(\mathbb{R}^3\) as long as the knot \(K\) does not contain the point at infinity. Therefore, if two equivalent knots \(K_1\) and \(K_2\) lie in \(\mathbb{S}^3\), then their complements \(\mathbb{S}^3 - K_1\) and \(\mathbb{S}^3 - K_2\) are homeomorphic.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-6" class="outline-2">
+<h2 id="headline-6">
+Links
+</h2>
+<div id="outline-text-headline-6" class="outline-text-2">
+<p>
+A \emph{link} is a finite, ordered collection of knots that do not intersect each other. Each knot \(K_i\) is called a \emph{component} of the link.</p>
+<p>
+Two links \(L = \{K_1, K_2, \ldots, K_m\}\) and \(L&#39; = \{K&#39;_1, K&#39;_2, \ldots, K&#39;_n\}\) are  \emph{equivalent} if:</p>
+\begin{enumerate}
+    \item \(m = n\) (\(L\) and \(L&#39;\) have the same number of components)
+    \item  There exists an auto-homeomorphism, \(\varphi \) such that \( \varphi(K_1 \cup \ldots \cup K_m)=K&#39;_1 \cup \ldots \cup K&#39;_m\) preserves the orientation of \(\mathbb{R}^3\).
+\end{enumerate}
+<p>
+Two links \(L\) and \(L&#39;\) are equivalent if we can transform \(L\) into \(L&#39;\) by performing elementary knot moves, where the triangle involved in a given elementary knot move must not intersect any of the other components.</p>
+</div>
+</div>
+]]></description>
+                
+
+                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/shaping-quantum/knot-theory/knots/</guid>
+
+                
+                    <link>http://localhost:1313/shaping-quantum/knot-theory/knots/</link>
+                
+
+                
+                    <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+                
+
+                
+                    <title>Knot Theory Basics</title>
+                
+            </item>
+        
+    </channel>
+</rss>

@@ -27,7 +27,7 @@ title: "Victoria Ordoñez"
               Braids 
             </a>
             <br></br>
-            <a href="/shaping-quantum/knot-theory/">
+            <a href="/shaping-quantum/knots/">
               Knot Theory 
             </a>
             <br></br>
