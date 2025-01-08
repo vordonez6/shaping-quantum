@@ -21,14 +21,6 @@
         
     
 
-    
-        
-    
-
-    
-        
-    
-
 
 
 
@@ -48,7 +40,7 @@
         <icon>http://localhost:1313/shaping-quantum/</icon>
     
 
-    <id>tag:localhost:1313,2023-11-24:/shaping-quantum/atom.xml</id>
+    <id>tag:localhost:1313,0001-01-01:/shaping-quantum/atom.xml</id>
 
     
         
@@ -101,62 +93,8 @@
     
 
     <title type="html"><![CDATA[Victoria Ordoñez]]></title>
-    <updated>2023-11-24T11:27:19-05:00</updated>
+    <updated>0001-01-01T00:00:00Z</updated>
 
-    
-        <entry>
-            
-            
-            
-            
-            
-            
-            
-
-            
-
-            
-
-            
-
-            
-
-            
-
-            
-
-            
-                <content type="html"><![CDATA[<p>Hello World</p>
-]]></content>
-            
-
-            <id>tag:localhost:1313,2023-11-24:/shaping-quantum/firstpost/</id>
-
-            
-                
-
-                
-                    
-
-                    <link href="http://localhost:1313/shaping-quantum/firstpost/" rel="alternate" type="text/html"/>
-                
-            
-
-            
-
-            
-                <published>2023-11-24T11:27:19-05:00</published>
-            
-
-            
-                <rights type="html"><![CDATA[© Victoria Ordonez]]></rights>
-            
-
-            
-
-            <title type="html"><![CDATA[Firstpost]]></title>
-            <updated>2023-11-24T11:27:19-05:00</updated>
-        </entry>
     
         <entry>
             
@@ -885,110 +823,6 @@ whose endpoints \( A \) and \( B \) lie on the surface of \( S \). If \( \alpha 
             
 
             <title type="html"><![CDATA[Knot Theory]]></title>
-            <updated>0001-01-01T00:00:00Z</updated>
-        </entry>
-    
-        <entry>
-            
-            
-            
-            
-            
-            
-            
-
-            
-
-            
-
-            
-
-            
-
-            
-                
-            
-
-            
-
-            
-                <content type="html"><![CDATA[<h2 id="section">Section</h2>
-<table>
-  <thead>
-      <tr>
-          <th></th>
-          <th>1</th>
-          <th>2</th>
-          <th>3</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>1</td>
-          <td>1</td>
-          <td>0</td>
-          <td>0</td>
-      </tr>
-      <tr>
-          <td>2</td>
-          <td>1</td>
-          <td>0</td>
-          <td>0</td>
-      </tr>
-  </tbody>
-</table>
-<p>Here is the python code</p>
-<ul>
-<li>import</li>
-<li>define function and return</li>
-</ul>
-<!--listend-->
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">math</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">persistence</span><span class="p">(</span><span class="n">time</span><span class="p">,</span> <span class="n">wheel</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">   <span class="k">return</span> <span class="n">math</span><span class="o">.</span><span class="n">pow</span><span class="p">(</span><span class="n">wheel</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span> <span class="o">+</span> <span class="n">time</span>
-</span></span></code></pre></div><h3 id="subsection">Subsection</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In iaculis nunc sed augue. Feugiat in fermentum posuere urna. Volutpat sed cras ornare arcu dui vivamus. Egestas egestas fringilla phasellus faucibus. Ultricies leo integer malesuada nunc vel. Urna molestie at elementum eu facilisis. Consectetur purus ut faucibus pulvinar. Habitant morbi tristique senectus et. Pellentesque nec nam aliquam sem et tortor consequat id. Fringilla urna porttitor rhoncus dolor purus non. Eu nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus. Quisque sagittis purus sit amet volutpat consequat mauris nunc congue.</p>
-<h4 id="subsubsection">Subsubsection</h4>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. In iaculis nunc sed augue. Feugiat
-in fermentum posuere urna. Volutpat sed cras ornare arcu dui vivamus. Egestas
-egestas fringilla phasellus faucibus. Ultricies leo integer malesuada nunc
-vel. Urna molestie at elementum eu facilisis.</p>
-<h3 id="my-math-section">My Math section</h3>
-<ul>
-<li>Latex \[\sum_{i=0}^{n}=i\]</li>
-<li>No inline
-\[ |x| = \left\{ \begin{array}{ll}
-x &amp; \mbox{if $x \geq 0$};\\
--x &amp; \mbox{if $x &lt; 0$}.\end{array} \right. \]</li>
-</ul>
-]]></content>
-            
-
-            <id>tag:localhost:1313,0001-01-01:/shaping-quantum/posts/</id>
-
-            
-                
-
-                
-                    
-
-                    <link href="http://localhost:1313/shaping-quantum/posts/" rel="alternate" type="text/html"/>
-                
-            
-
-            
-
-            
-
-            
-                <rights type="html"><![CDATA[© Victoria Ordonez]]></rights>
-            
-
-            
-
-            <title type="html"><![CDATA[K &amp; N]]></title>
             <updated>0001-01-01T00:00:00Z</updated>
         </entry>
     
