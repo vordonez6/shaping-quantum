@@ -1,0 +1,100 @@
+% Created 2025-01-08 Wed 00:04
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{victoria}
+\date{\today}
+\title{Intersection Number of Two Curves on a Torus}
+\hypersetup{
+ pdfauthor={victoria},
+ pdftitle={Intersection Number of Two Curves on a Torus},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 29.1.90 (Org mode 9.6.14)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+
+\section{Mapping \(\mathbb{R}^2\) to the Quotient Space \(\mathbb{R}^2 / \sim\)}
+\label{sec:org8f94900}
+
+Consider the universal cover of the torus, \(\mathbb{R}^2\). The quotient space \(\mathbb{R}^2 / \sim\) is formed by identifying points whose difference is an integer vector.
+The equivalence relation \(\sim\) is defined as: \(\\\)
+Two points \((x_1, y_1)\) and \((x_2, y_2)\) are equivalent under \(\sim\) if:
+\[
+(x_1, y_1) \sim (x_2, y_2) \iff (x_2 - x_1, y_2 - y_1) \in \mathbb{Z}^2.
+\]
+The quotient map \(\pi : \mathbb{R}^2 \to \mathbb{R}^2 / \sim\) is then defined as:
+\[
+\pi(x, y) = (x \mod 1, y \mod 1),
+\]
+which maps each point in \(\mathbb{R}^2\) to its equivalence class on the torus. Geometrically, this means every point \((x, y) \in \mathbb{R}^2\) is mapped to a point inside the unit square \([0, 1) \times [0, 1)\), representing a point on the torus.
+
+\section{Defining the Map \(A\) on \(\mathbb{R}^2\)}
+\label{sec:org538cd25}
+
+Let \(A: \mathbb{R}^2 \to \mathbb{R}^2\) be a linear map represented by a \(2 \times 2\) matrix:
+\[
+A = \begin{bmatrix}
+  a & b \\
+  c & d
+\end{bmatrix}.
+\]
+For any point \((x, y) \in \mathbb{R}^2\), the action of \(A\) is given by:
+\[
+A \begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix}
+  ax + by \\
+  cx + dy
+\end{bmatrix}.
+\]
+
+
+\section{Inducing a Well-Defined Map on the Quotient Space}
+\label{sec:org2b358b1}
+
+To induce a well-defined map \(\bar{A}: \mathbb{R}^2 / \sim \to \mathbb{R}^2 / \sim\),we must show if two points \((x, y)\) and \((x + m, y + n)\) are equivalent under the quotient relation, their images under \(A\) must also be equivalent.
+
+Applying \(A\) to the equivalent point \((x + m, y + n)\):
+\[
+A \begin{bmatrix} x + m \\ y + n \end{bmatrix} = \begin{bmatrix}
+  a(x + m) + b(y + n) \\
+  c(x + m) + d(y + n)
+\end{bmatrix}.
+\]
+\[
+= \begin{bmatrix}
+  (ax + by) + (am + bn) \\
+  (cx + dy) + (cm + dn)
+\end{bmatrix}.
+\]
+Since \(m\) and \(n\) are integers, the terms \(am + bn\) and \(cm + dn\) are also integers. Therefore, the transformed point differs from \(A(x, y)\) by an integer vector, meaning it lies in the same equivalence class in the quotient space. Thus, the map \(\bar{A}\) is well-defined on the torus.
+
+\section{Commutative Diagram}
+\label{sec:org205ce98}
+
+The following commutative diagram illustrates the relationship between the maps:
+
+\begin{matrix}
+    \mathbb{R}^2 & \xrightarrow{A} & \mathbb{R}^2 \\
+    \downarrow \pi &  & \downarrow \pi \\
+    \mathbb{R}^2 / \sim & \xrightarrow{\bar{A}} & \mathbb{R}^2 / \sim
+\end{matrix}
+
+
+This diagram commutes if:
+\[
+\bar{A}(\pi(p)) = \pi(A(p)) \quad \text{for all } p \in \mathbb{R}^2.
+\]
+In other words, applying \(A\) on the plane and then projecting to the torus gives the same result as projecting to the torus first and then applying the induced map \(\bar{A}\).
+\end{document}
