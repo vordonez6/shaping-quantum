@@ -93,6 +93,88 @@ Two links \\( L = \{K\_1, K\_2, \ldots, K\_m\}  \text{ and }  L' = \{K'\_1, K'\_
 
 Two links \\( L \\) and \\( L' \\) are equivalent if we can transform \\( L \\) into \\( L' \\) by performing elementary knot moves, where the triangle involved in a given elementary knot move must not intersect any of the other components.
 
+### Examples
+
+<div class="centered_image">
+{{< paige/figure caption="Equivalent Links" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/6.png" width="100%" >}}
+{{< /paige/figure >}}
+</div>
+
+Consider the links above and let us assign an orientation to the links \\( L \\) and \\( L' \\) as shown below.
+
+<div class="centered_image">
+{{< paige/figure caption="Non-equivalent Links" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/7.png" width="100%" >}}
+{{< /paige/figure >}}
+</div>
+
+We see that the second condition doesn't hold anymore and thus these oriented links are not equivalent.
+
+## Trivial \\(n\\)-component Link
+
+Only one trivial \\(n\\)-component link for each \\(n\\) exists, since orienting the trivial link has no effect on its equivalence.
+
+
+
+<div class="centered_image">
+{{< paige/figure caption="Trivial \(n\)-component Link" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/8.png" width="100%" >}}
+{{< /paige/figure >}}
+</div>
+
+# Knot Decomposition
+
+## \\( (1, 1) \\)-tangle
+
+Let us consider a ball \\( B^3 \\) bounded by \\( S \\), a sphere \\( S \\) in \\( \mathbb{S}^3 \\). Let \\( \alpha \\) be a curve inside \\( B^3 \\) 
+whose endpoints \\( A \\) and \\( B \\) lie on the surface of \\( S \\). If \\( \alpha \\) intersects \\( S \\) only at the points \\( A \\) and \\( B \\), it is called a \\( (1, 1) \\)-tangle as shown below.
+
+
+<div class="centered_image">
+{{< paige/figure caption="\( (1, 1)\)-tangle" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/9.png" width="100%" >}}
+{{< /paige/figure >}}
+</div>
+
+**Note:** A \\( (1, 1) \\)-tangle may have disjoint simple closed curves.
+
+Now, applying elementary knot moves to segments of the knotted \\( (1, 1) \\)-tangle, \\( \alpha \\), while keeping \\( A \\) and \\( B \\) fixed, \\( \alpha \\) becomes the \\( (1, 1) \\)-tangle shown below.
+
+<div class="centered_image">
+{{< paige/figure caption="Trivial \\( (1, 1)\\)-tangle" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/10.png" width="100%" >}}
+{{< /paige/figure >}}
+</div>
+
+## Decomposing a Knot into Two Simpler Knots
+
+Let \\( K \\) be a knot (link) in \\( \mathbb{S}^3 \\) and let \\( \Sigma \\) be a 2-dimensional sphere that intersects \\( K \\) at right angles at exactly two points \\( A \\) and \\( B \\). 
+
+Because \\( K \\) lies in \\( \mathbb{S}^3 \\), it is divided by \\( \Sigma \\) into two \\( (1, 1) \\)-tangles \\( \alpha \\) and \\( \beta \\), one of which lies inside \\( \Sigma \\) and the other outside, as shown in the figure below. 
+\\( \Sigma \\) becomes the boundary of two 3-dimensional balls: one formed by \\( \Sigma \\) and its interior, and the other by \\( \Sigma \\) and its exterior. Thus, \\( \mathbb{S}^3 \\) is composed of two 3-dimensional balls glued together along their common boundary, \\( \Sigma \\).
+
+<div class="centered_image">
+{{< paige/figure caption="Knot Decomposition" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/11.png" width="100%" >}}
+{{< /paige/figure >}}
+</div>
+
+We then connect \\( A \\) to \\( B \\) by means of a simple polygonal line \\( s \\) that lies on \\( \Sigma \\), obtaining a knot \\( K\_1 \\), and by joining \\( s \\) to \\( \beta \\), we obtain a knot \\( K_2 \\).
+
+If we connect \\( A \\) to \\( B \\) by another simple polygonal line \\( s' \\) lying on \\( \Sigma \\), we obtain two knots \\( K'\_1 \\) and \\( K'\_2 \\). By applying elementary knot moves to \\( s \\) on \\( \Sigma \\), we can transform it into \\( s' \\), thus \\( K\_1 \\) and \\( K'\_1 \\), as well as \\( K\_2 \\) and \\( K'\_2 \\) are equivalent.
+
+If one of the tangles is a trivial \\( (1, 1) \\)-tangle, then its corresponding knot is the trivial knot. We see below that in this case, \\( K \\) and \\( K_{1} \\) are equivalent, meaning \\( K \\) is not a true decomposition.
+
+<div class="centered_image">
+{{< paige/figure caption="Knot Decomposition w/ trivial knot" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/12.png" width="100%" >}}
+{{< /paige/figure >}}
+</div>
+
+## Prime Knot
+
+When a true (non-trivial) decomposition cannot be found for \\( K \\), \\( K \\) is a *prime knot*. This means a knot \\( K \\) is either a prime knot or can be decomposed into at least two non-trivial knots, which in turn are either themselves prime knots or can be further decomposed into non-trivial knots.
 
 
 {{< paige/scrolltotop >}}
