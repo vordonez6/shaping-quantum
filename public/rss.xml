@@ -13,20 +13,6 @@
 
 
     
-        
-    
-
-    
-        
-    
-
-    
-
-    
-        
-    
-
-    
 
     
         
@@ -66,7 +52,7 @@
             
 
             
-                <link href="http://localhost:37673/shaping-quantum/atom.xml" rel="self" type="application/atom+xml"/>
+                <link href="http://localhost:1313/shaping-quantum/atom.xml" rel="self" type="application/atom+xml"/>
             
         
             
@@ -76,7 +62,7 @@
             
 
             
-                <link href="http://localhost:37673/shaping-quantum/" rel="alternate" type="text/html"/>
+                <link href="http://localhost:1313/shaping-quantum/" rel="alternate" type="text/html"/>
             
         
             
@@ -84,7 +70,7 @@
             
 
             
-                <link href="http://localhost:37673/shaping-quantum/index.json" rel="alternate" type="application/json"/>
+                <link href="http://localhost:1313/shaping-quantum/index.json" rel="alternate" type="application/json"/>
             
         
             
@@ -92,7 +78,7 @@
             
 
             
-                <link href="http://localhost:37673/shaping-quantum/rss.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="http://localhost:1313/shaping-quantum/rss.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -109,10 +95,8 @@
         
 
         
-            <lastBuildDate>2023-11-24 11:27:19 -0500 EST</lastBuildDate>
-        
 
-        <link>http://localhost:37673/shaping-quantum/</link>
+        <link>http://localhost:1313/shaping-quantum/</link>
 
         
 
@@ -120,50 +104,6 @@
 
         
 
-        
-            <item>
-                
-                
-                
-                
-                
-                
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-                
-
-                
-
-                
-
-                
-                    <description><![CDATA[<p>Hello World</p>
-]]></description>
-                
-
-                <guid isPermaLink="false">tag:localhost:37673,2023-11-24:/shaping-quantum/firstpost/</guid>
-
-                
-                    <link>http://localhost:37673/shaping-quantum/firstpost/</link>
-                
-
-                
-                    <pubDate>Fri, 24 Nov 2023 11:27:19 EST</pubDate>
-                
-
-                
-                    <title>Firstpost</title>
-                
-            </item>
         
             <item>
                 
@@ -233,7 +173,7 @@
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/knotpics/1.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/1.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -287,7 +227,7 @@
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/knotpics/2.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/2.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -346,7 +286,7 @@ When \( X \) and \( Y \) have orientations assigned to them, we say \( f \) is a
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/knotpics/3.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/3.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -397,7 +337,7 @@ When \( X \) and \( Y \) have orientations assigned to them, we say \( f \) is a
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/knotpics/4.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/4.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -449,7 +389,7 @@ When \( X \) and \( Y \) have orientations assigned to them, we say \( f \) is a
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/knotpics/5.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/5.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -509,7 +449,7 @@ When \( X \) and \( Y \) have orientations assigned to them, we say \( f \) is a
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/knotpics/6.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/6.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -560,7 +500,7 @@ When \( X \) and \( Y \) have orientations assigned to them, we say \( f \) is a
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/knotpics/7.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/7.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -613,7 +553,7 @@ When \( X \) and \( Y \) have orientations assigned to them, we say \( f \) is a
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/knotpics/8.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/8.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -667,7 +607,7 @@ whose endpoints \( A \) and \( B \) lie on the surface of \( S \). If \( \alpha 
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/knotpics/9.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/9.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -719,7 +659,7 @@ whose endpoints \( A \) and \( B \) lie on the surface of \( S \). If \( \alpha 
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/knotpics/10.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/10.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -773,7 +713,7 @@ whose endpoints \( A \) and \( B \) lie on the surface of \( S \). If \( \alpha 
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/knotpics/11.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/11.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -826,7 +766,7 @@ whose endpoints \( A \) and \( B \) lie on the surface of \( S \). If \( \alpha 
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/knotpics/12.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/12.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -870,10 +810,10 @@ whose endpoints \( A \) and \( B \) lie on the surface of \( S \). If \( \alpha 
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:37673,0001-01-01:/shaping-quantum/knots/</guid>
+                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/shaping-quantum/knots/</guid>
 
                 
-                    <link>http://localhost:37673/shaping-quantum/knots/</link>
+                    <link>http://localhost:1313/shaping-quantum/knots/</link>
                 
 
                 
@@ -882,100 +822,6 @@ whose endpoints \( A \) and \( B \) lie on the surface of \( S \). If \( \alpha 
 
                 
                     <title>Knot Theory</title>
-                
-            </item>
-        
-            <item>
-                
-                
-                
-                
-                
-                
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-                
-
-                
-
-                
-
-                
-                    <description><![CDATA[<h2 id="section">Section</h2>
-<table>
-  <thead>
-      <tr>
-          <th></th>
-          <th>1</th>
-          <th>2</th>
-          <th>3</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>1</td>
-          <td>1</td>
-          <td>0</td>
-          <td>0</td>
-      </tr>
-      <tr>
-          <td>2</td>
-          <td>1</td>
-          <td>0</td>
-          <td>0</td>
-      </tr>
-  </tbody>
-</table>
-<p>Here is the python code</p>
-<ul>
-<li>import</li>
-<li>define function and return</li>
-</ul>
-<!--listend-->
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">math</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">persistence</span><span class="p">(</span><span class="n">time</span><span class="p">,</span> <span class="n">wheel</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">   <span class="k">return</span> <span class="n">math</span><span class="o">.</span><span class="n">pow</span><span class="p">(</span><span class="n">wheel</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span> <span class="o">+</span> <span class="n">time</span>
-</span></span></code></pre></div><h3 id="subsection">Subsection</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In iaculis nunc sed augue. Feugiat in fermentum posuere urna. Volutpat sed cras ornare arcu dui vivamus. Egestas egestas fringilla phasellus faucibus. Ultricies leo integer malesuada nunc vel. Urna molestie at elementum eu facilisis. Consectetur purus ut faucibus pulvinar. Habitant morbi tristique senectus et. Pellentesque nec nam aliquam sem et tortor consequat id. Fringilla urna porttitor rhoncus dolor purus non. Eu nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus. Quisque sagittis purus sit amet volutpat consequat mauris nunc congue.</p>
-<h4 id="subsubsection">Subsubsection</h4>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. In iaculis nunc sed augue. Feugiat
-in fermentum posuere urna. Volutpat sed cras ornare arcu dui vivamus. Egestas
-egestas fringilla phasellus faucibus. Ultricies leo integer malesuada nunc
-vel. Urna molestie at elementum eu facilisis.</p>
-<h3 id="my-math-section">My Math section</h3>
-<ul>
-<li>Latex \[\sum_{i=0}^{n}=i\]</li>
-<li>No inline
-\[ |x| = \left\{ \begin{array}{ll}
-x &amp; \mbox{if $x \geq 0$};\\
--x &amp; \mbox{if $x &lt; 0$}.\end{array} \right. \]</li>
-</ul>
-]]></description>
-                
-
-                <guid isPermaLink="false">tag:localhost:37673,0001-01-01:/shaping-quantum/posts/</guid>
-
-                
-                    <link>http://localhost:37673/shaping-quantum/posts/</link>
-                
-
-                
-                    <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-                
-
-                
-                    <title>K & N</title>
                 
             </item>
         
@@ -1131,10 +977,10 @@ Thus, the absolute value of the determinant is:
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:37673,0001-01-01:/shaping-quantum/torus/</guid>
+                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/shaping-quantum/torus/</guid>
 
                 
-                    <link>http://localhost:37673/shaping-quantum/torus/</link>
+                    <link>http://localhost:1313/shaping-quantum/torus/</link>
                 
 
                 
@@ -1220,7 +1066,7 @@ A^{&rsquo;}_{1} &amp;=\left(\frac{1}{2}, \frac{1}{n+1},0\right), &hellip; ,A^{&r
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/images/1.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/images/1.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -1277,7 +1123,7 @@ which we will join with \(n\) polygonal arcs. \(A_{1},&hellip;,A_{n}\) to \(A^{&
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/images/2.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/images/2.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -1337,7 +1183,7 @@ of Figure 2.4.2 onto the \(y-z\) plane.</p>
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/images/5.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/images/5.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -1393,7 +1239,7 @@ would get the trivial n-braid:</p>
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/images/6.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/images/6.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -1450,7 +1296,7 @@ demonstrate that it is the trivial 2-braid.</p>
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/images/3.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/images/3.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -1503,7 +1349,7 @@ strings intersecting each other as seen in Figure 2.4.2.</p>
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/images/4.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/images/4.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -1595,7 +1441,7 @@ with the top of \(\beta\). This will create a rectangular solid representing
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/images/7.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/images/7.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -1654,7 +1500,7 @@ of the product is not always commutative.</p>
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/images/8.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/images/8.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -1710,7 +1556,7 @@ braids back to the original size of \(\alpha\).</p>
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/images/9.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/images/9.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -1763,7 +1609,7 @@ the mirror image \(\alpha^{-1}\) of \(\alpha\). Based on this, we know that \(\a
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/images/10.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/images/10.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -1825,7 +1671,7 @@ the next page.</p>
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/images/11.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/images/11.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -1885,7 +1731,7 @@ rows, such that every row contains only one crossing. We&rsquo;ll start with bra
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/images/14.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/images/14.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -1954,7 +1800,7 @@ shown in Figure 3.1.2 below.</p>
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/images/15.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/images/15.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -2008,7 +1854,7 @@ be described by braid generators as \(\sigma_{3}^{-1}
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/images/16.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/images/16.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -2084,7 +1930,7 @@ looking at Figure 3.2.1. below.</p>
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/images/12.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/images/12.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -2140,7 +1986,7 @@ will look at the second type of relation on the next page in Figure 3.2.2.</p>
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/images/13.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/images/13.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -2205,7 +2051,7 @@ create a closed braid. This closed braid will either be a knot or a link.</p>
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/images/17.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/images/17.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -2270,7 +2116,7 @@ be represented as a closed braid.</p>
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/images/19.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/images/19.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -2333,7 +2179,7 @@ sequence).</p>
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:37673/shaping-quantum/images/20.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/images/20.png"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -2431,10 +2277,10 @@ theorem and Markov&rsquo;s theorem - tsinghua university. Retrieved April 28,
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:37673,0001-01-01:/shaping-quantum/braids/</guid>
+                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/shaping-quantum/braids/</guid>
 
                 
-                    <link>http://localhost:37673/shaping-quantum/braids/</link>
+                    <link>http://localhost:1313/shaping-quantum/braids/</link>
                 
 
                 

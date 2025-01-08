@@ -2,22 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:37673/shaping-quantum/firstpost/</loc>
-    <lastmod>2023-11-24T11:27:19-05:00</lastmod>
+    <loc>http://localhost:1313/shaping-quantum/braids/</loc>
   </url><url>
-    <loc>http://localhost:37673/shaping-quantum/</loc>
-    <lastmod>2023-11-24T11:27:19-05:00</lastmod>
+    <loc>http://localhost:1313/shaping-quantum/categories/</loc>
   </url><url>
-    <loc>http://localhost:37673/shaping-quantum/braids/</loc>
+    <loc>http://localhost:1313/shaping-quantum/torus/</loc>
   </url><url>
-    <loc>http://localhost:37673/shaping-quantum/categories/</loc>
+    <loc>http://localhost:1313/shaping-quantum/knots/</loc>
   </url><url>
-    <loc>http://localhost:37673/shaping-quantum/torus/</loc>
+    <loc>http://localhost:1313/shaping-quantum/tags/</loc>
   </url><url>
-    <loc>http://localhost:37673/shaping-quantum/posts/</loc>
-  </url><url>
-    <loc>http://localhost:37673/shaping-quantum/knots/</loc>
-  </url><url>
-    <loc>http://localhost:37673/shaping-quantum/tags/</loc>
+    <loc>http://localhost:1313/shaping-quantum/</loc>
   </url>
 </urlset>
