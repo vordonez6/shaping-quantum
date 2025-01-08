@@ -404,6 +404,376 @@ When \( X \) and \( Y \) have orientations assigned to them, we say \( f \) is a
 <li>There exists an auto-homeomorphism, \( \varphi \) such that \( \varphi(K_1 \cup \ldots \cup K_m)=K&rsquo;_1 \cup \ldots \cup K&rsquo;_m \) preserves the orientation of \( \mathbb{R}^3 \).</li>
 </ol>
 <p>Two links \( L \) and \( L&rsquo; \) are equivalent if we can transform \( L \) into \( L&rsquo; \) by performing elementary knot moves, where the triangle involved in a given elementary knot move must not intersect any of the other components.</p>
+<h3 id="examples-1">Examples</h3>
+<div class="centered_image">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+<div class="paige-figure ">
+<div class="align-items-center d-flex  h-100 justify-content-center ">
+<figure class=" mb-0" >
+<div class="d-flex justify-content-center text-center"><div class="paige-image">
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/6.png"   style="height: 20rem; width: 100%"   >
+</div>
+</div>
+
+
+<figcaption class="figure-caption mt-2 text-center" >Equivalent Links</figcaption>
+
+</figure>
+</div>
+</div>
+
+</div>
+<p>Consider the links above and let us assign an orientation to the links \( L \) and \( L&rsquo; \) as shown below.</p>
+<div class="centered_image">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+<div class="paige-figure ">
+<div class="align-items-center d-flex  h-100 justify-content-center ">
+<figure class=" mb-0" >
+<div class="d-flex justify-content-center text-center"><div class="paige-image">
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/7.png"   style="height: 20rem; width: 100%"   >
+</div>
+</div>
+
+
+<figcaption class="figure-caption mt-2 text-center" >Non-equivalent Links</figcaption>
+
+</figure>
+</div>
+</div>
+
+</div>
+<p>We see that the second condition doesn&rsquo;t hold anymore and thus these oriented links are not equivalent.</p>
+<h2 id="trivial-n-component-link">Trivial \(n\)-component Link</h2>
+<p>Only one trivial \(n\)-component link for each \(n\) exists, since orienting the trivial link has no effect on its equivalence.</p>
+<div class="centered_image">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+<div class="paige-figure ">
+<div class="align-items-center d-flex  h-100 justify-content-center ">
+<figure class=" mb-0" >
+<div class="d-flex justify-content-center text-center"><div class="paige-image">
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/8.png"   style="height: 20rem; width: 100%"   >
+</div>
+</div>
+
+
+<figcaption class="figure-caption mt-2 text-center" >Trivial (n)-component Link</figcaption>
+
+</figure>
+</div>
+</div>
+
+</div>
+<h1 id="knot-decomposition">Knot Decomposition</h1>
+<h2 id="-1-1--tangle">\( (1, 1) \)-tangle</h2>
+<p>Let us consider a ball \( B^3 \) bounded by \( S \), a sphere \( S \) in \( \mathbb{S}^3 \). Let \( \alpha \) be a curve inside \( B^3 \)
+whose endpoints \( A \) and \( B \) lie on the surface of \( S \). If \( \alpha \) intersects \( S \) only at the points \( A \) and \( B \), it is called a \( (1, 1) \)-tangle as shown below.</p>
+<div class="centered_image">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+<div class="paige-figure ">
+<div class="align-items-center d-flex  h-100 justify-content-center ">
+<figure class=" mb-0" >
+<div class="d-flex justify-content-center text-center"><div class="paige-image">
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/9.png"   style="height: 20rem; width: 100%"   >
+</div>
+</div>
+
+
+<figcaption class="figure-caption mt-2 text-center" >( (1, 1))-tangle</figcaption>
+
+</figure>
+</div>
+</div>
+
+</div>
+<p><strong>Note:</strong> A \( (1, 1) \)-tangle may have disjoint simple closed curves.</p>
+<p>Now, applying elementary knot moves to segments of the knotted \( (1, 1) \)-tangle, \( \alpha \), while keeping \( A \) and \( B \) fixed, \( \alpha \) becomes the \( (1, 1) \)-tangle shown below.</p>
+<div class="centered_image">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+<div class="paige-figure ">
+<div class="align-items-center d-flex  h-100 justify-content-center ">
+<figure class=" mb-0" >
+<div class="d-flex justify-content-center text-center"><div class="paige-image">
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/10.png"   style="height: 20rem; width: 100%"   >
+</div>
+</div>
+
+
+<figcaption class="figure-caption mt-2 text-center" >Trivial \( (1, 1)\)-tangle</figcaption>
+
+</figure>
+</div>
+</div>
+
+</div>
+<h2 id="decomposing-a-knot-into-two-simpler-knots">Decomposing a Knot into Two Simpler Knots</h2>
+<p>Let \( K \) be a knot (link) in \( \mathbb{S}^3 \) and let \( \Sigma \) be a 2-dimensional sphere that intersects \( K \) at right angles at exactly two points \( A \) and \( B \).</p>
+<p>Because \( K \) lies in \( \mathbb{S}^3 \), it is divided by \( \Sigma \) into two \( (1, 1) \)-tangles \( \alpha \) and \( \beta \), one of which lies inside \( \Sigma \) and the other outside, as shown in the figure below.
+\( \Sigma \) becomes the boundary of two 3-dimensional balls: one formed by \( \Sigma \) and its interior, and the other by \( \Sigma \) and its exterior. Thus, \( \mathbb{S}^3 \) is composed of two 3-dimensional balls glued together along their common boundary, \( \Sigma \).</p>
+<div class="centered_image">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+<div class="paige-figure ">
+<div class="align-items-center d-flex  h-100 justify-content-center ">
+<figure class=" mb-0" >
+<div class="d-flex justify-content-center text-center"><div class="paige-image">
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/11.png"   style="height: 20rem; width: 100%"   >
+</div>
+</div>
+
+
+<figcaption class="figure-caption mt-2 text-center" >Knot Decomposition</figcaption>
+
+</figure>
+</div>
+</div>
+
+</div>
+<p>We then connect \( A \) to \( B \) by means of a simple polygonal line \( s \) that lies on \( \Sigma \), obtaining a knot \( K_1 \), and by joining \( s \) to \( \beta \), we obtain a knot \( K_2 \).</p>
+<p>If we connect \( A \) to \( B \) by another simple polygonal line \( s&rsquo; \) lying on \( \Sigma \), we obtain two knots \( K&rsquo;_1 \) and \( K&rsquo;_2 \). By applying elementary knot moves to \( s \) on \( \Sigma \), we can transform it into \( s&rsquo; \), thus \( K_1 \) and \( K&rsquo;_1 \), as well as \( K_2 \) and \( K&rsquo;_2 \) are equivalent.</p>
+<p>If one of the tangles is a trivial \( (1, 1) \)-tangle, then its corresponding knot is the trivial knot. We see below that in this case, \( K \) and \( K_{1} \) are equivalent, meaning \( K \) is not a true decomposition.</p>
+<div class="centered_image">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+<div class="paige-figure ">
+<div class="align-items-center d-flex  h-100 justify-content-center ">
+<figure class=" mb-0" >
+<div class="d-flex justify-content-center text-center"><div class="paige-image">
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/12.png"   style="height: 20rem; width: 100%"   >
+</div>
+</div>
+
+
+<figcaption class="figure-caption mt-2 text-center" >Knot Decomposition w/ trivial knot</figcaption>
+
+</figure>
+</div>
+</div>
+
+</div>
+<h2 id="prime-knot">Prime Knot</h2>
+<p>When a true (non-trivial) decomposition cannot be found for \( K \), \( K \) is a <em>prime knot</em>. This means a knot \( K \) is either a prime knot or can be decomposed into at least two non-trivial knots, which in turn are either themselves prime knots or can be further decomposed into non-trivial knots.</p>
 <button onclick="topFunction()"
   style="position: fixed; bottom: 20px; right: 30px; font-size: 20px; border: none; outline: none; background-color: #0D6EFD; color: white; cursor: pointer; padding: 10px; border-radius: 12px;"
   id="myBtn" title="Go to top">
