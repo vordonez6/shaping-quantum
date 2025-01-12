@@ -22,7 +22,7 @@ A^{'}\_{1} &=\left(\frac{1}{2}, \frac{1}{n+1},0\right), ... ,A^{'}\_{n} =   \lef
 
 <div class="centered_image">
 {{< paige/figure caption="Cube B" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/1.png" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/cube_b.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
@@ -37,7 +37,7 @@ which we will join with \\(n\\) polygonal arcs. \\(A\_{1},...,A\_{n}\\) to \\(A^
 
 <div class="centered_image">
 {{< paige/figure caption="Braid" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/2.png" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/braid[3].svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
