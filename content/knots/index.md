@@ -6,10 +6,10 @@ draft = false
 
 ## Elementary Knot Moves
 
-**Elementary knot moves** are reversible changes to the shape of a knot made by modifying its edges. 
+**Elementary knot moves** are reversible changes to the shape of a knot made by modifying its edges.
 
 
-### Operations:
+### Operations
 
 \\[(1) \quad \text{Place a point } C \text{ on an edge } AB, \text{ dividing it into two edges } AC \text{ and } CB\\]
 

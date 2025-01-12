@@ -98,3 +98,5 @@ Thus, the absolute value of the determinant is:
 \\[
 \left| \det A \right| = |-p'| = p'.
 \\]
+
+{{< paige/scrolltotop >}}
