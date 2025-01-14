@@ -57,7 +57,7 @@ of Figure 2.4.2 onto the \\(y-z\\) plane.
 
 <div class="centered_image">
 {{< paige/figure caption="Regular Diagram of Figure" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/5.png" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="30rem" loading="eager" process="webp" src="./images/Regular_Diagram_Of_Figure.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
@@ -72,7 +72,7 @@ would get the trivial n-braid:
 
 <div class="centered_image">
 {{< paige/figure caption="Trivial Braid" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/6.png" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/trivial_braid.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
@@ -385,7 +385,7 @@ be represented as a closed braid.
 
 <div class="centered_image">
 {{< paige/figure caption="The Trivial 1-Braid" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/19.png" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/trivial_1_braid.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 

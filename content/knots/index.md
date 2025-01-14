@@ -18,7 +18,7 @@ draft = false
 
 <div class="centered_image">
 {{< paige/figure caption="(1) & (1)'" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/1.png" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/1&1.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
@@ -31,7 +31,7 @@ draft = false
 
 <div class="centered_image">
 {{< paige/figure caption="(2) & (2)'" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/2.png" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/2&2.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
@@ -55,7 +55,7 @@ Let \\( X \\) and \\( Y \\) be \\( \mathbb{R}^2 \\). The parallel translation al
 
 <div class="centered_image">
 {{< paige/figure caption="Orientation-preserving Auto-homeomorphisms" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/3.png" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/orientation-preserving-auto-homeomorphisms.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
@@ -119,7 +119,7 @@ Only one trivial \\(n\\)-component link for each \\(n\\) exists, since orienting
 
 <div class="centered_image">
 {{< paige/figure caption="Trivial \(n\)-component Link" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/8.png" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/trivial_n_component_link.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
@@ -143,7 +143,7 @@ Now, applying elementary knot moves to segments of the knotted \\( (1, 1) \\)-ta
 
 <div class="centered_image">
 {{< paige/figure caption="Trivial \\( (1, 1)\\)-tangle" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/10.png" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/trivial_tangle.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
