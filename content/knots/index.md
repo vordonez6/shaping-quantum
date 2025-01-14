@@ -75,7 +75,7 @@ Since there exists a one-to-one correspondence between the 2-dimensional sphere 
 
 
 <div class="centered_image">
-{{< paige/figure caption="\(\mathbb{R}^2 \cup \{\infty\} \cong \mathbb{S}^2\)" >}}
+{{< paige/figure caption="\\(\mathbb{R}^2 \cup \{\infty\} \cong \mathbb{S}^2\\)" >}}
 {{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/5.png" width="100%" >}}
 {{< /paige/figure >}}
 </div>
