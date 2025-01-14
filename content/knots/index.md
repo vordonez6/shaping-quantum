@@ -64,7 +64,7 @@ However, the mirror image with respect to the \\( x \\)-axis, given by the homeo
 
 <div class="centered_image">
 {{< paige/figure caption="Non Orientation-preserving Auto-homeomorphisms" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/4.png" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/non_orientation_preserving_auto-homeomorphisms.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
