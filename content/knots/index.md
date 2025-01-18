@@ -133,7 +133,7 @@ whose endpoints \\( A \\) and \\( B \\) lie on the surface of \\( S \\). If \\( 
 
 <div class="centered_image">
 {{< paige/figure caption="\( (1, 1)\)-tangle" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/9.png" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/1-1_tangle.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
