@@ -37,7 +37,7 @@ which we will join with \\(n\\) polygonal arcs. \\(A\_{1},...,A\_{n}\\) to \\(A^
 
 <div class="centered_image">
 {{< paige/figure caption="Braid" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/braid[3].svg" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/b2.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
@@ -57,7 +57,7 @@ of Figure 2.4.2 onto the \\(y-z\\) plane.
 
 <div class="centered_image">
 {{< paige/figure caption="Regular Diagram of Figure" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="30rem" loading="eager" process="webp" src="./images/Regular_Diagram_Of_Figure.svg" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="30rem" loading="eager" process="webp" src="./images/b3.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
@@ -89,7 +89,7 @@ demonstrate that it is the trivial 2-braid.
 
 <div class="centered_image">
 {{< paige/figure caption="Trivial 2-Braid" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/3.png" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/b4.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
@@ -99,7 +99,7 @@ strings intersecting each other as seen in Figure 2.4.2.
 
 <div class="centered_image">
 {{< paige/figure caption="Equivalent Braids with Fixed Endpoints" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/4.png" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/b5.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
@@ -163,7 +163,7 @@ with the top of \\(\beta\\). This will create a rectangular solid representing
 
 <div class="centered_image">
 {{< paige/figure caption="Product of two 3-Braids" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/7.png" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/b6.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
@@ -180,7 +180,7 @@ of the product is not always commutative.
 
 <div class="centered_image">
 {{< paige/figure caption="Associativity of Braids" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/8.png" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/b7.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
@@ -193,7 +193,7 @@ braids back to the original size of \\(\alpha\\).
 
 <div class="centered_image">
 {{< paige/figure caption="The Trivial Braid is the Identity" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/9.png" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/b8.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
@@ -203,7 +203,7 @@ the mirror image \\(\alpha^{-1}\\) of \\(\alpha\\). Based on this, we know that 
 
 <div class="centered_image">
 {{< paige/figure caption="α α⁻¹ = e" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/10.png" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/b9.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
@@ -224,7 +224,7 @@ the next page.
 
 <div class="centered_image">
 {{< paige/figure caption="The Two Types of Braids in \\(B\_{2}\\)" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/11.png" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/b10.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
@@ -244,7 +244,7 @@ rows, such that every row contains only one crossing. We'll start with braids in
 
 <div class="centered_image">
 {{< paige/figure caption="Twists with Rows" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/14.png" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/b11.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
@@ -271,7 +271,7 @@ shown in Figure 3.1.2 below.
 
 <div class="centered_image">
 {{< paige/figure caption="Braid Generators" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/15.png" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/b12.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
@@ -282,7 +282,7 @@ be described by braid generators as \\(\sigma\_{3}^{-1}
 
 <div class="centered_image">
 {{< paige/figure caption="Using Braid Generators to Describe a Braid in \\(B\_{4}\\)" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/16.png" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/b13.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
@@ -319,7 +319,7 @@ looking at Figure 3.2.1. below.
 
 <div class="centered_image">
 {{< paige/figure caption="First Braid Relation" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/12.png" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/b14.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
@@ -332,7 +332,7 @@ will look at the second type of relation on the next page in Figure 3.2.2.
 
 <div class="centered_image">
 {{< paige/figure caption="Second Braid Relation" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/13.png" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/b15.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
@@ -359,7 +359,7 @@ create a closed braid. This closed braid will either be a knot or a link.
 
 <div class="centered_image">
 {{< paige/figure caption="Closed Braid" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/17.png" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/closed_braid.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
@@ -409,7 +409,7 @@ sequence).
 
 <div class="centered_image">
 {{< paige/figure caption="Markov Moves" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/20.png" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/b16.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
