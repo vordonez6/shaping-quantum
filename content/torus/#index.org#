@@ -295,6 +295,7 @@ We must check that:
 \[
 \frac{q}{p}m - \frac{q}{p} \leq n <  \frac{q}{p}m + 1 \quad  \subset  \quad \text{strip} \]
 Thus, \( (m,n) + L \subset \text{strip} \).
+
 *** When are two integer shifts of L the same?
 **** \(L+ w = L + v \iff v = w + n(p,q), \quad \text{ where } n \in \mathbb{Z}\)
 
