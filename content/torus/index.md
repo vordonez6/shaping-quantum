@@ -147,7 +147,7 @@ $$
 
 
 
-## Proof that \\( |(0,1) \cap (p, q)| = |p| \\)
+## Proof that \\(|(0,1) \cap (p, q)| = |p| \\)
 
 ### Counting intersections of the lifts of the curves within the unit square \\( [0,1)^2 \\) is equivalent to counting intersections of the curves on the torus
 
