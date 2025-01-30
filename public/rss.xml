@@ -449,7 +449,7 @@ When \( X \) and \( Y \) have orientations assigned to them, we say \( f \) is a
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/6.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/tref2.svg"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -500,7 +500,7 @@ When \( X \) and \( Y \) have orientations assigned to them, we say \( f \) is a
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/7.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/tref3.svg"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -713,7 +713,7 @@ whose endpoints \( A \) and \( B \) lie on the surface of \( S \). If \( \alpha 
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/11.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/pretzelandstart.svg"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -766,7 +766,7 @@ whose endpoints \( A \) and \( B \) lie on the surface of \( S \). If \( \alpha 
 <div class="align-items-center d-flex  h-100 justify-content-center ">
 <figure class=" mb-0" >
 <div class="d-flex justify-content-center text-center"><div class="paige-image">
-<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/12.png"   style="height: 20rem; width: 100%"   >
+<img  alt="Landscape"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/knotpics/tref4.svg"   style="height: 20rem; width: 100%"   >
 </div>
 </div>
 
@@ -986,7 +986,7 @@ Therefore, the geometric intersection number of the original curves \( C_1 \) an
 </div>
 <div id="outline-container-headline-6" class="outline-2">
 <h2 id="headline-6">
-Proof that $|(0,1) \cap (p, q)| = |p|$
+Proof that \\(|(0,1) \cap (p, q)| = |p|\\)
 </h2>
 <div id="outline-text-headline-6" class="outline-text-2">
 <div id="outline-container-headline-7" class="outline-3">

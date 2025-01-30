@@ -97,7 +97,7 @@ Two links \\( L \\) and \\( L' \\) are equivalent if we can transform \\( L \\) 
 
 <div class="centered_image">
 {{< paige/figure caption="Equivalent Links" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/6.png" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/tref2.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
@@ -105,7 +105,7 @@ Consider the links above and let us assign an orientation to the links \\( L \\)
 
 <div class="centered_image">
 {{< paige/figure caption="Non-equivalent Links" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/7.png" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/tref3.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
@@ -156,7 +156,7 @@ Because \\( K \\) lies in \\( \mathbb{S}^3 \\), it is divided by \\( \Sigma \\) 
 
 <div class="centered_image">
 {{< paige/figure caption="Knot Decomposition" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/11.png" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/pretzelandstart.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
@@ -168,7 +168,7 @@ If one of the tangles is a trivial \\( (1, 1) \\)-tangle, then its corresponding
 
 <div class="centered_image">
 {{< paige/figure caption="Knot Decomposition w/ trivial knot" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/12.png" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/tref4.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
