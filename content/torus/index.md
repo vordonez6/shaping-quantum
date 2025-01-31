@@ -438,3 +438,4 @@ This gives \\(q\\) evenly spaced y-intercepts.
 
 The total number of intersections of the line \\(L\\) with the unit square edges is the sum of these horizontal and vertical crossings. However, the point at the origin \\((0,0)\\) is double-counted as both an x and y-intercept.
 
+{{< paige/scrolltotop >}}

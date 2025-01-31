@@ -18,7 +18,7 @@ draft = false
 
 <div class="centered_image">
 {{< paige/figure caption="(1) & (1)'" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/1&1.svg" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="15rem" loading="eager" process="webp" src="./knotpics/1&1.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
@@ -31,7 +31,7 @@ draft = false
 
 <div class="centered_image">
 {{< paige/figure caption="(2) & (2)'" >}}
-{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./knotpics/2&2.svg" width="100%" >}}
+{{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="18rem" loading="eager" process="webp" src="./knotpics/2&2.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
