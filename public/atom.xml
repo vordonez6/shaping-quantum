@@ -127,8 +127,8 @@
                 <content type="html"><![CDATA[<h2 id="elementary-knot-moves">Elementary Knot Moves</h2>
 <p><strong>Elementary knot moves</strong> are reversible changes to the shape of a knot made by modifying its edges.</p>
 <h3 id="operations">Operations</h3>
-<p>\[(1) \quad \text{Place a point } C \text{ on an edge } AB, \text{ dividing it into two edges } AC \text{ and } CB\]</p>
-<p>\[(1)&rsquo; \quad \text{If } AC \text{ and } CB \text{ are adjacent edges such that removing } C \text{ results in a straight line } AB, \text{ then } C \text{ may be erased, restoring the edge } AB\]</p>
+<p>\((1) \quad \text{Place a point } C \text{ on an edge } AB, \text{ dividing it into two edges } AC \text{ and } CB\)</p>
+<p>\((1)&rsquo; \quad \text{If } AC \text{ and } CB \text{ are adjacent edges such that removing } C \text{ results in a straight line } AB, \text{ then } C \text{ may be erased, restoring the edge } AB\)</p>
 <div class="centered_image">
 
 

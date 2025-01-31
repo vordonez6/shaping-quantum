@@ -11,9 +11,9 @@ draft = false
 
 ### Operations
 
-\\[(1) \quad \text{Place a point } C \text{ on an edge } AB, \text{ dividing it into two edges } AC \text{ and } CB\\]
+\\((1) \quad \text{Place a point } C \text{ on an edge } AB, \text{ dividing it into two edges } AC \text{ and } CB\\)
 
-\\[(1)' \quad \text{If } AC \text{ and } CB \text{ are adjacent edges such that removing } C \text{ results in a straight line } AB, \text{ then } C \text{ may be erased, restoring the edge } AB\\]
+\\((1)' \quad \text{If } AC \text{ and } CB \text{ are adjacent edges such that removing } C \text{ results in a straight line } AB, \text{ then } C \text{ may be erased, restoring the edge } AB\\)
 
 
 <div class="centered_image">
