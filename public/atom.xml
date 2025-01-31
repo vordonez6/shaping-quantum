@@ -854,462 +854,288 @@ whose endpoints \( A \) and \( B \) lie on the surface of \( S \). If \( \alpha 
             
 
             
-                <content type="html"><![CDATA[
-<div id="outline-container-headline-1" class="outline-2">
-<h2 id="headline-1">
-Introduction
-</h2>
-<div id="outline-text-headline-1" class="outline-text-2">
+                <content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
 <p>The approach is to simplify the computation of the geometric intersection number by applying a linear diffeomorphism \( A \) that preserves intersection numbers. Specifically:</p>
 <ol>
 <li>Define the torus as the quotient space \( \mathbb{R}^2 / \sim \) using an equivalence relation.</li>
 <li>Construct a linear diffeomorphism \( A \) with integer entries and determinant \( \pm 1 \).</li>
-<li>Apply \( A \) to transform the given curves \( (p, q) \) and \( (p&#39;, q&#39;) \) into \( (0, 1) \) and \( (p&#39;&#39;, q&#39;&#39;) \), respectively.</li>
-<li>Show that the geometric intersection number of the transformed curves is \( |p&#39;&#39;| \), where \( p&#39;&#39; \) is the determinant of the matrix formed by the original curve coordinates.</li>
+<li>Apply \( A \) to transform the given curves \( (p, q) \) and \( (p&rsquo;, q&rsquo;) \) into \( (0, 1) \) and \( (p&rsquo;&rsquo;, q&rsquo;&rsquo;) \), respectively.</li>
+<li>Show that the geometric intersection number of the transformed curves is \( |p&rsquo;&rsquo;| \), where \( p&rsquo;&rsquo; \) is the determinant of the matrix formed by the original curve coordinates.</li>
 </ol>
-</div>
-</div>
-<div id="outline-container-headline-2" class="outline-2">
-<h2 id="headline-2">
-Mapping \( \mathbb{R}^2 \) to the Quotient Space \( \mathbb{R}^2 / \sim \)
-</h2>
-<div id="outline-text-headline-2" class="outline-text-2">
-<p>
-Consider the universal cover of the torus, \( \mathbb{R}^2 \). The quotient space \( \mathbb{R}^2 / \sim \) is formed by identifying points whose difference is an integer vector.
-The equivalence relation \( \sim \) is defined as: $\\$
-Two points \( (x_1, y_1) \) and \( (x_2, y_2) \) are equivalent under \( \sim \) if:
-\[
+<h2 id="mapping--mathbbr2--to-the-quotient-space--mathbbr2--sim-">Mapping \( \mathbb{R}^2 \) to the Quotient Space \( \mathbb{R}^2 / \sim \)</h2>
+<p>Consider the universal cover of the torus, \( \mathbb{R}^2 \). The quotient space \( \mathbb{R}^2 / \sim \) is formed by identifying points whose difference is an integer vector.<br>
+The equivalence relation \( \sim \) is defined as:</p>
+<p>Two points \( (x_1, y_1) \) and \( (x_2, y_2) \) are equivalent under \( \sim \) if:</p>
+<p>$$
 (x_1, y_1) \sim (x_2, y_2) \iff (x_2 - x_1, y_2 - y_1) \in \mathbb{Z}^2.
-\]
-The quotient map \( \pi : \mathbb{R}^2 \to \mathbb{R}^2 / \sim \) is then defined as:
-\[
+$$</p>
+<p>The quotient map \( \pi : \mathbb{R}^2 \to \mathbb{R}^2 / \sim \) is then defined as:</p>
+<p>$$
 \pi(x, y) = (x \mod 1, y \mod 1),
-\]
-which maps each point in \( \mathbb{R}^2 \) to its equivalence class on the torus. Geometrically, this means every point \( (x, y) \in \mathbb{R}^2 \) is mapped to a point inside the unit square \( [0, 1) \times [0, 1) \), representing a point on the torus.</p>
-</div>
-</div>
-<div id="outline-container-headline-3" class="outline-2">
-<h2 id="headline-3">
-Defining the Map \( A \) on \( \mathbb{R}^2 \)
-</h2>
-<div id="outline-text-headline-3" class="outline-text-2">
-<p>
-Let \( A: \mathbb{R}^2 \to \mathbb{R}^2 \) be a linear map represented by a \( 2 \times 2 \) matrix:</p>
-<p>
-\[
+$$</p>
+<p>which maps each point in \( \mathbb{R}^2 \) to its equivalence class on the torus. Geometrically, this means every point \( (x, y) \in \mathbb{R}^2 \) is mapped to a point inside the unit square \( [0, 1) \times [0, 1) \), representing a point on the torus.</p>
+<h2 id="defining-the-map--a--on--mathbbr2-">Defining the Map \( A \) on \( \mathbb{R}^2 \)</h2>
+<p>Let \( A: \mathbb{R}^2 \to \mathbb{R}^2 \) be a linear map represented by a \( 2 \times 2 \) matrix:</p>
+<p>$$
 A = \begin{bmatrix}
-  a &amp; b \\
-  c &amp; d
+a &amp; b \\
+c &amp; d
 \end{bmatrix}.
-\]
-For any point \( (x, y) \in \mathbb{R}^2 \), the action of \( A \) is given by:
-\[
+$$</p>
+<p>For any point \( (x, y) \in \mathbb{R}^2 \), the action of \( A \) is given by:</p>
+<p>$$
 A \begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix}
-  ax + by \\
-  cx + dy
+ax + by \\
+cx + dy
 \end{bmatrix}.
-\]</p>
-<p>
-To show that \( A \) is well-defined on the torus, we must check that if two points \( (x, y) \) and \( (x + m, y + n) \) are equivalent under \( \sim \), then their images under \( A \) are also equivalent.</p>
-<p>
-Applying \( A \) to both points:
-\[
+$$</p>
+<p>To show that \( A \) is well-defined on the torus, we must check that if two points \( (x, y) \) and \( (x + m, y + n) \) are equivalent under \( \sim \), then their images under \( A \) are also equivalent.</p>
+<p>Applying \( A \) to both points:</p>
+<p>$$
 A \begin{bmatrix} x + m \\ y + n \end{bmatrix} = \begin{bmatrix} a(x + m) + b(y + n) \\ c(x + m) + d(y + n) \end{bmatrix} = \begin{bmatrix} ax + by \\ cx + dy \end{bmatrix} + \begin{bmatrix} am + bn \\ cm + dn \end{bmatrix}.
-\]
-Since \( m, n \in \mathbb{Z} \), the second term \( \begin{bmatrix} am + bn \\ cm + dn \end{bmatrix} \) is also an integer vector. Therefore, the images of \( (x, y) \) and \( (x + m, y + n) \) under \( A \) differ by an integer vector, implying that they lie in the same equivalence class on the torus.</p>
-<p>
-Thus, \( A \) respects the equivalence relation and defines a well-defined map on the torus.</p>
-</div>
-</div>
-<div id="outline-container-headline-4" class="outline-2">
-<h2 id="headline-4">
-Relationship Between Maps
-</h2>
-<div id="outline-text-headline-4" class="outline-text-2">
+$$</p>
+<p>Since \( m, n \in \mathbb{Z} \), the second term \( \begin{bmatrix} am + bn \\ cm + dn \end{bmatrix} \) is also an integer vector. Therefore, the images of \( (x, y) \) and \( (x + m, y + n) \) under \( A \) differ by an integer vector, implying that they lie in the same equivalence class on the torus.</p>
+<p>Thus, \( A \) respects the equivalence relation and defines a well-defined map on the torus.</p>
+<h2 id="relationship-between-maps">Relationship Between Maps</h2>
+<p>The following diagram illustrates how the map \( A \) interacts with the quotient map \( \pi \):</p>
+<p>$$
 \begin{matrix}
-    \mathbb{R}^2 &amp; \xrightarrow{A} &amp; \mathbb{R}^2 \\
-    \downarrow \pi &amp;  &amp; \downarrow \pi \\
-    \mathbb{R}^2 / \sim &amp; \xrightarrow{A} &amp; \mathbb{R}^2 / \sim
+\mathbb{R}^2 &amp; \xrightarrow{A} &amp; \mathbb{R}^2 \\
+\downarrow \pi &amp;  &amp; \downarrow \pi \\
+\mathbb{R}^2 / \sim &amp; \xrightarrow{A} &amp; \mathbb{R}^2 / \sim
 \end{matrix}
-</div>
-</div>
-<div id="outline-container-headline-5" class="outline-2">
-<h2 id="headline-5">
-Simplifying Intersection Computation with a Diffeomorphism
-</h2>
-<div id="outline-text-headline-5" class="outline-text-2">
-<p>
-Let \( C_1 \) and \( C_2 \) be two curves on the torus, represented by \( (p, q) \) and \( (p&#39;, q&#39;) \), respectively, such that \( \gcd(p,q) = 1 \), \( \gcd (p&#39;,q&#39;) = 1 \)  and \(p,q, p&#39;, q&#39; \in \mathbb{Z} \). </p>
-<p>
-If we restrict \( A \) to have determinant \( \pm 1 \), then \( A \) is invertible and acts as a diffeomorphism on the torus, preserving the intersection number. We want to choose \( A \) such that  \(A(C_1) = (0,1) \)  and  \( A(C_{2}) = (p&#39;&#39;, q&#39;&#39;) \). This is because \( (0,1) \) represents the longitude of the torus,so it intersects a general curve \( (p&#39;&#39;, q&#39;&#39;) \) exactly \( |p&#39;&#39;| \) times, as \( p&#39;&#39; \) corresponds to the number of times the curve wraps around the torus in the longitudinal direction. We will prove this in the next section Thus, the intersection number of the transformed curves is:
-\[|(0,1) \cap (p&#39;&#39;, q&#39;&#39;)| = |p&#39;&#39;|\]</p>
-<p>
-\noindent
-We let
-\[A = \begin{bmatrix}
-  -q &amp; p \\
-  c + kq &amp; d - kp 
+$$</p>
+<h2 id="simplifying-intersection-computation-with-a-diffeomorphism">Simplifying Intersection Computation with a Diffeomorphism</h2>
+<p>Let \( C_1 \) and \( C_2 \) be two curves on the torus, represented by \( (p, q) \) and \( (p&rsquo;, q&rsquo;) \), respectively, such that \( \gcd(p,q) = 1 \), \( \gcd (p&rsquo;,q&rsquo;) = 1 \) and \( p, q, p&rsquo;, q&rsquo; \in \mathbb{Z} \).</p>
+<p>If we restrict \( A \) to have determinant \( \pm 1 \), then \( A \) is invertible and acts as a diffeomorphism on the torus, preserving the intersection number. We want to choose \( A \) such that \( A(C_1) = (0,1) \) and \( A(C_{2}) = (p&rsquo;&rsquo;, q&rsquo;&rsquo;) \).</p>
+<p>This is because \( (0,1) \) represents the longitude of the torus, so it intersects a general curve \( (p&rsquo;&rsquo;, q&rsquo;&rsquo;) \) exactly \( |p&rsquo;&rsquo;| \) times, as \( p&rsquo;&rsquo; \) corresponds to the number of times the curve wraps around the torus in the longitudinal direction. We will prove this in the next section. Thus, the intersection number of the transformed curves is:</p>
+<p>$$
+|(0,1) \cap (p&rsquo;&rsquo;, q&rsquo;&rsquo;)| = |p&rsquo;&rsquo;|
+$$</p>
+<p>We let</p>
+<p>$$
+A = \begin{bmatrix}
+-q &amp; p \\
+c + kq &amp; d - kp
 \end{bmatrix},
-\]</p>
-<p>
-∈dent  where \( c, d, p, q, k \in \mathbb{Z} \) and \( \gcd(p, q) = 1, cp + dq = 1\)
-\\
-We see 
-   \[
-   A \begin{bmatrix} p \\ q \end{bmatrix} =
-   \begin{bmatrix} -qp + pq  \\
-   (c + kq)p + (d - kp)q \end{bmatrix} =
-   \begin{bmatrix} 0 \\ 1 \end{bmatrix}.
-   \]
-\[
-   A \begin{bmatrix} p&#39; \\ q&#39; \end{bmatrix} =
-   \begin{bmatrix}  -qp&#39; + pq&#39; \\
-   (c + kq)p&#39; + (d - kp)q&#39;
-    \end{bmatrix} =
-   \begin{bmatrix} p&#39;&#39; \\ q&#39;&#39; \end{bmatrix}.
-   \]
-where
-   \[
-   p&#39;&#39; = pq&#39; - qp&#39; , \quad  q&#39;&#39; = cp&#39; + dq&#39; + k(qp&#39; - pq&#39;)
-   \]</p>
-<p>
-\noindent
-The matrix formed by placing the coordinates of the original curves \( (p, q) \) and \( (p&#39;, q&#39;) \) as columns is:
-\[
-M = \begin{bmatrix} p &amp; p&#39; \\ q &amp; q&#39; \end{bmatrix}.
-\]</p>
-<p>
-\noindent
-The determinant of this matrix gives the second coordinate \( p&#39;&#39; \) of the transformed curve \( (p&#39;&#39;, q&#39;&#39;) \):
-\[
-\det M = pq&#39; - p&#39;q.
-\]
-Therefore, the geometric intersection number of the original curves \( C_1 \) and \( C_2 \) is given by:
-\[ |C_1 \cap C_2| = \left| pq&#39; - p&#39;q \right|\]</p>
-</div>
-</div>
-<div id="outline-container-headline-6" class="outline-2">
-<h2 id="headline-6">
-Proof that \\(|(0,1) \cap (p, q)| = |p|\\)
-</h2>
-<div id="outline-text-headline-6" class="outline-text-2">
-<div id="outline-container-headline-7" class="outline-3">
-<h3 id="headline-7">
-Counting intersections of the lifts of the curves within the unit square \( [0, 1)^2 \) is equivalent to counting intersections of the curves on the torus
-</h3>
-<div id="outline-text-headline-7" class="outline-text-3">
-<p>
-The lift of a curve \( (p, q) \) on the torus is the preimage of \( (p, q) \) under \( \pi \), which consists of all integer-shifted copies of the curve:
-\[
+$$</p>
+<p>where \( c, d, p, q, k \in \mathbb{Z} \) and \( \gcd(p, q) = 1, cp + dq = 1 \).</p>
+<p>We see</p>
+<p>$$
+A \begin{bmatrix} p \\ q \end{bmatrix} =
+\begin{bmatrix} -qp + pq  \\
+(c + kq)p + (d - kp)q \end{bmatrix} =
+\begin{bmatrix} 0 \\ 1 \end{bmatrix}.
+$$</p>
+<p>$$
+A \begin{bmatrix} p&rsquo; \\ q&rsquo; \end{bmatrix} =
+\begin{bmatrix}  -qp&rsquo; + pq&rsquo; \\
+(c + kq)p&rsquo; + (d - kp)q'
+\end{bmatrix} =
+\begin{bmatrix} p&rsquo;&rsquo; \\ q&rsquo;&rsquo; \end{bmatrix}.
+$$</p>
+<p>where</p>
+<p>$$
+p&rsquo;&rsquo; = pq&rsquo; - qp&rsquo;, \quad  q&rsquo;&rsquo; = cp&rsquo; + dq&rsquo; + k(qp&rsquo; - pq&rsquo;)
+$$</p>
+<p>The matrix formed by placing the coordinates of the original curves \( (p, q) \) and \( (p&rsquo;, q&rsquo;) \) as columns is:</p>
+<p>$$
+M = \begin{bmatrix} p &amp; p&rsquo; \\ q &amp; q&rsquo; \end{bmatrix}.
+$$</p>
+<p>The determinant of this matrix gives the second coordinate \( p&rsquo;&rsquo; \) of the transformed curve \( (p&rsquo;&rsquo;, q&rsquo;&rsquo;) \):</p>
+<p>$$
+\det M = pq&rsquo; - p&rsquo;q.
+$$</p>
+<p>Therefore, the geometric intersection number of the original curves \( C_1 \) and \( C_2 \) is given by:</p>
+<p>$$
+|C_1 \cap C_2| = \left| pq&rsquo; - p&rsquo;q \right|
+$$</p>
+<h2 id="proof-that--01-cap-p-q--p">Proof that \( |(0,1) \cap (p, q)| = |p|\)</h2>
+<h3 id="counting-intersections-of-the-lifts-of-the-curves-within-the-unit-square--012--is-equivalent-to-counting-intersections-of-the-curves-on-the-torus">Counting intersections of the lifts of the curves within the unit square \( [0,1)^2 \) is equivalent to counting intersections of the curves on the torus</h3>
+<p>The lift of a curve \( (p, q) \) on the torus is the preimage of \( (p, q) \) under \( \pi \), which consists of all integer-shifted copies of the curve:</p>
+<p>$$
 \pi^{-1}(p, q) = \bigcup_{(m, n) \in \mathbb{Z}^2} [L_{(p, q)} + (m, n)]
-\]
-where \(L_{(p, q)}\) is a line with slope \(\frac{q}{p}\) and  \( m,n \in \mathbb{Z} \) <br>
-\noindent
-Let $U = [0,1)^2 \subseteq \mathbb{R}^2$ , $B = \pi(U)$ , and $g: [0,1)^2 \to B$.</p>
-<p>
-By showing that g is bijective, we are showing that the unit square maps bijectively to the torus.</p>
-<div id="outline-container-headline-8" class="outline-4">
-<h4 id="headline-8">
-Injectivity
-</h4>
-<div id="outline-text-headline-8" class="outline-text-4">
+$$</p>
+<p>where \( L_{(p, q)} \) is a line with slope \( \frac{q}{p} \) and  \( m, n \in \mathbb{Z} \).</p>
+<p>Let \( U = [0,1)^2 \subseteq \mathbb{R}^2 \), \( B = \pi(U) \), and define the map \( g: [0,1)^2 \to B \).</p>
+<p>By showing that \( g \) is bijective, we establish that the unit square maps bijectively to the torus.</p>
+<h3 id="injectivity">Injectivity</h3>
 <p>Assume \( g(x_1, y_1) = g(x_2, y_2) \). This implies that the two points are equivalent under the quotient map \( \pi \), meaning:</p>
-<p>
-\[
-(x_1, y_1) \sim (x_2, y_2) \implies (x_1, y_1) - (x_2, y_2) \in \mathbb{Z}^2
-\]</p>
-<p>
-Since both \( (x_1, y_1) \) and \( (x_2, y_2) \) lie within the unit square \( [0,1)^2 \), the only integer vector that satisfies the condition is \( (0,0) \). Thus, we must have:</p>
-<p>
-\[
-x_1 = x_2, \quad y_1 = y_2
-\]</p>
-</div>
-</div>
-<div id="outline-container-headline-9" class="outline-4">
-<h4 id="headline-9">
-Surjectivity
-</h4>
-<div id="outline-text-headline-9" class="outline-text-4">
+<p>$$
+(x_1, y_1) \sim (x_2, y_2) \implies (x_1, y_1) - (x_2, y_2) \in \mathbb{Z}^2.
+$$</p>
+<p>Since both \( (x_1, y_1) \) and \( (x_2, y_2) \) lie within the unit square \( [0,1)^2 \), the only integer vector that satisfies the condition is \( (0,0) \). Thus, we must have:</p>
+<p>$$
+x_1 = x_2, \quad y_1 = y_2.
+$$</p>
+<h3 id="surjectivity">Surjectivity</h3>
 <p>Given any point \( b \in B \), by the definition of the torus, there exists a unique corresponding point \( (x, y) \in [0,1)^2 \) such that:</p>
-<p>
-\[
-g(x, y) = b
-\]</p>
-<p>
-Thus, since \( g \) is bijective, we are able to conclude that the interseciton number between two curves on the torus is the same as the number of intersections of their lifts in the unit square. </p>
-</div>
-</div>
-</div>
-</div>
-<div id="outline-container-headline-10" class="outline-3">
-<h3 id="headline-10">
-\(C \cap B = \left\{ \left(0, \frac{i}{p} \right) \mid 0 \leq i \leq p-1 \right\}, \text{where } i \in \mathbb{Z} \)
-</h3>
-<div id="outline-text-headline-10" class="outline-text-3">
-<p>
-\noindent
-Let 
-\[
-C = \bigcup_{(m,n) \in \mathbb{Z}^2} \left( L + (m,n) \right) \cap [0,1)^2,
-\]</p>
-<p>
-\noindent
-Let</p>
-<p>
-\[
+<p>$$
+g(x, y) = b.
+$$</p>
+<p>Thus, since \( g \) is bijective, we conclude that the intersection number between two curves on the torus is the same as the number of intersections of their lifts in the unit square.</p>
+<h2 id="intersection-of-c-and-b">Intersection of \(C\) and \(B\)</h2>
+<p>Let
+$$
+C = \bigcup_{(m,n) \in \mathbb{Z}^2} \left( L + (m,n) \right) \cap [0,1)^2
+$$</p>
+<p>and</p>
+<p>$$
+C \cap B = \left\{ (0, \frac{i}{p}) \mid 0 \leq i \leq p-1 \right\}, \text{ where } i \in \mathbb{Z}.
+$$</p>
+<p>Also,</p>
+<p>$$
 B = \bigcup_{(m,n) \in \mathbb{Z}^2} \left( L_{(0,1)} \right) \cap [0,1)^2,
-\]</p>
-<p>
-where \( L_{(0,1)} \) is the vertical line given by:</p>
-<p>
-\[
+$$</p>
+<p>where \( L_{(0,1)} \) is the vertical line given by:</p>
+<p>$$
 L_{(0,1)} := \left\{ (x,y) \in \mathbb{R}^2 \mid x = 0 \right\}.
-\]</p>
-<p>
-Thus,
-\[
-C \cap B = \bigcup_{(m,n) \in \mathbb{Z}^2} \left( L + (m,n) \right) \cap  L_{(0,1)} \cap  [0,1)^2
-\]</p>
-<div id="outline-container-headline-11" class="outline-5">
-<h5 id="headline-11">
-\( C \cap B \subseteq \left\{ \left(0, \frac{i}{p}\right) \mid 0 \leq i \leq p-1 \right\} \)}
-</h5>
-<div id="outline-text-headline-11" class="outline-text-5">
-<p>
-Suppose \( (x,y) \in C \cap B \). By definition:</p>
-<p>
-\[
+$$</p>
+<p>Thus,</p>
+<p>$$
+C \cap B = \bigcup_{(m,n) \in \mathbb{Z}^2} \Big( L + (m,n) \Big) \cap  L_{(0,1)} \cap  [0,1)^2.
+$$</p>
+<h4 id="-c-cap-b-subseteq-left-0-fracip-mid-0-leq-i-leq-p-1-right-">\( C \cap B \subseteq \left\{ (0, \frac{i}{p}) \mid 0 \leq i \leq p-1 \right\} \)</h4>
+<p>Suppose \( (x,y) \in C \cap B \). By definition:</p>
+<p>$$
 C \cap B \subseteq C \cap \text{y-axis}
-\]</p>
-<p>
-The curve \( C \) consists of integer translations of the form:</p>
-<p>
-\[
+$$</p>
+<p>The curve \( C \) consists of integer translations of the form:</p>
+<p>$$
 y = \frac{q}{p} x + (m,n)
-\]
-where \( (m,n) \in \mathbb{Z}^2 \). <br>
-Since the intersection occurs at \( x = 0 \),</p>
-<p>
-\[
+$$</p>
+<p>where \( (m,n) \in \mathbb{Z}^2 \).
+Since the intersection occurs at ( x = 0 ),</p>
+<p>$$
 y = \frac{-qm + pn}{p}
-\]</p>
-<p>
-and \( y \in [0,1)^{2} \), </p>
-<p>
-\[
-0 \leq \frac{-qm + pn}{p} &lt; 1
-\]</p>
-<p>
-\[
-0 \leq \frac{i}{p} &lt; 1, \quad \text{where } i = -qm + pn
-\]</p>
-<p>
-Thus, every element of \( C \cap B \) belongs to the set:</p>
-<p>
-\[
-\left\{ \left(0, \frac{i}{p} \right) \mid 0 \leq i \leq p-1 \right\}
-\]</p>
-</div>
-</div>
-<div id="outline-container-headline-12" class="outline-5">
-<h5 id="headline-12">
-\(\left\{ \left(0, \frac{i}{p}\right) \mid 0 \leq i \leq p-1 \right\} \subseteq C \cap B \)
-</h5>
-<div id="outline-text-headline-12" class="outline-text-5">
-<p>
-Assume \( (x,y) = \left(0, \frac{i}{p}\right) \) for some \( i \) such that \( 0 \leq i \leq p-1 \).</p>
-<p>
-By Bézout’s identity, since \( p \) and \( q \) are coprime, there exist integers \( u, v \) such that:</p>
-<p>
-\[qu + pv = 1\]</p>
-<p>
-Multiplying by \( i \):</p>
-<p>
-\[q(ui) + p(vni) = i\]</p>
-<p>
-Thus, choosing \( (m,n) = (ui, vi) \) ensures:</p>
-<p>
-\[- qm + pn = i\]</p>
-<p>
-This implies that the point \(\left(0, \frac{i}{p}\right)\) lies on the translated line \(L + (m, n)\). Since \(m, n \in \mathbb{Z}\), the translation \((m, n)\) is valid, and \(\frac{i}{p} \in [0, 1)\) for all \(0 \leq i \leq p-1\), the point \(\left(0, \frac{i}{p}\right)\) belongs to \(C \cap B\). </p>
-<p>
-Therefore:</p>
-<p>
-\[
-\left\{ \left(0, \frac{i}{p}\right) \mid 0 \leq i \leq p-1 \right\} \subseteq C \cap B
-\]</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="outline-container-headline-13" class="outline-2">
-<h2 id="headline-13">
-Supplemental: Characterizing Line Translations
-</h2>
-<div id="outline-text-headline-13" class="outline-text-2">
-<div id="outline-container-headline-14" class="outline-3">
-<h3 id="headline-14">
-Conditions for Translations of a Set in a Strip
-</h3>
-<div id="outline-text-headline-14" class="outline-text-3">
-<p>We define the strip as:
-\[
-\text{strip} = \{ (x, y) \in \mathbb{R}^2 \mid \frac{q}{p}(x - 1) \leq y &lt; \frac{q}{p}x + 1 \}.
-\]
-\noindent
-Consider the set 
-\[
-L = \{ (x,y) \mid y = \tfrac{q}{p}x \}
-\]
-and the translated set \( (m,n) + L \), which consists of points of the form:
-\[
+$$</p>
+<p>and since \( y \in [0,1)^2 \),</p>
+<p>$$
+0 \leq \frac{-qm + pn}{p} &lt; 1.
+$$</p>
+<p>Thus,</p>
+<p>$$
+0 \leq \frac{i}{p} &lt; 1, \quad \text{where } i = -qm + pn.
+$$</p>
+<p>Therefore, every element of \( C \cap B \) belongs to the set:</p>
+<p>$$
+\left\{ \Big(0, \frac{i}{p} \Big) \mid 0 \leq i \leq p-1 \right\}.
+$$</p>
+<h4 id="-left-0-fracip-mid-0-leq-i-leq-p-1-right-subseteq-c-cap-b-">\( \left\{ (0, \frac{i}{p}) \mid 0 \leq i \leq p-1 \right\} \subseteq C \cap B \)</h4>
+<p>Assume \( (x,y) = \left( 0, \frac{i}{p} \right) \) for some \( i \) such that \( 0 \leq i \leq p-1 \).</p>
+<p>By Bézout’s identity, since \( p \) and \( q \) are coprime, there exist integers \( u, v \) such that:</p>
+<p>$$
+qu + pv = 1.
+$$</p>
+<p>Multiplying by \( i \):</p>
+<p>$$
+q(ui) + p(vi) = i.
+$$</p>
+<p>Thus, choosing \( (m,n) = (ui, vi) \) ensures</p>
+<p>$$
+-qm + pn = i.
+$$</p>
+<p>This implies that the point \( \left(0, \frac{i}{p}\right) \) lies on the translated line \( L + (m, n) \). Since \( m, n \in \mathbb{Z} \), the translation \( (m, n) \) is valid, and \( \frac{i}{p} \in [0, 1) \) for all \( 0 \leq i \leq p-1 \), meaning that the point \( \left(0, \frac{i}{p}\right) \) belongs to \( C \cap B \).</p>
+<p>Thus,</p>
+<p>$$
+\left\{ \Big(0, \frac{i}{p} \Big) \mid 0 \leq i \leq p-1 \right\} \subseteq C \cap B.
+$$</p>
+<h2 id="supplemental-characterizing-line-translations">Supplemental: Characterizing Line Translations</h2>
+<h3 id="conditions-for-translations-of-a-set-in-a-strip">Conditions for Translations of a Set in a Strip</h3>
+<p>We define the strip as:</p>
+<p>$$
+\text{strip} = \left\{ (x, y) \in \mathbb{R}^2 \mid \frac{q}{p}(x - 1) \leq y &lt; \frac{q}{p}x + 1 \right\}.
+$$</p>
+<p>Consider the set</p>
+<p>$$
+L = \left\{ (x,y) \mid y = \tfrac{q}{p}x \right \}
+$$</p>
+<p>and the translated set \( (m,n) + L \), which consists of points of the form:</p>
+<p>$$
 \ell + (m,n) = (x, \tfrac{q}{p}x) + (m, n) = (x + m, \tfrac{q}{p}x + n).
-\]</p>
-<div id="outline-container-headline-15" class="outline-4">
-<h4 id="headline-15">
-When does  \( (m,n) + L \subset \text{strip} \)?
-</h4>
-<div id="outline-text-headline-15" class="outline-text-4">
-<div id="outline-container-headline-16" class="outline-5">
-<h5 id="headline-16">
-\((m,n) + L \subseteq \text{strip} \quad \Longleftrightarrow \quad (m,n) \in \text{strip}\)
-</h5>
-<div id="outline-text-headline-16" class="outline-text-5">
-<p>
-⊂section*{(\(\Rightarrow\))}
-Assume that \( (m,n) + L \subseteq \text{strip} \). Since \( L \) contains the origin \( (0,0) \), we have:
-\[
+$$</p>
+<h3 id="when-does--mn--l-subset-textstrip-"><strong>When does \( (m,n) + L \subset \text{strip} \)?</strong></h3>
+<h4 id="mn--l-subseteq-textstrip-quad-longleftrightarrow-quad-mn-in-textstrip"><strong>\((m,n) + L \subseteq \text{strip} \quad \Longleftrightarrow \quad (m,n) \in \text{strip}\)</strong></h4>
+<h4 id="-rightarrow-"><strong>\( (\Rightarrow) \)</strong></h4>
+<p>Assume that \( (m,n) + L \subseteq \text{strip} \). Since \( L \) contains the origin \( (0,0) \), we have:</p>
+<p>$$
 (0,0) + (m,n) = (m,n) \in (m,n) + L.
-\]
-Since every point in \( (m,n) + L \) is contained within the strip, it follows that \( (m,n) \in \text{strip} \).</p>
-<p>
-⊂section*{(\(\Leftarrow\))}
-Now assume that \( (m,n) \in \text{strip} \). This means that \( (m,n) \) satisfies:
-\[
+$$</p>
+<p>Since every point in \( (m,n) + L \) is contained within the strip, it follows that \( (m,n) \in \text{strip} \).</p>
+<h4 id="-leftarrow-"><strong>\( (\Leftarrow) \)</strong></h4>
+<p>Now assume that \( (m,n) \in \text{strip} \). This means that \( (m,n) \) satisfies:</p>
+<p>$$
 \frac{q}{p}(m - 1) \leq n &lt; \frac{q}{p}m + 1.
-\]
-We must check that:
-\[
+$$</p>
+<p>We must check that:</p>
+<p>$$
 \frac{q}{p}((x + m) - 1) \leq \frac{q}{p}x + n &lt; \frac{q}{p}(x + m) + 1.
-\]</p>
-<p>
-\[
+$$</p>
+<p>$$
 \frac{q}{p}x + \frac{q}{p}m - \frac{q}{p} \leq \frac{q}{p}x + n &lt; \frac{q}{p}x + \frac{q}{p}m + 1
-\]
-\[
-\frac{q}{p}m - \frac{q}{p} \leq n &lt;  \frac{q}{p}m + 1 \quad  \subset  \quad \text{strip} \]
-Thus, \( (m,n) + L \subset \text{strip} \).</p>
-</div>
-</div>
-</div>
-</div>
-<div id="outline-container-headline-17" class="outline-4">
-<h4 id="headline-17">
-When are two integer shifts of L the same?
-</h4>
-<div id="outline-text-headline-17" class="outline-text-4">
-<div id="outline-container-headline-18" class="outline-5">
-<h5 id="headline-18">
-\(L+ w = L + v \iff v = w + n(p,q), \quad \text{ where } n \in \mathbb{Z}\)
-</h5>
-<div id="outline-text-headline-18" class="outline-text-5">
-<p>
-⊂section*{(\(\Rightarrow\))}</p>
-<p>
-Suppose \( L + w = L + v \). Then,</p>
-<p>
-\[
+$$</p>
+<p>$$
+\frac{q}{p}m - \frac{q}{p} \leq n &lt;  \frac{q}{p}m + 1 \quad  \subset  \quad \text{strip}.
+$$</p>
+<p>Thus, \( (m,n) + L \subset \text{strip} \).</p>
+<h3 id="when-are-two-integer-shifts-of-l-the-same"><strong>When are two integer shifts of L the same?</strong></h3>
+<h4 id="-l-w--l--v-iff-v--w--npq-quad-text-where--n-in-mathbbz-"><strong>\( L+ w = L + v \iff v = w + n(p,q), \quad \text{ where } n \in \mathbb{Z} \)</strong></h4>
+<h3 id="-rightarrow--1"><strong>\( (\Rightarrow) \)</strong></h3>
+<p>Suppose \( L + w = L + v \). Then,</p>
+<p>$$
 L + w = L + v.
-\]</p>
-<p>
-\[
+$$</p>
+<p>$$
 L + (w - v) = L.
-\]</p>
-<p>
-Thus, we see that \( (w - v) \) lies on \( L \), meaning that \( w - v \) is a point on the line \( L \). We can write:</p>
-<p>
-\[
+$$</p>
+<p>Thus, we see that \( (w - v) \) lies on \( L \), meaning that \( w - v \) is a point on the line \( L \). We can write:</p>
+<p>$$
 w - v = (x, x \cdot \frac{q}{p}).
-\]</p>
-<p>
-\[
+$$</p>
+<p>$$
 w - v = x \left(1, \frac{q}{p} \right).
-\]</p>
-<p>
-\[
+$$</p>
+<p>$$
 w - v = \frac{x}{p} (p, q).
-\]
-\[
-w - v = n (p,q)
-\]
-∈dent where $n \in \mathbb{Z}$ and $n = \frac{x}{p}$, since $p|xq$ and  $(p,q) = 1$,  so  $p|x$. </p>
-<p>
-⊂section*{(\(\Leftarrow\))}</p>
-<p>
-Now, suppose:</p>
-<p>
-\[
+$$</p>
+<p>$$
+w - v = n (p,q),
+$$</p>
+<p>where \( n \in \mathbb{Z} \) and \( n = \frac{x}{p} \), since \( p|xq \) and  \( (p,q) = 1 \), so  \( p|x \).</p>
+<h3 id="-leftarrow--1"><strong>\( (\Leftarrow) \)</strong></h3>
+<p>Now, suppose:</p>
+<p>$$
 v = w + n(p,q).
-\]
-\noindent
-We need to show \( L + v = L + w + n(p,q) \)</p>
-<p>
-\[
+$$</p>
+<p>We need to show \( L + v = L + w + n(p,q) \):</p>
+<p>$$
 \frac{q}{p} x + (v_1, v_2) = \frac{q}{p} x + (w_1, w_2) + n (p,q).
-\]</p>
-<p>
-\[
+$$</p>
+<p>$$
 \frac{q}{p} (x - v_1) + v_2 = \frac{q}{p} (x - w_1 - np) + (w_2 + nq).
-\]</p>
-<p>
-\[
+$$</p>
+<p>$$
 \frac{q}{p} x - w_1 \frac{q}{p} - \frac{q}{p} (np) + w_2 + nq = \frac{q}{p} x - w_1 \frac{q}{p} + w_2.
-\]</p>
-<p>
-\[
-\frac{q}{p} (x - w_1) + w_2 = L + w
-\]</p>
-<p>
-Thus, </p>
-<p>
-\[
+$$</p>
+<p>$$
+\frac{q}{p} (x - w_1) + w_2 = L + w.
+$$</p>
+<p>Thus,</p>
+<p>$$
 L + v = L + w.
-\]</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="outline-container-headline-19" class="outline-3">
-<h3 id="headline-19">
-\(|C| = |p + q - 1|\)
-</h3>
-<div id="outline-text-headline-19" class="outline-text-3">
-<p>
-We will now show there are \(p+q-1\)  distinct intersections of the integer shifts of the line \(L\) with the unit square.</p>
-<p>
-For each integer shift \(m \in \mathbb{Z}\), the x-intercepts and y-intercepts repeat every \(1/p\) and \(1/q\), respectively. Therefore, the x-intercepts within the unit square are:</p>
-<p>
-   \[
-   \{0, \frac{1}{p}, \frac{2}{p}, \dots, \frac{p-1}{p}\}.
-   \]
-   This gives \(p\) evenly spaced x-intercepts. The y-intercepts within the unit square are:</p>
-<p>
-   \[
-   \{0, \frac{1}{q}, \frac{2}{q}, \dots, \frac{q-1}{q}\}.
-   \]</p>
-<p>
-   This gives \(q\) evenly spaced y-intercepts.</p>
-<p>
-The total number of intersections of the line \(L\) with the unit square edges is the sum of these horizontal and vertical crossings. However, the point at the origin \((0,0)\) is double-counted as both an x and y-intercept.</p>
-</div>
-</div>
-</div>
-</div>
+$$</p>
+<h4 id="c--p--q---1-">\(|C| = |p + q - 1| \)</h4>
+<p>We will now show there are \(p+q-1\)  distinct intersections of the integer shifts of the line \(L\) with the unit square.</p>
+<p>For each integer shift \(m \in \mathbb{Z}\), the x-intercepts and y-intercepts repeat every \(\frac{1}{p}\) and \(\frac{1}{q}\), respectively. Therefore, the x-intercepts within the unit square are:</p>
+<p>$$
+\left \{0, \frac{1}{p}, \frac{2}{p}, \dots, \frac{p-1}{p} \right \}
+$$
+This gives \(p\) evenly spaced x-intercepts. The y-intercepts within the unit square are:</p>
+<p>$$
+\left \{0, \frac{1}{q}, \frac{2}{q}, \dots, \frac{q-1}{q}\right \}
+$$</p>
+<p>This gives \(q\) evenly spaced y-intercepts.</p>
+<p>The total number of intersections of the line \(L\) with the unit square edges is the sum of these horizontal and vertical crossings. However, the point at the origin \((0,0)\) is double-counted as both an x and y-intercept.</p>
 ]]></content>
             
 
