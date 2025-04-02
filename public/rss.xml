@@ -30,6 +30,12 @@
         
     
 
+    
+
+    
+        
+    
+
 
 
 
@@ -822,6 +828,339 @@ whose endpoints \( A \) and \( B \) lie on the surface of \( S \). If \( \alpha 
 
                 
                     <title>Knot Theory</title>
+                
+            </item>
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+
+                
+
+                
+
+                
+                    <description><![CDATA[<p>The Jones polynomial associates a Laurent polynomial with integer coefficients to every knot and link. This polynomial is invariant under Reidemeister moves, making it a useful tool for distinguishing knots.</p>
+<p>In order to define the Jones polynomial, we first need to define the Kauffman Bracket.</p>
+<h2 id="the-kauffman-bracket">The Kauffman Bracket</h2>
+<p>The Kauffman bracket is a function from unoriented link diagrams in the oriented plane (or \( S^2 \)) to Laurent polynomials with integer coefficients in an indeterminate \( A \). It maps a diagram \( D \) to \( \langle D \rangle \in \mathbb{Z}[A^{-1}, A] \) and is characterized by:</p>
+<div class="centered_image">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+<div class="paige-figure ">
+<div class="align-items-center d-flex  h-100 justify-content-center ">
+<figure class=" mb-0" >
+<div class="d-flex justify-content-center text-center"><div class="paige-image">
+<img  alt="Kauffman Bracket"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/jonespics/kauff1.svg"   style="height: 20rem; width: 100%"   >
+</div>
+</div>
+
+
+<figcaption class="figure-caption mt-2 text-center" >Kauffman Bracket</figcaption>
+
+</figure>
+</div>
+</div>
+
+</div>
+<p>Where \( \bigcirc \) is the unknot and \( D \sqcup \bigcirc \) consists of the diagram \( D \) along with an additional closed curve that does not cross itself or \( D \). The skein relation (iii) expresses how the polynomial changes when resolving a crossing.</p>
+<p>The bracket polynomial of a diagram with \( n \) crossings can be computed by resolving crossings recursively, reducing it to a sum of \( 2^n \) crossing-free diagrams. If a diagram has \( c \) components and no crossings, its polynomial follows as \( (-A^{-2} - A^2)^{c-1} \).</p>
+<p>The ordering of crossing resolutions does not affect the final result, ensuring the well-defined nature of the Kauffman bracket. If an orientation-preserving homeomorphism of the plane is applied to the diagram, the polynomial remains unchanged.</p>
+<p>We will now analyze the effect of Reidemeister moves on the bracket polynomial.</p>
+<h2 id="effect-of-reidemeister-moves">Effect of Reidemeister Moves</h2>
+<p>If a diagram is changed by a <strong>Type I Reidemeister</strong> move, its bracket polynomial changes as follows:</p>
+<div class="centered_image">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+<div class="paige-figure ">
+<div class="align-items-center d-flex  h-100 justify-content-center ">
+<figure class=" mb-0" >
+<div class="d-flex justify-content-center text-center"><div class="paige-image">
+<img  alt="After Type I Reidemeister"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/jonespics/kauff2.svg"   style="height: 20rem; width: 100%"   >
+</div>
+</div>
+
+
+<figcaption class="figure-caption mt-2 text-center" >After Type I Reidemeister</figcaption>
+
+</figure>
+</div>
+</div>
+
+</div>
+<div class="centered_image">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+<div class="paige-figure ">
+<div class="align-items-center d-flex  h-100 justify-content-center ">
+<figure class=" mb-0" >
+<div class="d-flex justify-content-center text-center"><div class="paige-image">
+<img  alt="After Type I Reidemeister Proof"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/jonespics/kauff3.svg"   style="height: 20rem; width: 100%"   >
+</div>
+</div>
+
+
+<figcaption class="figure-caption mt-2 text-center" >After Type I Reidemeister Proof</figcaption>
+
+</figure>
+</div>
+</div>
+
+</div>
+<p>This follows from an application of the skein relation. If the crossing were reversed, the formula remains the same except for an interchange of \( A \) and \( A^{-1} \). This symmetry results from rotating the skein relation by \( \pi/2 \). If \( D&rsquo; \) is the reflection of \( D \) (with all crossings flipped), then \( \langle D&rsquo; \rangle \) is obtained by exchanging \( A \) and \( A^{-1} \) in \( \langle D \rangle \).</p>
+<p>This lemma is used in subsequent calculations, including the bracket polynomial of a two-component link and a trefoil knot. For example:</p>
+<div class="centered_image">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+<div class="paige-figure ">
+<div class="align-items-center d-flex  h-100 justify-content-center ">
+<figure class=" mb-0" >
+<div class="d-flex justify-content-center text-center"><div class="paige-image">
+<img  alt="Two-Component Link"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/jonespics/kauff4.svg"   style="height: 20rem; width: 100%"   >
+</div>
+</div>
+
+
+<figcaption class="figure-caption mt-2 text-center" >Two-Component Link Bracket Polynomial</figcaption>
+
+</figure>
+</div>
+</div>
+
+</div>
+<p>For the trefoil knot:</p>
+<div class="centered_image">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+<div class="paige-figure ">
+<div class="align-items-center d-flex  h-100 justify-content-center ">
+<figure class=" mb-0" >
+<div class="d-flex justify-content-center text-center"><div class="paige-image">
+<img  alt="Trefoil Knot"   class="img-fluid object-fit-cover rounded-4"  crossorigin="anonymous"  fetchpriority="high"    referrerpolicy="no-referrer"  src="http://localhost:1313/shaping-quantum/jonespics/kauff5.svg"   style="height: 20rem; width: 100%"   >
+</div>
+</div>
+
+
+<figcaption class="figure-caption mt-2 text-center" >Trefoil Knot Bracket Polynomial</figcaption>
+
+</figure>
+</div>
+</div>
+
+</div>
+<button onclick="topFunction()"
+  style="position: fixed; bottom: 20px; right: 30px; font-size: 20px; border: none; outline: none; background-color: #0D6EFD; color: white; cursor: pointer; padding: 10px; border-radius: 12px;"
+  id="myBtn" title="Go to top">
+  <i class="fa-solid fa-arrow-up fa-fade" style="font-size: 25px;"></i>
+</button>
+
+<script>
+ 
+ window.onscroll = function () { scrollFunction() };
+
+ function scrollFunction() {
+   if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+     document.getElementById("myBtn").style.display = "block";
+   } else {
+     document.getElementById("myBtn").style.display = "none";
+   }
+ }
+
+ 
+ function topFunction() {
+   document.body.scrollTop = 0; 
+   document.documentElement.scrollTop = 0; 
+ }
+</script>
+
+<script src="https://kit.fontawesome.com/e8d1b35a19.js" crossorigin="anonymous"></script>
+
+]]></description>
+                
+
+                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/shaping-quantum/jones-polynomial/</guid>
+
+                
+                    <link>http://localhost:1313/shaping-quantum/jones-polynomial/</link>
+                
+
+                
+                    <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+                
+
+                
+                    <title>Jones Polynomial</title>
                 
             </item>
         

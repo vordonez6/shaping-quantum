@@ -31,12 +31,12 @@ title: "Victoria Ordoñez"
               Knot Theory 
             </a>
             <br></br>
-            <a href="/shaping-quantum/kauffman-bracket/">
-              Kauffman Bracket
+            <a href="/shaping-quantum/jones-polynomial/">
+              Jones Polynomial
             </a>
             <br></br>
             <a href="/shaping-quantum/torus/">
-              Torus 
+              Intersection Number of Two Curves on Torus 
             </a>
             <br></br>
           </div>

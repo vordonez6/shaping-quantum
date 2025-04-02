@@ -45,9 +45,9 @@ url = "/torus/"
 weight = 50
 
 [[languages.en.menu.main]]
-identifier = "Kauffman Bracket"
-name = "Kauffman Bracket"
-url = "/kauffman-bracket/"
+identifier = "Jones Polynomial"
+name = "Jones Polynomial"
+url = "/jones-polynomial/"
 weight = 40
 
 # [[languages.en.menu.main]]
