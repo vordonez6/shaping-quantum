@@ -38,7 +38,7 @@ title: "Victoria Ordoñez"
             <a href="/shaping-quantum/jones-polynomial/">
               Jones Polynomial
             </a>
-            <br></br>           
+            <br></br>   
           </div>
         </div>
     </div>

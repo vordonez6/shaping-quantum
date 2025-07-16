@@ -30,25 +30,25 @@ weight = 10
 identifier = "Braids"
 name = "Braids"
 url = "/braids/"
-weight = 20
+weight = 30
 
 [[languages.en.menu.main]]
 identifier = "Knots"
 name = "Knots"
 url = "/knots/"
-weight = 30
+weight = 40
 
 [[languages.en.menu.main]]
 identifier = "Torus"
 name = "Torus"
 url = "/torus/"
-weight = 50
+weight = 20
 
 [[languages.en.menu.main]]
 identifier = "Jones Polynomial"
 name = "Jones Polynomial"
 url = "/jones-polynomial/"
-weight = 40
+weight = 50
 
 # [[languages.en.menu.main]]
 # identifier = "series"
