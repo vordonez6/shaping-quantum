@@ -52,8 +52,8 @@ in \\(B\\) are an \\(n-braid\\).
 
 Just like with knots, it is easier to work with projections of n-braids than
 the actual braid. Therefore, in order to obtain a regular diagram of the
-braid we can project it onto the \\(y-z\\) plane. Figure 2.2.1 is the projection
-of Figure 2.4.2 onto the \\(y-z\\) plane.
+braid we can project it onto the \\(y-z\\) plane. Figure "Regular Diagram of Braid" is the projection
+of Figure "Equivalent Braids with Fixed Endpoints" onto the \\(y-z\\) plane.
 
 <div class="centered_image">
 {{< paige/figure caption="Regular Diagram of Figure" >}}
@@ -64,7 +64,7 @@ of Figure 2.4.2 onto the \\(y-z\\) plane.
 
 ### Trivial n-Braid {#trivial-n-braid}
 
-We will later see in section 4.2 that we can use the 1-strand trivial braid
+We will later see in the section about Alexander's Theorem  that we can use the 1-strand trivial braid
 to create the unknot, so in a way, just like there exists the unknot, there
 also exists the trivial braid.  If we were to connect \\(A\_{1}\\) to \\(A^{'}\_{1}\\),
 \\(A\_{2}\\) to \\(A^{'}\_{2}\\), ..., \\(A\_{n}\\) to \\(A^{'}\_{n}\\),with straight strings, we
@@ -84,7 +84,7 @@ moves to the strings of each braid, such that the endpoints remain fixed and
 the strings remain in the cube, transforms one braid into the other, then the
 two n-braids are equivalent.
 
-Figure 2.4.1 shows an example of elementary moves being applied to (a) to
+The figure below shows an example of elementary moves being applied to (a) to
 demonstrate that it is the trivial 2-braid.
 
 <div class="centered_image">
@@ -95,7 +95,7 @@ demonstrate that it is the trivial 2-braid.
 
 Similarly, two braids whose endpoints are fixed can be said to be equivalent if
 they can continuously be deformed from one to the other without any of the
-strings intersecting each other as seen in Figure 2.4.2.
+strings intersecting each other as seen in Figure "Equivalent Braids with Fixed Endpoints".
 
 <div class="centered_image">
 {{< paige/figure caption="Equivalent Braids with Fixed Endpoints" >}}
@@ -125,7 +125,7 @@ know the first string ends up at endpoint \\(i\_{1}\\), the second string ends u
 endpoint \\(i\_{2}\\), and so on. Every single braid has a braid permutation. For
 example:
 
-\\(\hspace{1cm}\\) The trivial braid (Figure 2.3.1) corresponds to the identity
+\\(\hspace{1cm}\\) The trivial braid (Figure "Trivial Braid") corresponds to the identity
 permutation:
 
 \begin{pmatrix}
@@ -135,14 +135,14 @@ permutation:
 
 \\[{ \text{Identity  Permutation}}\\]
 
-\\(\hspace{1cm}\\) The braid in Figure 2.1.2 has the braid permutation:
+\\(\hspace{1cm}\\) The braid in Figure "Braid" has the braid permutation:
 
 \begin{pmatrix}
  1 & 2\\\\
  2 & 1
 \end{pmatrix}
 
-\\[{\text{Braid Permutation of Figure 2.1.2}}\\]
+\\[{\text{Braid Permutation of Figure "Braid"}}\\]
 
 
 ## Braid Group (\\(B\_{n}\\)) {#braid-group--b-n}
@@ -173,7 +173,7 @@ with the top of \\(\beta\\). This will create a rectangular solid representing
 even though it is not always commutative. Because all we are doing is stacking
 braids on top of each other and we are not changing the order of the stacking,
 we are not changing the braid that is being created, meaning \\((\alpha \beta)
-\gamma = \alpha (\beta \gamma)\\). This can be seen in Figure 3.0.2
+\gamma = \alpha (\beta \gamma)\\). This can be seen in Figure "Associativity of Braids"
 below. However, as mentioned above changing the order in which you
 stack/multiply your braids does not always create the same braid, so the action
 of the product is not always commutative.
@@ -186,7 +186,7 @@ of the product is not always commutative.
 
 \\(\hspace{1cm}\\) The identity/unit element of the braid group is simply the
 trivial braid, considering for any braid \\(\alpha\\), \\(\alpha e = \alpha = e
-\alpha\\). This is shown in Figure 3.0.3 on the next page. We know this is true,
+\alpha\\). This is shown in the figure below. We know this is true,
 since multiplying \\(\alpha\\) by \\(e\\) does not affect \\(\alpha\\), but rather elongates
 it, which can be mitigated, considering we can shrink the product of our two
 braids back to the original size of \\(\alpha\\).
@@ -199,7 +199,7 @@ braids back to the original size of \\(\alpha\\).
 
 \\(\hspace{1cm}\\) Now to find the inverse element of \\(\alpha\\), we need to consider
 the mirror image \\(\alpha^{-1}\\) of \\(\alpha\\). Based on this, we know that \\(\alpha
-\alpha^{-1} = e = \alpha^{-1} \alpha\\). This is shown in Figure 3.0.4, below.
+\alpha^{-1} = e = \alpha^{-1} \alpha\\). This is shown in the figure below.
 
 <div class="centered_image">
 {{< paige/figure caption="α α⁻¹ = e" >}}
@@ -207,7 +207,7 @@ the mirror image \\(\alpha^{-1}\\) of \\(\alpha\\). Based on this, we know that 
 {{< /paige/figure >}}
 </div>
 
-\\(\hspace{1cm}\\) We can tell Figure 3.0.4 is the trivial knot by taking the first
+\\(\hspace{1cm}\\) We can tell the figure above is the trivial knot by taking the first
 string and pulling it to the left, so that the first string ends up being a
 straight line. The same logic can be applied to the third string and pulling it
 all the way to the right so that the third string becomes a straight
@@ -219,8 +219,7 @@ now introduce the two simplest braid groups:
 specifically the trivial braid. Thus, \\(B\_{1}\\) is defined by \\(B\_{1} = e\\).
 
 \\(\hspace{1cm}\\) The elements of 2-braid group \\(B\_{2}\\) can be described by the two
-types of twists, the right twist and the left twist, as shown in Figure 3.0.5 on
-the next page.
+types of twists, the right twist and the left twist, as shown in the figure below. 
 
 <div class="centered_image">
 {{< paige/figure caption="The Two Types of Braids in \\(B\_{2}\\)" >}}
@@ -240,7 +239,7 @@ come in braid generators.
 
 \\(\hspace{1cm}\\) To understand braid generators, let's now divide our braids into
 rows, such that every row contains only one crossing. We'll start with braids in
-\\(B\_{2}\\). This can be visualised in our Figure 3.1.1, below
+\\(B\_{2}\\). This can be visualised in the figure below
 
 <div class="centered_image">
 {{< paige/figure caption="Twists with Rows" >}}
@@ -267,7 +266,7 @@ difference in the crossings, but what's the difference between \\(\sigma\_{1}\\)
 \\(B\_{3}\\), which has 3 strands, we're going to need \\(\sigma\_{1},\sigma\_{2}\\), and
 their respective inverses. We can generalize \\(\sigma\_{i}\\) by saying that it
 along with its inverse deal with the \\(i^{th}\\), and the \\(i^{th} +1\\) strings, as
-shown in Figure 3.1.2 below.
+shown in Figure "Braid Generators" below.
 
 <div class="centered_image">
 {{< paige/figure caption="Braid Generators" >}}
@@ -276,7 +275,7 @@ shown in Figure 3.1.2 below.
 </div>
 
 \\(\hspace{1cm}\\) Let's now look at an example of how braid generators are used to
-describe braids. Below in Figure 3.1.3, we will see a braid in \\(B\_{4}\\) that can
+describe braids. In the figure below, we will see a braid in \\(B\_{4}\\) that can
 be described by braid generators as \\(\sigma\_{3}^{-1}
 \sigma\_{1}\sigma\_{2}\sigma\_{3}\sigma\_{2}^{-1}\\).
 
@@ -315,7 +314,7 @@ satisfy the condition of this relation are \\(\sigma\_{1}\\) and \\(\sigma\_{2}\
 only exist starting from \\(B\_{3}\\)
 
 \\(\hspace{1cm}\\) We will now show that the first type of relation is true by
-looking at Figure 3.2.1. below.
+looking at the figure below.
 
 <div class="centered_image">
 {{< paige/figure caption="First Braid Relation" >}}
@@ -328,7 +327,7 @@ the figure, since we can squeeze the first twist and second twist in
 \\(\sigma\_{1}\sigma\_{3}\\) down and up, respectively. Likewise, to show
 \\(\sigma\_{3}\sigma\_{1} = \sigma\_{1}\sigma\_{3}\\), we can squeeze the first twist
 and second twist in \\(\sigma\_{3}\sigma\_{1}\\) up and down, respectively. Now we
-will look at the second type of relation on the next page in Figure 3.2.2.
+will look at the second type of relation in the figure below.
 
 <div class="centered_image">
 {{< paige/figure caption="Second Braid Relation" >}}
@@ -354,7 +353,7 @@ applied to show that the second example, \\(\sigma\_{2}\sigma\_{3}\sigma\_{2} =
 ### Braid Closure {#braid-closure}
 
 Let's imagine we have a regular diagram of a braid, by connecting the
-endpoints of the braid, with parallel arcs, as shown in Figure 4.1.1, we
+endpoints of the braid, with parallel arcs, as shown in the figure below, we
 create a closed braid. This closed braid will either be a knot or a link.
 
 <div class="centered_image">
@@ -366,7 +365,7 @@ create a closed braid. This closed braid will either be a knot or a link.
 \\(\hspace{1cm}\\) It is important to note that these arcs should connect the
 endpoints of the braid, such that, an endpoint \\(A\_{i}\\) at the top of the braid
 has an arc connecting to the endpoint \\(A'\_{i}\\) at the bottom of the
-braid. Another way to think about this is by looking at Figure 4.1.1. We see
+braid. Another way to think about this is by looking at Figure "Closed Braid".  We see
 that the outermost arc connects endpoint \\(A\_{1}\\) to endpoint \\(A'\_{1}\\), similarly
 the endpoint \\(A\_{2}\\) is connected to the endpoint \\(A'\_{2}\\), and the endpoint
 \\(A\_{3}\\) is connected to the endpoint \\(A'\_{3}\\), by the middle and innermost arcs
@@ -391,8 +390,8 @@ be represented as a closed braid.
 
 \\(\hspace{1cm}\\) One of the simplest examples of showing a knot or link can be
 represented by a closed braid is by taking the trivial braid and closing it. If
-the trivial braid has only one string as in Figure 4.2.1, by closing it we
-create the unknot. If the trivial braid has n-strings as in Figure 2.3.1 , by
+the trivial braid has only one string as in Figure "The Trivial 1-Braid", by closing it we
+create the unknot. If the trivial braid has n-strings as in Figure "Trivial Braid" above, by
 closing it, we create the n-component unlink.
 
 \\(\hspace{1cm}\\) The proof for Alexander's Theorem is algorithmic and very long
@@ -416,7 +415,7 @@ sequence).
 \\(\hspace{1cm}\\) There are two markov moves, \\(M\_{1}\\) and \\(M\_{2}\\). \\(M\_{1}\\) is the
 operation that transforms an element, \\(\beta\\), of the braid group \\(B\_{n}\\) into
 the n-braid \\(\gamma \beta \gamma ^{-1}\\), where \\(\gamma\\) is an element of
-\\(B\_{n}\\). This can be shown in part a of Figure 4.3.1. As we can see \\(\beta =
+\\(B\_{n}\\). This can be shown in part a of Figure "Markov Moves" above. As we can see \\(\beta =
 \sigma\_{2} \sigma\_{1}^{-1} \sigma\_{2}\\) becomes \\(\sigma\_{2} \sigma\_{1}^{-1}
 \sigma\_{2}\sigma\_{1}^{-1}\sigma\_{2} \sigma\_{2}^{-1}\sigma\_{1}\\), which is equal
 to \\(\gamma \beta \gamma ^{-1}\\), where \\(\gamma = \sigma\_{2} \sigma\_{1}^{-1}\\),
@@ -424,8 +423,7 @@ after \\(M\_{1}\\) is applied.
 
 \\(\hspace{1cm}\\) \\(M\_{2}\\) is the operation that transforms a n-braid, \\(\beta\\), into
 either a \\(\beta \sigma\_{n}\\) or a \\(\beta \sigma\_{n}^{-1}\\), (n+1) braid, where
-\\(\sigma\_{n}\\) is a generator of \\(B\_{n+1}\\). This can be shown in part b of Figure
-4.3.2. As we can see \\(\beta =
+\\(\sigma\_{n}\\) is a generator of \\(B\_{n+1}\\). This can be shown in part b of Figure "Markov Moves". As we can see \\(\beta =
 \sigma\_{2}\sigma\_{1}^{-1}\sigma\_{2}\sigma\_{1}^{-1}\\), which is an element of
 \\(B\_{3}\\) turns into \\(\beta\sigma\_{n}\\) or \\(\beta\sigma\_{n}^{-1}\\), which is an
 element of \\(B\_{4}\\) after M2.
