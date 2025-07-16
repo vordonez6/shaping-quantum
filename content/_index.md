@@ -20,7 +20,7 @@ title: "Victoria Ordoñez"
         <div class="col col-auto col-lg-7 px-0" >
           <p class="lead text-center" >
           <div class="rounded-fluid-container">
-            Hi! I am  double major in computer science and mathematics at Georgia Institute of Technology. My research interests are quantum computing, topological quantum computing, computational topology, topological & geometric computation, and machine learning theory. 
+            Hi! I am  double major in computer science and mathematics at Georgia Institute of Technology. My research interests are quantum computing, topological quantum computing, computational topology, topological & geometric computation, as well as the theory and application of machine learning. 
             Here are some of my write-ups from my work at Georgia Tech:
             <br></br>
             <a href="/shaping-quantum/braids/">
