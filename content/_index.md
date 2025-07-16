@@ -23,6 +23,10 @@ title: "Victoria Ordoñez"
             Hi! I am  double major in computer science and mathematics at Georgia Institute of Technology. My research interests are quantum computing, topological quantum computing, computational topology, topological & geometric computation, as well as the theory and application of machine learning. 
             Here are some of my write-ups from my work at Georgia Tech:
             <br></br>
+            <a href="/shaping-quantum/torus/">
+              Intersection Number of Two Curves on Torus 
+            </a>
+            <br></br>
             <a href="/shaping-quantum/braids/">
               Braids 
             </a>
@@ -34,11 +38,7 @@ title: "Victoria Ordoñez"
             <a href="/shaping-quantum/jones-polynomial/">
               Jones Polynomial
             </a>
-            <br></br>
-            <a href="/shaping-quantum/torus/">
-              Intersection Number of Two Curves on Torus 
-            </a>
-            <br></br>
+            <br></br>           
           </div>
         </div>
     </div>
