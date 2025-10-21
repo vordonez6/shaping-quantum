@@ -1,5 +1,6 @@
 +++
 title = "Braids Introduction"
+weight = 30
 author = ["Victoria Ordonez"]
 draft = false
 +++

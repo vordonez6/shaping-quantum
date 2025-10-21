@@ -8,6 +8,7 @@ paige:
         font-size: 3rem
     }
 title: "Victoria Ordoñez"
+weight: 10
 ---
 <div class="centered_image">
 {{% paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" height="20em" width="20em" fetchpriority="high"  loading="eager" process="webp" src="images/home.png" %}}
@@ -20,8 +21,16 @@ title: "Victoria Ordoñez"
         <div class="col col-auto col-lg-7 px-0" >
           <p class="lead text-center" >
           <div class="rounded-fluid-container">
-            Hi! I am a first year CS PhD student at UGA. I graduated with a double major in computer science and mathematics from Georgia Institute of Technology. My research interests are quantum computing, topological quantum computing, computational topology, topological & geometric computation, as well as the theory and application of machine learning. 
-            Here are some of my write-ups from my work at Georgia Tech:
+            <p>
+            &nbsp;&nbsp;&nbsp;&nbsp; Hi! I am a first year Computer Science PhD student at UGA. I'm currently working on mutlistate quantum state discrimintation in nonlinear quantum computing under Dr. Michael Geller.
+            </p>
+            <p>
+             &nbsp;&nbsp;&nbsp;&nbsp;I graduated with a double major in Computer Science and Mathematics from Georgia Institute of Technology. During that time, I developed a passion for topology and have been fortunate to work with Dr. Thang Le, Dr. Wade Bloomquist, and  Dr. Hannah Turner.
+            </p>
+            <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;My research interests are quantum computing, nonlinear quantum computing computing, topological quantum computing, quantum information processing and computational topology.
+            </p>
+            Here are some of my write-ups and notes from my work at Georgia Tech: 
             <br></br>
             <a href="/shaping-quantum/torus/">
               Intersection Number of Two Curves on Torus 

@@ -1,5 +1,6 @@
 +++
 title = "Jones Polynomial"
+weight = 50
 author = ["Victoria Ordonez"]
 draft = false
 +++

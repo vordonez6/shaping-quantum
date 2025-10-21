@@ -1,5 +1,6 @@
 +++
 title = "Knot Theory"
+weight = 40
 author = ["Victoria Ordonez"]
 draft = false
 +++

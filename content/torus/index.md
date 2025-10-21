@@ -1,5 +1,6 @@
 +++
 title = "Intersection Number of Two Curves on a Torus"
+weight = 20
 author = ["Victoria Ordonez"]
 draft = false
 +++
