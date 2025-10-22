@@ -133,7 +133,7 @@ $$
 M = \begin{bmatrix} p & p' \\\\ q & q' \end{bmatrix}.
 $$
 
-The determinant of this matrix gives the second coordinate \\( p'' \\) of the transformed curve \\( (p'', q'') \\):
+The determinant of this matrix gives the first coordinate \\( p'' \\) of the transformed curve \\( (p'', q'') \\):
 
 $$
 \det M = pq' - p'q.

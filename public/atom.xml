@@ -2597,7 +2597,7 @@ $$</p>
 <p>$$
 M = \begin{bmatrix} p &amp; p&rsquo; \\ q &amp; q&rsquo; \end{bmatrix}.
 $$</p>
-<p>The determinant of this matrix gives the second coordinate \( p&rsquo;&rsquo; \) of the transformed curve \( (p&rsquo;&rsquo;, q&rsquo;&rsquo;) \):</p>
+<p>The determinant of this matrix gives the first coordinate \( p&rsquo;&rsquo; \) of the transformed curve \( (p&rsquo;&rsquo;, q&rsquo;&rsquo;) \):</p>
 <p>$$
 \det M = pq&rsquo; - p&rsquo;q.
 $$</p>
