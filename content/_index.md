@@ -25,7 +25,7 @@ weight: 10
             &nbsp;&nbsp;&nbsp;&nbsp; Hi! I am a first year Computer Science PhD student at UGA. I'm currently working on mutlistate quantum state discrimintation in nonlinear quantum computing under Dr. Michael Geller.
             </p>
             <p>
-             &nbsp;&nbsp;&nbsp;&nbsp;I graduated with a double major in Computer Science and Mathematics from Georgia Institute of Technology. During that time, I developed a passion for topology and have been fortunate to work with Dr. Thang Le, Dr. Wade Bloomquist, and  Dr. Hannah Turner.
+             &nbsp;&nbsp;&nbsp;&nbsp;I graduated with a double major in Computer Science and Mathematics from Georgia Institute of Technology. During that time, I developed a passion for low-dimensional topology and have been fortunate to work with Dr. Thang Le, Dr. Wade Bloomquist, and  Dr. Hannah Turner.
             </p>
             <p>
             &nbsp;&nbsp;&nbsp;&nbsp;My research interests are quantum computing, nonlinear quantum computing computing, topological quantum computing, quantum information processing, and computational topology.

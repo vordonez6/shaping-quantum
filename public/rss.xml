@@ -1256,12 +1256,12 @@ A^{&rsquo;}_{1} &amp;=\left(\frac{1}{2}, \frac{1}{n+1},0\right), &hellip; ,A^{&r
 
 </div>
 <p>These points will act as fixed endpoints at the top and bottom of the cube,
-which we will join with \(n\) polygonal arcs. \(A_{1},&hellip;,A_{n}\) to \(A^{&rsquo;}_{1},
+which we will join with \(n\) polygonal arcs. Now, \(A_{1},&hellip;,A_{n}\) to \(A^{&rsquo;}_{1},
 &hellip; ,A^{&rsquo;}_{n}\) are joined with \(n\) polygonal arcs, such that:</p>
 <p>\(\hspace{1cm}\enclose{circle}{1}\) The joined polygonal arcs do not mutually intersect each other <br />
 \(\hspace{1cm}\enclose{circle}{2}\) \(A_{i}\) to \(A_{j}\) cannot be joined  <br />
-\(\hspace{1cm}\enclose{circle}{3}\) \(A_{i}\) to \(A^{&rsquo;}_{i}\) don&rsquo;t have to be joined, meaning \(A_{i}\) can be joined to \(A^{&rsquo;}_{j}\) <br />
-\(\hspace{1cm}\enclose{circle}{4}\) If we were to take any plane,\(E\), that&rsquo;s parallel to the top and bottom of the cube, \(E\) should intersect each polygonal arc at one and only one point <br /></p>
+\(\hspace{1cm}\enclose{circle}{3}\) \(A_{i}\) can be joined to \(A^{&rsquo;}_{j}\), meaning \(A_{i}\) to \(A^{&rsquo;}_{i}\) don&rsquo;t have to be joined. <br />
+\(\hspace{1cm}\enclose{circle}{4}\) If we were to take any plane,\(E\), that&rsquo;s parallel to the top and bottom of the cube, \(E\) should intersect each polygonal arc at only one point <br /></p>
 <div class="centered_image">
 
 
@@ -1430,8 +1430,8 @@ would get the trivial n-braid:</p>
 </div>
 <h3 id="elementary-moves-and-braids">Elementary Moves &amp; Braids</h3>
 <p>Suppose we are given two n-braids in a cube. If performing elementary knot
-moves to the strings of each braid, such that the endpoints remain fixed and
-the strings remain in the cube, transforms one braid into the other, then the
+moves to the strings of each braid (where the endpoints remain fixed and
+the strings remain in the cube) transforms one braid into the other, then the
 two n-braids are equivalent.</p>
 <p>The figure below shows an example of elementary moves being applied to (a) to
 demonstrate that it is the trivial 2-braid.</p>
