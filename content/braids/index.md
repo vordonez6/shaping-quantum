@@ -1,14 +1,11 @@
 +++
-title = "Braids Introduction"
+title = "Braids"
 weight = 30
 author = ["Victoria Ordonez"]
 draft = false
 +++
 
-## Braids {#braids}
-
-
-### Introduction {#introduction}
+## Introduction {#introduction}
 
 The best way to visualize a braid is to imagine a cube, B, whose coordinates
 in \\(\mathbb{R}^{3}\\) can be defined as followed: \\[ B = \\{(x,y,z)|0 \leq x,y,z

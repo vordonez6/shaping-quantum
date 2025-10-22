@@ -5,6 +5,10 @@ author = ["Victoria Ordonez"]
 draft = false
 +++
 
+<p class="text-center text-muted" style="font-size:0.9rem; margin:0.75rem 0;">
+  <em>Note: This page is ongoing! I'm adding my notes bit by bit.</em>
+</p>
+
 
 The Jones polynomial associates a Laurent polynomial with integer coefficients to every knot and link. This polynomial is invariant under Reidemeister moves, making it a useful tool for distinguishing knots.
 

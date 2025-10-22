@@ -136,7 +136,10 @@
                 
 
                 
-                    <description><![CDATA[<p>The Jones polynomial associates a Laurent polynomial with integer coefficients to every knot and link. This polynomial is invariant under Reidemeister moves, making it a useful tool for distinguishing knots.</p>
+                    <description><![CDATA[<p class="text-center text-muted" style="font-size:0.9rem; margin:0.75rem 0;">
+  <em>Note: This page is ongoing! I'm adding my notes bit by bit.</em>
+</p>
+<p>The Jones polynomial associates a Laurent polynomial with integer coefficients to every knot and link. This polynomial is invariant under Reidemeister moves, making it a useful tool for distinguishing knots.</p>
 <p>In order to define the Jones polynomial, we first need to define the Kauffman Bracket.</p>
 <h2 id="the-kauffman-bracket">The Kauffman Bracket</h2>
 <p>The Kauffman bracket is a function from unoriented link diagrams in the oriented plane (or \( S^2 \)) to Laurent polynomials with integer coefficients in an indeterminate \( A \). It maps a diagram \( D \) to \( \langle D \rangle \in \mathbb{Z}[A^{-1}, A] \) and is characterized by:</p>
@@ -469,7 +472,10 @@
                 
 
                 
-                    <description><![CDATA[<h2 id="elementary-knot-moves">Elementary Knot Moves</h2>
+                    <description><![CDATA[<p class="text-center text-muted" style="font-size:0.9rem; margin:0.75rem 0;">
+  <em>Note: This page is ongoing! I'm adding my notes bit by bit.</em>
+</p>
+<h2 id="elementary-knot-moves">Elementary Knot Moves</h2>
 <p><strong>Elementary knot moves</strong> are reversible changes to the shape of a knot made by modifying its edges.</p>
 <h3 id="operations">Operations</h3>
 <p>\((1) \quad \text{Place a point } C \text{ on an edge } AB, \text{ dividing it into two edges } AC \text{ and } CB\)</p>
@@ -1189,8 +1195,7 @@ whose endpoints \( A \) and \( B \) lie on the surface of \( S \). If \( \alpha 
                 
 
                 
-                    <description><![CDATA[<h2 id="braids">Braids</h2>
-<h3 id="introduction">Introduction</h3>
+                    <description><![CDATA[<h2 id="introduction">Introduction</h2>
 <p>The best way to visualize a braid is to imagine a cube, B, whose coordinates
 in \(\mathbb{R}^{3}\) can be defined as followed: \[ B = \{(x,y,z)|0 \leq x,y,z
 \leq 1\}\] At the top of the cube and at the base of the cube, we will mark
@@ -2458,7 +2463,7 @@ theorem and Markov&rsquo;s theorem - tsinghua university. Retrieved April 28,
                 
 
                 
-                    <title>Braids Introduction</title>
+                    <title>Braids</title>
                 
             </item>
         

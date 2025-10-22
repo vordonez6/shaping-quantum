@@ -5,6 +5,10 @@ author = ["Victoria Ordonez"]
 draft = false
 +++
 
+<p class="text-center text-muted" style="font-size:0.9rem; margin:0.75rem 0;">
+  <em>Note: This page is ongoing! I'm adding my notes bit by bit.</em>
+</p>
+
 ## Elementary Knot Moves
 
 **Elementary knot moves** are reversible changes to the shape of a knot made by modifying its edges.
