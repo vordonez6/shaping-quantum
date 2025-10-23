@@ -7,7 +7,7 @@ draft = false
 
 ## Introduction {#introduction}
 
-The best way to visualize a braid is to imagine a cube, B, whose coordinates
+The best way to visualize a braid is to imagine a cube, [B](#fig-cubeB), whose coordinates
 in \\(\mathbb{R}^{3}\\) can be defined as followed: \\[ B = \\{(x,y,z)|0 \leq x,y,z
   \leq 1\\}\\] At the top of the cube and at the base of the cube, we will mark
 \\(n\\) points, \\(A\_{1},...,A\_{n}\\) and \\(A^{'}\_{1}, ... ,A^{'}\_{n}\\),
@@ -18,14 +18,16 @@ A\_{1} &=\left(\frac{1}{2}, \frac{1}{n+1},1 \right), ... , A\_{n} = \left( \frac
 A^{'}\_{1} &=\left(\frac{1}{2}, \frac{1}{n+1},0\right), ... ,A^{'}\_{n} =   \left(\frac{1}{2},\frac{n}{n+1},0 \right)
 \end{align\*}
 
-<div class="centered_image">
+<div id="fig-cubeB" class="centered_image">
 {{< paige/figure caption="Cube B" identifier="fig-cubeB" >}}
 {{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/cube_b.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
 These points will act as fixed endpoints at the top and bottom of the cube,
-which we will join with \\(n\\) polygonal arcs. Now, \\(A\_{1},...,A\_{n}\\) to \\(A^{'}\_{1},
+which we will join with \\(n\\) polygonal arcs.
+
+\\(A\_{1},...,A\_{n}\\) to \\(A^{'}\_{1},
 ... ,A^{'}\_{n}\\) are joined with \\(n\\) polygonal arcs, such that:
 
 \\(\hspace{1cm}\enclose{circle}{1}\\) The joined polygonal arcs do not mutually intersect each other <br />
@@ -33,7 +35,7 @@ which we will join with \\(n\\) polygonal arcs. Now, \\(A\_{1},...,A\_{n}\\) to 
 \\(\hspace{1cm}\enclose{circle}{3}\\) \\(A\_{i}\\) can be joined to \\(A^{'}\_{j}\\), meaning \\(A\_{i}\\) to \\(A^{'}\_{i}\\) don't have to be joined. <br />
 \\(\hspace{1cm}\enclose{circle}{4}\\) If we were to take any plane,\\(E\\), that's parallel to the top and bottom of the cube, \\(E\\) should intersect each polygonal arc at only one point <br />
 
-<div class="centered_image">
+<div  id="fig-braid" class="centered_image">
 {{< paige/figure caption="Braid" identifier="fig-braid" >}}
 {{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/b2.svg" width="100%" >}}
 {{< /paige/figure >}}
@@ -42,18 +44,18 @@ which we will join with \\(n\\) polygonal arcs. Now, \\(A\_{1},...,A\_{n}\\) to 
 You can think of \\(\enclose{circle}{4}\\) as stating that the polygonal arcs cannot
 go down the cube and then back up, considering that if that were to happen a
 plane \\(E\\) would intersect the arc at more than one point. Let's call these
-polygonal arcs, strings. After dividing \\(B\\) by \\(E\\), we can say these \\(n\\) strings
-in \\(B\\) are an \\(n-braid\\).
+polygonal arcs, **strings**. Because every horizontal cross-section \\(E\\) of \\(B\\) intersects each strand exactly once, we can say these \\(n\\) strings
+form an \\(n-braid\\).
 
 
 ### Regular Diagram of Braid {#regular-diagram-of-braid}
 
 Just like with knots, it is easier to work with projections of n-braids than
 the actual braid. Therefore, in order to obtain a regular diagram of the
-braid we can project it onto the \\(y-z\\) plane. Figure "Regular Diagram of Braid" is the projection
-of Figure "Equivalent Braids with Fixed Endpoints" onto the \\(y-z\\) plane.
+braid we can project it onto the \\(y-z\\) plane. Figure [Regular Diagram of Braid](#fig-regdiagram) is the projection
+of Figure [Equivalent Braids with Fixed Endpoints](#fig-equivbraidsfixed) onto the \\(y-z\\) plane.
 
-<div class="centered_image">
+<div id="fig-regdiagram" class="centered_image">
 {{< paige/figure caption="Regular Diagram of Figure" identifier="fig-regdiagram">}}
 {{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="30rem" loading="eager" process="webp" src="./images/b3.svg" width="100%" >}}
 {{< /paige/figure >}}
@@ -62,13 +64,13 @@ of Figure "Equivalent Braids with Fixed Endpoints" onto the \\(y-z\\) plane.
 
 ### Trivial n-Braid {#trivial-n-braid}
 
-We will later see in the section about Alexander's Theorem  that we can use the 1-strand trivial braid
+We will later see in the section about [Alexander's Theorem](#alexander-s-theorem)  that we can use the 1-strand trivial braid
 to create the unknot, so in a way, just like there exists the unknot, there
 also exists the trivial braid.  If we were to connect \\(A\_{1}\\) to \\(A^{'}\_{1}\\),
 \\(A\_{2}\\) to \\(A^{'}\_{2}\\), ..., \\(A\_{n}\\) to \\(A^{'}\_{n}\\),with straight strings, we
-would get the trivial n-braid:
+would get the [trivial n-braid](#fig-trivbraid):
 
-<div class="centered_image">
+<div id="fig-trivbraid" class="centered_image">
 {{< paige/figure caption="Trivial Braid" identifier="fig-trivbraid" >}}
 {{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/trivial_braid.svg" width="100%" >}}
 {{< /paige/figure >}}
@@ -83,9 +85,9 @@ the strings remain in the cube) transforms one braid into the other, then the
 two n-braids are equivalent.
 
 The figure below shows an example of elementary moves being applied to (a) to
-demonstrate that it is the trivial 2-braid.
+demonstrate that it is the [trivial 2-braid](#fig-triv2braid).
 
-<div class="centered_image">
+<div id="fig-triv2braid"class="centered_image">
 {{< paige/figure caption="Trivial 2-Braid" identifier="fig-triv2braid">}}
 {{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/b4.svg" width="100%" >}}
 {{< /paige/figure >}}
@@ -93,9 +95,9 @@ demonstrate that it is the trivial 2-braid.
 
 Similarly, two braids whose endpoints are fixed can be said to be equivalent if
 they can continuously be deformed from one to the other without any of the
-strings intersecting each other as seen in Figure "Equivalent Braids with Fixed Endpoints".
+strings intersecting each other as seen in Figure [Equivalent Braids with Fixed Endpoints](#fig-equivbraidsfixed).
 
-<div class="centered_image">
+<div id= "fig-equivbraidsfixed" class="centered_image">
 {{< paige/figure caption="Equivalent Braids with Fixed Endpoints" identifier= "fig-equivbraidsfixed">}}
 {{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/b5.svg" width="100%" >}}
 {{< /paige/figure >}}
@@ -123,7 +125,7 @@ know the first string ends up at endpoint \\(i\_{1}\\), the second string ends u
 endpoint \\(i\_{2}\\), and so on. Every single braid has a braid permutation. For
 example:
 
-\\(\hspace{1cm}\\) The trivial braid (Figure "Trivial Braid") corresponds to the identity
+\\(\hspace{1cm}\\) The trivial \\(n\\)- braid (Figure [Trivial n-Braid](#fig-trivbraid)) corresponds to the identity
 permutation:
 
 \begin{pmatrix}
@@ -133,14 +135,17 @@ permutation:
 
 \\[{ \text{Identity  Permutation}}\\]
 
-\\(\hspace{1cm}\\) The braid in Figure "Braid" has the braid permutation:
+\\(\hspace{1cm}\\) The braid in Figure [Braid](#fig-braid) has the braid permutation:
 
 \begin{pmatrix}
  1 & 2\\\\
  2 & 1
 \end{pmatrix}
 
-\\[{\text{Braid Permutation of Figure "Braid"}}\\]
+\\[{ \text{2-Braid Permutation}}\\]
+
+
+
 
 
 ## Braid Group (\\(B\_{n}\\)) {#braid-group--b-n}
@@ -157,9 +162,9 @@ define the product of these two elements, let's take two n-braids \\(\alpha\\) a
 \\(\alpha\\) vertically on top of \\(\beta\\), such that the base of \\(\alpha\\) aligns
 with the top of \\(\beta\\). This will create a rectangular solid representing
 \\(\alpha \beta\\) that can then be shrunk to keep the original dimensions of
-\\(\alpha\\) and \\(\beta\\), as shown in the figure on the next page.
+\\(\alpha\\) and \\(\beta\\), as shown in Figure [Product of two 3-Braids](#fig-prodtwo3braids).
 
-<div class="centered_image">
+<div id="fig-prodtwo3braids" class="centered_image">
 {{< paige/figure caption="Product of two 3-Braids" identifier="fig-prodtwo3braids">}}
 {{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/b6.svg" width="100%" >}}
 {{< /paige/figure >}}
@@ -167,66 +172,64 @@ with the top of \\(\beta\\). This will create a rectangular solid representing
 
 \\(\hspace{1cm}\\) It is important to note that \\(\alpha \beta \neq \beta \alpha\\), generally.
 
-\\(\hspace{1cm}\\) We will now show that the action of the product is associative,
-even though it is not always commutative. Because all we are doing is stacking
+\\(\hspace{1cm}\\) We will now show that the action of the product is associative(
+even though it is not always commutative): Because all we are doing is stacking
 braids on top of each other and we are not changing the order of the stacking,
 we are not changing the braid that is being created, meaning \\((\alpha \beta)
-\gamma = \alpha (\beta \gamma)\\). This can be seen in Figure "Associativity of Braids"
+\gamma = \alpha (\beta \gamma)\\). This can be seen in Figure [Associativity of Braids](#fig-associativitybraids)
 below. However, as mentioned above changing the order in which you
 stack/multiply your braids does not always create the same braid, so the action
 of the product is not always commutative.
 
-<div class="centered_image">
+<div id="fig-associativitybraids" class="centered_image">
 {{< paige/figure caption="Associativity of Braids" identifier="fig-associativitybraids">}}
 {{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/b7.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
 \\(\hspace{1cm}\\) The identity/unit element of the braid group is simply the
-trivial braid, considering for any braid \\(\alpha\\), \\(\alpha e = \alpha = e
-\alpha\\). This is shown in the figure below. We know this is true,
-since multiplying \\(\alpha\\) by \\(e\\) does not affect \\(\alpha\\), but rather elongates
-it, which can be mitigated, considering we can shrink the product of our two
-braids back to the original size of \\(\alpha\\).
+trivial braid. For any braid \\(\alpha\\), \\(\alpha e = \alpha = e
+\alpha\\). Multiplying \\(\alpha\\) by the trivial braid \\(e\\) does not affect \\(\alpha\\), but rather elongates
+it, which can then be mitigated by shrinking the product of our two
+braids back to the original size of \\(\alpha\\). This is shown in the figure [below](#fig-trivialbraididentity). 
 
-<div class="centered_image">
+<div id="fig-trivialbraididentity" class="centered_image">
 {{< paige/figure caption="The Trivial Braid is the Identity" identifier="fig-trivialbraididentity">}}
 {{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/b8.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
 \\(\hspace{1cm}\\) Now to find the inverse element of \\(\alpha\\), we need to consider
-the mirror image \\(\alpha^{-1}\\) of \\(\alpha\\). Based on this, we know that \\(\alpha
-\alpha^{-1} = e = \alpha^{-1} \alpha\\). This is shown in the figure below.
+the mirror image \\(\alpha^{-1}\\) of \\(\alpha\\).
 
-<div class="centered_image">
+<div id="fig-inverse" class="centered_image">
 {{< paige/figure caption="α α⁻¹ = e" identifier="fig-inverse">}}
 {{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/b9.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
-\\(\hspace{1cm}\\) We can tell the figure above is the trivial knot by taking the first
+\\(\hspace{1cm}\\)   We know that \\(\alpha \alpha^{-1} = e = \alpha^{-1} \alpha\\). Thus, as shown [above](#fig-inverse), the product of \\(\alpha \alpha^{-1} \\) is the trivial knot. The best way to viusalize this is by taking the first
 string and pulling it to the left, so that the first string ends up being a
-straight line. The same logic can be applied to the third string and pulling it
-all the way to the right so that the third string becomes a straight
+straight line. The same logic can be applied to the third string where pulling it
+all the way to the right allows the third string to become a straight
 line. Finally, by straightening out the second string we can achieve the trivial
 knot. We have now discussed all the requirements of the braid group, and I will
 now introduce the two simplest braid groups:
 
 \\(\hspace{1cm}\\) The 1-braid group \\(B\_{1}\\), contains only one element,
-specifically the trivial braid. Thus, \\(B\_{1}\\) is defined by \\(B\_{1} = e\\).
+specifically the trivial 1-braid. Thus, \\(B\_{1}\\) is defined by \\(B\_{1} = e\\).
 
-\\(\hspace{1cm}\\) The elements of 2-braid group \\(B\_{2}\\) can be described by the two
-types of twists, the right twist and the left twist, as shown in the figure below. 
+\\(\hspace{1cm}\\) The elements of 2-braid group \\(B\_{2}\\) are described by two
+types of twists, the right twist and the left twist, as shown in the figure [below](#fig-2typesofbraids). 
 
-<div class="centered_image">
+<div id="fig-2typesofbraids" class="centered_image">
 {{< paige/figure caption="The Two Types of Braids in \\(B\_{2}\\)" identifier="fig-2typesofbraids">}}
 {{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/b10.svg" width="100%" >}}
 {{< /paige/figure >}}
 </div>
 
 \\(\hspace{1cm}\\) With any combination of these two types of twists, we will
-achieve any braid in \\(B\_{2}\\). Therefore, we can also say two 2-braids are
+achieve any braid in \\(B\_{2}\\). It follows that two 2-braids are
 equivalent if they have been twisted in the same direction the same number of
 times. Now that we've started looking at more complex braids, we're going to
 want a way to describe these braids without drawing the entire diagram. Thus,
@@ -235,11 +238,11 @@ come in braid generators.
 
 ### Braid Generators {#braid-generators}
 
-\\(\hspace{1cm}\\) To understand braid generators, let's now divide our braids into
+\\(\hspace{1cm}\\) To understand braid generators, let's divide our braids into
 rows, such that every row contains only one crossing. We'll start with braids in
-\\(B\_{2}\\). This can be visualised in the figure below
+\\(B\_{2}\\). This can be visualised in the figure [below](#fig-twistswrows).
 
-<div class="centered_image">
+<div id="fig-twistswrows" class="centered_image">
 {{< paige/figure caption="Twists with Rows" identifier="fig-twistswrows" >}}
 {{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/b11.svg" width="100%" >}}
 {{< /paige/figure >}}
@@ -251,22 +254,22 @@ rows, such that every row contains only one crossing. We'll start with braids in
 will see the second strand crossing over the first strand in every row. We will
 call each of these rows/crossings \\(\sigma\_{1}\\). In our right braid, which
 consists of only right twists, we will see the first strand crossing over the
-second strand in every row. We will call each of these rows/crossings
+second strand in every row. We will call each of those rows/crossings
 \\(\sigma\_{1} ^{-1}\\). Because each of these braids have \\(m\\) rows/ crossings, we
 can represent the braid on the left as \\(\sigma\_{1}^{m}\\) and the braid on the
 right as \\(\sigma\_{1}^{-m}\\). These sigmas are called braid generators, as these
 two types of crossings are the only ones we need to define any braid. We've now
 defined the difference between \\(\sigma\_{1}\\) and \\(\sigma\_{1}^{-1}\\), as the
 difference in the crossings, but what's the difference between \\(\sigma\_{1}\\) and
-\\(\sigma\_{2}\\). \\(\sigma\_{1}\\) deals with the first two strands of a braid, where as
+\\(\sigma\_{2}\\). \\(\sigma\_{1}\\) deals with the first two strands of a braid, whereas
 \\(\sigma\_{2}\\) deals with the second strand and the third strand of a braid. Thus,
 \\(\sigma\_{1}\\) and \\(\sigma\_{1}^{-1}\\) can define \\(B\_{2}\\), but once we reach
 \\(B\_{3}\\), which has 3 strands, we're going to need \\(\sigma\_{1},\sigma\_{2}\\), and
 their respective inverses. We can generalize \\(\sigma\_{i}\\) by saying that it
 along with its inverse deal with the \\(i^{th}\\), and the \\(i^{th} +1\\) strings, as
-shown in Figure "Braid Generators" below.
+shown in Figure [Braid Generators](#fig-braidgenerators) below.
 
-<div class="centered_image">
+<div id="fig-braidgenerators" class="centered_image">
 {{< paige/figure caption="Braid Generators" identifier="fig-braidgenerators" >}}
 {{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/b12.svg" width="100%" >}}
 {{< /paige/figure >}}
@@ -277,7 +280,7 @@ describe braids. In the figure below, we will see a braid in \\(B\_{4}\\) that c
 be described by braid generators as \\(\sigma\_{3}^{-1}
 \sigma\_{1}\sigma\_{2}\sigma\_{3}\sigma\_{2}^{-1}\\).
 
-<div class="centered_image">
+<div id="fig-braidgentodescribebraid" class="centered_image">
 {{< paige/figure caption="Using Braid Generators to Describe a Braid in \\(B\_{4}\\)" identifier="fig-braidgentodescribebraid" >}}
 {{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/b13.svg" width="100%" >}}
 {{< /paige/figure >}}
@@ -314,7 +317,7 @@ only exist starting from \\(B\_{3}\\)
 \\(\hspace{1cm}\\) We will now show that the first type of relation is true by
 looking at the figure below.
 
-<div class="centered_image">
+<div id="fig-firstbraidrelation" class="centered_image">
 {{< paige/figure caption="First Braid Relation" identifier="fig-firstbraidrelation" >}}
 {{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/b14.svg" width="100%" >}}
 {{< /paige/figure >}}
@@ -327,7 +330,7 @@ the figure, since we can squeeze the first twist and second twist in
 and second twist in \\(\sigma\_{3}\sigma\_{1}\\) up and down, respectively. Now we
 will look at the second type of relation in the figure below.
 
-<div class="centered_image">
+<div id="fig-secondbraidrelation" class="centered_image">
 {{< paige/figure caption="Second Braid Relation" identifier="fig-secondbraidrelation">}}
 {{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/b15.svg" width="100%" >}}
 {{< /paige/figure >}}
@@ -354,7 +357,7 @@ Let's imagine we have a regular diagram of a braid, by connecting the
 endpoints of the braid, with parallel arcs, as shown in the figure below, we
 create a closed braid. This closed braid will either be a knot or a link.
 
-<div class="centered_image">
+<div  id="fig-closedbraid" class="centered_image">
 {{< paige/figure caption="Closed Braid" identifier="fig-closedbraid" >}}
 {{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/closed_braid.svg" width="100%" >}}
 {{< /paige/figure >}}
@@ -380,7 +383,7 @@ link from braids.
 \\(\hspace{1cm}\\) Alexander's Theorem states that every knot or link in \\(S^{3}\\) can
 be represented as a closed braid.
 
-<div class="centered_image">
+<div id="trivial1braid" class="centered_image">
 {{< paige/figure caption="The Trivial 1-Braid" identifier="trivial1braid">}}
 {{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/trivial_1_braid.svg" width="100%" >}}
 {{< /paige/figure >}}
@@ -404,7 +407,7 @@ representing the same isotopy class of oriented links, then it is possible to
 transform B into C by a sequence of braid isotopies and Markov moves (a Markov
 sequence).
 
-<div class="centered_image">
+<div id="fig-markovmoves class="centered_image">
 {{< paige/figure caption="Markov Moves" identifier="fig-markovmoves" >}}
 {{< paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="./images/b16.svg" width="100%" >}}
 {{< /paige/figure >}}
