@@ -2000,7 +2000,7 @@ shown in Figure <a href="#fig-braidgenerators">Braid Generators</a> below.</p>
 
 </div>
 <p>\(\hspace{1cm}\) Let&rsquo;s now look at an example of how braid generators are used to
-describe braids. In the figure below, we will see a braid in \(B_{4}\) that can
+describe braids. In the figure <a href="#fig-braidgentodescribebraid">below</a>, we will see a braid in \(B_{4}\) that can
 be described by braid generators as \(\sigma_{3}^{-1}
 \sigma_{1}\sigma_{2}\sigma_{3}\sigma_{2}^{-1}\).</p>
 <div id="fig-braidgentodescribebraid" class="centered_image">
@@ -2078,7 +2078,7 @@ applies to \(B_{n \geq 3}\). This is again because the smallest generators that
 satisfy the condition of this relation are \(\sigma_{1}\) and \(\sigma_{2}\), which
 only exist starting from \(B_{3}\)</p>
 <p>\(\hspace{1cm}\) We will now show that the first type of relation is true by
-looking at the figure below.</p>
+looking at the figure <a href="#fig-firstbraidrelation">below</a>.</p>
 <div id="fig-firstbraidrelation" class="centered_image">
 
 
@@ -2129,12 +2129,11 @@ looking at the figure below.</p>
 </div>
 
 </div>
-<p>\(\hspace{1cm}\) We can see that \(\sigma_{1}\sigma_{3} = \sigma_{3}\sigma_{1}\) in
-the figure, since we can squeeze the first twist and second twist in
+<p>\(\hspace{1cm}\) To see that \(\sigma_{1}\sigma_{3} = \sigma_{3}\sigma_{1}\), we can squeeze the first twist and second twist in
 \(\sigma_{1}\sigma_{3}\) down and up, respectively. Likewise, to show
 \(\sigma_{3}\sigma_{1} = \sigma_{1}\sigma_{3}\), we can squeeze the first twist
 and second twist in \(\sigma_{3}\sigma_{1}\) up and down, respectively. Now we
-will look at the second type of relation in the figure below.</p>
+will look at the second type of relation in the figure <a href="#fig-secondbraidrelation">below</a>.</p>
 <div id="fig-secondbraidrelation" class="centered_image">
 
 
@@ -2198,7 +2197,7 @@ applied to show that the second example, \(\sigma_{2}\sigma_{3}\sigma_{2} =
 <h2 id="knots-and-braids">Knots &amp; Braids</h2>
 <h3 id="braid-closure">Braid Closure</h3>
 <p>Let&rsquo;s imagine we have a regular diagram of a braid, by connecting the
-endpoints of the braid, with parallel arcs, as shown in the figure below, we
+endpoints of the braid, with parallel arcs, as shown in the figure <a href="#fig-closedbraid">below</a>, we
 create a closed braid. This closed braid will either be a knot or a link.</p>
 <div  id="fig-closedbraid" class="centered_image">
 
@@ -2253,13 +2252,13 @@ create a closed braid. This closed braid will either be a knot or a link.</p>
 <p>\(\hspace{1cm}\) It is important to note that these arcs should connect the
 endpoints of the braid, such that, an endpoint \(A_{i}\) at the top of the braid
 has an arc connecting to the endpoint \(A&rsquo;_{i}\) at the bottom of the
-braid. Another way to think about this is by looking at Figure &ldquo;Closed Braid&rdquo;.  We see
+braid. Another way to think about this is by looking at Figure <a href="#fig-closedbraid">Closed Braid</a>.  We see
 that the outermost arc connects endpoint \(A_{1}\) to endpoint \(A&rsquo;_{1}\), similarly
 the endpoint \(A_{2}\) is connected to the endpoint \(A&rsquo;_{2}\), and the endpoint
 \(A_{3}\) is connected to the endpoint \(A&rsquo;_{3}\), by the middle and innermost arcs
 respectively.</p>
 <p>\(\hspace{1cm}\) The orientation of the closed braid is usually defined by
-assigning each string an orientation that starts from \(A_{i}\) and then moving
+assigning each string an orientation that starts from \(A_{i}\) and then moves
 downwards along the corresponding string. Thus, we can create oriented knots or
 link from braids.</p>
 <h3 id="alexander-s-theorem">Alexander&rsquo;s Theorem</h3>
@@ -2317,8 +2316,8 @@ be represented as a closed braid.</p>
 </div>
 <p>\(\hspace{1cm}\) One of the simplest examples of showing a knot or link can be
 represented by a closed braid is by taking the trivial braid and closing it. If
-the trivial braid has only one string as in Figure &ldquo;The Trivial 1-Braid&rdquo;, by closing it we
-create the unknot. If the trivial braid has n-strings as in Figure &ldquo;Trivial Braid&rdquo; above, by
+the trivial braid has only one string as in the <a href="#fig-trivial1braid">The Trivial 1-Braid</a>, by closing it we
+create the unknot. If the trivial braid has n-strings as in Figure <a href="#fig-trivbraid">Trivial Braid</a>, by
 closing it, we create the n-component unlink.</p>
 <p>\(\hspace{1cm}\) The proof for Alexander&rsquo;s Theorem is algorithmic and very long
 and tedious, so I won&rsquo;t explain it here, but I highly suggest reading Birman&rsquo;s
@@ -2381,14 +2380,14 @@ sequence).</p>
 <p>\(\hspace{1cm}\) There are two markov moves, \(M_{1}\) and \(M_{2}\). \(M_{1}\) is the
 operation that transforms an element, \(\beta\), of the braid group \(B_{n}\) into
 the n-braid \(\gamma \beta \gamma ^{-1}\), where \(\gamma\) is an element of
-\(B_{n}\). This can be shown in part a of Figure &ldquo;Markov Moves&rdquo; above. As we can see \(\beta =
+\(B_{n}\). This can be shown in part a of Figure <a href="#fig-markovmoves">Markov Moves</a> above. As we can see \(\beta =
 \sigma_{2} \sigma_{1}^{-1} \sigma_{2}\) becomes \(\sigma_{2} \sigma_{1}^{-1}
 \sigma_{2}\sigma_{1}^{-1}\sigma_{2} \sigma_{2}^{-1}\sigma_{1}\), which is equal
 to \(\gamma \beta \gamma ^{-1}\), where \(\gamma = \sigma_{2} \sigma_{1}^{-1}\),
 after \(M_{1}\) is applied.</p>
 <p>\(\hspace{1cm}\) \(M_{2}\) is the operation that transforms a n-braid, \(\beta\), into
 either a \(\beta \sigma_{n}\) or a \(\beta \sigma_{n}^{-1}\), (n+1) braid, where
-\(\sigma_{n}\) is a generator of \(B_{n+1}\). This can be shown in part b of Figure &ldquo;Markov Moves&rdquo;. As we can see \(\beta =
+\(\sigma_{n}\) is a generator of \(B_{n+1}\). This can be shown in part b of Figure <a href="#fig-markovmoves">Markov Moves</a>. As we can see \(\beta =
 \sigma_{2}\sigma_{1}^{-1}\sigma_{2}\sigma_{1}^{-1}\), which is an element of
 \(B_{3}\) turns into \(\beta\sigma_{n}\) or \(\beta\sigma_{n}^{-1}\), which is an
 element of \(B_{4}\) after M2.</p>
@@ -2402,8 +2401,7 @@ can be found in <a href="#references">[6]</a>.</p>
 braid group. We also discuss how closed braids can represent any knot or link,
 and that there exist moves that allow us to determine when two braids represent
 the same knot or link. Because the braid group exists, we can study knots
-algebraically instead of just topologically, which gives us more to work
-with. There are also other braid invariants that we have not discussed, but that
+algebraically instead of just topologically. There are also other braid invariants that we have not discussed, but that
 can also be applied to knots, which give us even more resources to study knots,
 as well.</p>
 <h2 id="references">References</h2>
